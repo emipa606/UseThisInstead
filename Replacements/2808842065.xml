@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>lazycat</Author>
+  <ModId>LazyCat.NoPseudoTranslate</ModId>
+  <ModName>No Pseudo Translate无开发者乱码</ModName>
+  <ReplacementAuthor>lemon33</ReplacementAuthor>
+  <ReplacementModId>LazyCat.NoPseudoTranslate</ReplacementModId>
+  <ReplacementName>No Pseudo Translate无开发者乱码（版本号更新）</ReplacementName>
+  <ReplacementSteamId>3460801142</ReplacementSteamId>
+  <SteamId>2808842065</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>
