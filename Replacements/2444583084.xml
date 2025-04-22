@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>ArmoredAmpharos</Author>
+  <ModId>ArmoredAmpharos.Frilleum</ModId>
+  <ModName>Frilleum Race</ModName>
+  <ReplacementAuthor>zaiahe</ReplacementAuthor>
+  <ReplacementModId>ArmoredAmpharos.FrilleumX</ReplacementModId>
+  <ReplacementName>Frilleum Race 1.5</ReplacementName>
+  <ReplacementSteamId>3467969622</ReplacementSteamId>
+  <SteamId>2444583084</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5</ReplacementVersions>
+</ModReplacement>
