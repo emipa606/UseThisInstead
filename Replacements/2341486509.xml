@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>JisPichi</Author>
+  <ModId>jp.perfectpathing</ModId>
+  <ModName>Perfect Pathfinding</ModName>
+  <ReplacementAuthor>Mantazzo</ReplacementAuthor>
+  <ReplacementModId>jp.perfectpathing.updated</ReplacementModId>
+  <ReplacementName>Perfect Pathfinding (1.5 Update)</ReplacementName>
+  <ReplacementSteamId>3474403869</ReplacementSteamId>
+  <SteamId>2341486509</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>
