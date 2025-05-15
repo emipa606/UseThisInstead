@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Syrchalis</Author>
+  <ModId>syrchalis.terrain</ModId>
+  <ModName>[SYR] Terrain</ModName>
+  <ReplacementAuthor>Monkey Magic</ReplacementAuthor>
+  <ReplacementModId>wyr3d.terrainAjusted</ReplacementModId>
+  <ReplacementName>Terrain, Adjusted</ReplacementName>
+  <ReplacementSteamId>3174226116</ReplacementSteamId>
+  <SteamId>1544439671</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>
