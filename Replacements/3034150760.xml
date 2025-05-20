@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mobivis</Author>
+  <ModId>mobivis.vpe.revertsomenerf</ModId>
+  <ModName>Vanilla Psycasts expanded - Revert some nerf</ModName>
+  <ReplacementAuthor>Steve</ReplacementAuthor>
+  <ReplacementModId>steve.vpe.revertsomenerf</ReplacementModId>
+  <ReplacementName>Vanilla Psycasts expanded - Revert some nerf - continued</ReplacementName>
+  <ReplacementSteamId>3484509389</ReplacementSteamId>
+  <SteamId>3034150760</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>
