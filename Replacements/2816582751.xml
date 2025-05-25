@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>HappyPurging</Author>
+  <ModId>Buffsboy474.SMWarcaskets.Ideology.Testing</ModId>
+  <ModName>Warcaskets: Adeptus Astartes</ModName>
+  <ReplacementAuthor>Coldzero</ReplacementAuthor>
+  <ReplacementModId>Buffsboy474.SMWarcaskets.Ideology.Testing.cz</ReplacementModId>
+  <ReplacementName>Warcaskets: Adeptus Astartes</ReplacementName>
+  <ReplacementSteamId>3486910367</ReplacementSteamId>
+  <SteamId>2816582751</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>
