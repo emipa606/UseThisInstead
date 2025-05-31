@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Isopod Gaming</Author>
+  <ModId>
+  </ModId>
+  <ModName>Awoolf</ModName>
+  <ReplacementAuthor>EnderMelody</ReplacementAuthor>
+  <ReplacementModId>CW.Awoolf</ReplacementModId>
+  <ReplacementName>Awoolf updated</ReplacementName>
+  <ReplacementSteamId>3490019356</ReplacementSteamId>
+  <SteamId>1668482377</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>
