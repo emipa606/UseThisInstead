@@ -14,9 +14,9 @@ public class Dialog_ModReplacements : Window
     private const int headerHeight = 50;
     private const int rowHeight = 60;
     private static Vector2 scrollPosition;
-    private static readonly Color alternateBackground = new Color(0.3f, 0.3f, 0.3f, 0.5f);
-    private static readonly Vector2 previewImage = new Vector2(120f, 100f);
-    private static readonly Vector2 buttonSize = new Vector2(140f, 25f);
+    private static readonly Color alternateBackground = new(0.3f, 0.3f, 0.3f, 0.5f);
+    private static readonly Vector2 previewImage = new(120f, 100f);
+    private static readonly Vector2 buttonSize = new(140f, 25f);
     private static readonly Texture2D ArrowTex = ContentFinder<Texture2D>.Get("UI/Overlays/TutorArrowRight");
     private static readonly Texture2D steamIcon = ContentFinder<Texture2D>.Get("UI/Steam");
     private static readonly Texture2D folderIcon = ContentFinder<Texture2D>.Get("UI/Folder");
@@ -29,7 +29,7 @@ public class Dialog_ModReplacements : Window
         absorbInputAroundWindow = true;
     }
 
-    public override Vector2 InitialSize => new Vector2(700f, 700f);
+    public override Vector2 InitialSize => new(700f, 700f);
 
     public override void Close(bool doCloseSound = true)
     {
@@ -84,42 +84,42 @@ public class Dialog_ModReplacements : Window
             if (SteamManager.Initialized)
             {
                 listingStandard.CheckboxLabeled("UTI.preferOverlay".Translate(),
-                    ref UseThisInsteadMod.instance.Settings.PreferOverlay,
+                    ref UseThisInsteadMod.Instance.Settings.PreferOverlay,
                     "UTI.preferOverlaytt".Translate());
             }
 
             var settingChanged = false;
-            var originalSetting = UseThisInsteadMod.instance.Settings.OnlyRelevant;
+            var originalSetting = UseThisInsteadMod.Instance.Settings.OnlyRelevant;
             listingStandard.CheckboxLabeled("UTI.onlyRelevant".Translate(),
-                ref UseThisInsteadMod.instance.Settings.OnlyRelevant,
+                ref UseThisInsteadMod.Instance.Settings.OnlyRelevant,
                 "UTI.onlyRelevanttt".Translate());
 
-            if (originalSetting != UseThisInsteadMod.instance.Settings.OnlyRelevant)
+            if (originalSetting != UseThisInsteadMod.Instance.Settings.OnlyRelevant)
             {
                 settingChanged = true;
             }
 
-            originalSetting = UseThisInsteadMod.instance.Settings.AllMods;
-            listingStandard.CheckboxLabeled("UTI.allMods".Translate(), ref UseThisInsteadMod.instance.Settings.AllMods,
+            originalSetting = UseThisInsteadMod.Instance.Settings.AllMods;
+            listingStandard.CheckboxLabeled("UTI.allMods".Translate(), ref UseThisInsteadMod.Instance.Settings.AllMods,
                 "UTI.allModstt".Translate());
             subtitleRect = listingStandard.GetRect(0);
-            if (originalSetting != UseThisInsteadMod.instance.Settings.AllMods)
+            if (originalSetting != UseThisInsteadMod.Instance.Settings.AllMods)
             {
                 settingChanged = true;
             }
 
             if (settingChanged)
             {
-                UseThisInsteadMod.instance.WriteSettingsOnly();
+                UseThisInsteadMod.Instance.WriteSettingsOnly();
                 UseThisInstead.CheckForReplacements(true);
             }
         }
         else
         {
-            listingStandard.Label(UseThisInsteadMod.instance.Settings.OnlyRelevant
+            listingStandard.Label(UseThisInsteadMod.Instance.Settings.OnlyRelevant
                 ? "UTI.showingRelevant".Translate()
                 : "UTI.showingAll".Translate());
-            subtitleRect = listingStandard.Label(UseThisInsteadMod.instance.Settings.AllMods
+            subtitleRect = listingStandard.Label(UseThisInsteadMod.Instance.Settings.AllMods
                 ? "UTI.checkingAll".Translate()
                 : "UTI.checkingEnabled".Translate());
         }
@@ -232,7 +232,7 @@ public class Dialog_ModReplacements : Window
             Widgets.DrawHighlightIfMouseover(leftModRect);
             if (Widgets.ButtonInvisible(leftModRect))
             {
-                if (UseThisInsteadMod.instance.Settings.PreferOverlay)
+                if (UseThisInsteadMod.Instance.Settings.PreferOverlay)
                 {
                     SteamUtility.OpenUrl(modInfo.SteamUri(true).AbsoluteUri);
                 }
@@ -287,7 +287,7 @@ public class Dialog_ModReplacements : Window
             Widgets.DrawHighlightIfMouseover(rightModRect);
             if (Widgets.ButtonInvisible(rightModRect))
             {
-                if (UseThisInsteadMod.instance.Settings.PreferOverlay)
+                if (UseThisInsteadMod.Instance.Settings.PreferOverlay)
                 {
                     SteamUtility.OpenUrl(modInfo.SteamUri().AbsoluteUri);
                 }

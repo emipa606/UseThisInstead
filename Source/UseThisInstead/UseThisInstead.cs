@@ -17,9 +17,9 @@ namespace UseThisInstead;
 public static class UseThisInstead
 {
     public static Vector2 ScrollPosition;
-    public static Dictionary<ulong, ModReplacement> ModReplacements = [];
+    private static Dictionary<ulong, ModReplacement> modReplacements = [];
     public static List<ModReplacement> FoundModReplacements;
-    public static bool Scanning;
+    private static bool scanning;
     public static bool Replacing;
     public static bool ActivityMonitor;
     public static bool AnythingChanged;
@@ -32,7 +32,7 @@ public static class UseThisInstead
 
     public static void CheckForReplacements(bool noWait = false)
     {
-        if (Scanning)
+        if (scanning)
         {
             return;
         }
@@ -43,7 +43,7 @@ public static class UseThisInstead
             return;
         }
 
-        Scanning = true;
+        scanning = true;
         new Thread(() =>
         {
             Thread.CurrentThread.IsBackground = true;
@@ -53,14 +53,14 @@ public static class UseThisInstead
 
     private static void checkForReplacements()
     {
-        if (!ModReplacements.Any())
+        if (!modReplacements.Any())
         {
-            LoadAllReplacementFiles();
+            loadAllReplacementFiles();
         }
 
         FoundModReplacements = [];
         var modsToCheck = ModLister.AllInstalledMods;
-        if (!UseThisInsteadMod.instance.Settings.AllMods)
+        if (!UseThisInsteadMod.Instance.Settings.AllMods)
         {
             modsToCheck = ModsConfig.ActiveModsInLoadOrder;
         }
@@ -75,12 +75,12 @@ public static class UseThisInstead
             var publishedFileId = mod.GetPublishedFileId();
             if (publishedFileId == PublishedFileId_t.Invalid)
             {
-                LogMessage($"Ignoring {mod.Name} since its a local mod and does not have a steam PublishedFileId");
+                logMessage($"Ignoring {mod.Name} since its a local mod and does not have a steam PublishedFileId");
                 continue;
             }
 
 
-            if (!ModReplacements.TryGetValue(publishedFileId.m_PublishedFileId, out var replacement))
+            if (!modReplacements.TryGetValue(publishedFileId.m_PublishedFileId, out var replacement))
             {
                 continue;
             }
@@ -89,13 +89,13 @@ public static class UseThisInstead
             if (!mod.Active &&
                 ModLister.AllInstalledMods.Any(data => data.GetPublishedFileId() == replacementPublishedFileId))
             {
-                LogMessage($"Ignoring {mod.Name} since its not active and its replacement is also downloaded");
+                logMessage($"Ignoring {mod.Name} since its not active and its replacement is also downloaded");
                 continue;
             }
 
-            if (UseThisInsteadMod.instance.Settings.OnlyRelevant && !replacement.ReplacementSupportsVersion())
+            if (UseThisInsteadMod.Instance.Settings.OnlyRelevant && !replacement.ReplacementSupportsVersion())
             {
-                LogMessage($"Ignoring {mod.Name} since it does not support this version of RimWorld");
+                logMessage($"Ignoring {mod.Name} since it does not support this version of RimWorld");
                 continue;
             }
 
@@ -105,14 +105,14 @@ public static class UseThisInstead
 
         FoundModReplacements = FoundModReplacements.OrderBy(replacement => replacement.ModName).ToList();
 
-        LogMessage($"Found {FoundModReplacements.Count} replacements", true);
+        logMessage($"Found {FoundModReplacements.Count} replacements", true);
 
-        Scanning = false;
+        scanning = false;
     }
 
-    public static void LoadAllReplacementFiles()
+    private static void loadAllReplacementFiles()
     {
-        ModReplacements = [];
+        modReplacements = [];
 
         var replacementFiles = Directory.GetFiles(UseThisInsteadMod.ReplacementsFolderPath, "*.xml");
         foreach (var replacementFile in replacementFiles)
@@ -123,18 +123,18 @@ public static class UseThisInstead
             {
                 var serializer = new XmlSerializer(typeof(ModReplacement));
                 var replacement = (ModReplacement)serializer.Deserialize(new StringReader(xml));
-                ModReplacements[replacement.SteamId] = replacement;
+                modReplacements[replacement.SteamId] = replacement;
             }
             catch (Exception exception)
             {
-                LogMessage($"Failed to parse xml for {replacementFile}: {exception}", warning: true);
+                logMessage($"Failed to parse xml for {replacementFile}: {exception}", warning: true);
             }
         }
 
-        LogMessage($"Loaded {ModReplacements.Count} possible replacements");
+        logMessage($"Loaded {modReplacements.Count} possible replacements");
     }
 
-    public static void ReplaceMods(List<ModReplacement> modReplacements)
+    public static void ReplaceMods(List<ModReplacement> replacements)
     {
         if (Replacing)
         {
@@ -144,10 +144,10 @@ public static class UseThisInstead
         Replacing = true;
         StatusMessages = [];
         var counter = 0;
-        foreach (var modReplacement in modReplacements)
+        foreach (var modReplacement in replacements)
         {
             counter++;
-            StatusMessages.Add("UTI.replacing".Translate(modReplacement.ModName, counter, modReplacements.Count));
+            StatusMessages.Add("UTI.replacing".Translate(modReplacement.ModName, counter, replacements.Count));
             var justReplace = !modReplacement.ModMetaData.Active ||
                               modReplacement.ReplacementModId == modReplacement.ModId;
             if (!justReplace)
@@ -155,14 +155,14 @@ public static class UseThisInstead
                 ModsConfig.SetActive(modReplacement.ModId, false);
             }
 
-            if (!UnSubscribeToMod(modReplacement.ModMetaData, modReplacement.ModName))
+            if (!unSubscribeToMod(modReplacement.ModMetaData, modReplacement.ModName))
             {
                 continue;
             }
 
             Thread.Sleep(10);
 
-            if (!SubscribeToMod(modReplacement.GetReplacementPublishedFileId(), modReplacement.ReplacementName))
+            if (!subscribeToMod(modReplacement.GetReplacementPublishedFileId(), modReplacement.ReplacementName))
             {
                 continue;
             }
@@ -181,11 +181,12 @@ public static class UseThisInstead
 
             var requirements = subscribedMod.GetRequirements();
             List<string> requirementIds = [];
-            if (requirements.Any() && requirements.Any(requirement => !requirement.IsSatisfied))
+            var modRequirements = requirements as ModRequirement[] ?? requirements.ToArray();
+            if (modRequirements.Any() && modRequirements.Any(requirement => !requirement.IsSatisfied))
             {
                 StatusMessages.Add("UTI.checkingRequirements".Translate());
 
-                foreach (var modRequirement in requirements.Where(requirement => !requirement.IsSatisfied))
+                foreach (var modRequirement in modRequirements.Where(requirement => !requirement.IsSatisfied))
                 {
                     if (modRequirement is ModDependency dependency)
                     {
@@ -199,7 +200,7 @@ public static class UseThisInstead
                         }
 
                         var modId = ulong.Parse(match.Value);
-                        if (SubscribeToMod(new PublishedFileId_t(modId), dependency.displayName))
+                        if (subscribeToMod(new PublishedFileId_t(modId), dependency.displayName))
                         {
                             requirementIds.Add(dependency.packageId);
                             continue;
@@ -237,7 +238,7 @@ public static class UseThisInstead
         Replacing = false;
     }
 
-    private static bool UnSubscribeToMod(ModMetaData modMetaData, string modName)
+    private static bool unSubscribeToMod(ModMetaData modMetaData, string modName)
     {
         if (!modMetaData.OnSteamWorkshop)
         {
@@ -285,7 +286,7 @@ public static class UseThisInstead
         return true;
     }
 
-    private static bool SubscribeToMod(PublishedFileId_t modId, string modName)
+    private static bool subscribeToMod(PublishedFileId_t modId, string modName)
     {
         var installedMods = ModLister.AllInstalledMods.ToList();
         var subscribedMod = installedMods.FirstOrDefault(data => data.GetPublishedFileId() == modId);
@@ -325,7 +326,7 @@ public static class UseThisInstead
         return true;
     }
 
-    public static void LogMessage(string message, bool force = false, bool warning = false)
+    private static void logMessage(string message, bool force = false, bool warning = false)
     {
         if (warning)
         {
@@ -333,7 +334,7 @@ public static class UseThisInstead
             return;
         }
 
-        if (!force && !UseThisInsteadMod.instance.Settings.VeboseLogging)
+        if (!force && !UseThisInsteadMod.Instance.Settings.VeboseLogging)
         {
             return;
         }

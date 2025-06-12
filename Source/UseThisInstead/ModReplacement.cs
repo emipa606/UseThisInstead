@@ -9,7 +9,7 @@ namespace UseThisInstead;
 
 public class ModReplacement
 {
-    private static readonly Uri SteamPrefix = new Uri("https://steamcommunity.com/sharedfiles/filedetails/?id=");
+    private static readonly Uri SteamPrefix = new("https://steamcommunity.com/sharedfiles/filedetails/?id=");
 
     [XmlIgnore] public ModMetaData ModMetaData { get; set; }
 

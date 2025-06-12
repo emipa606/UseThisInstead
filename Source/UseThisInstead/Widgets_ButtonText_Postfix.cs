@@ -18,7 +18,7 @@ public static class Widgets_ButtonText_Postfix
         }
 
         if (label != LanguageDatabase.activeLanguage.FriendlyNameNative ||
-            !UseThisInsteadMod.instance.Settings.AlwaysShow && !UseThisInstead.FoundModReplacements.Any())
+            !UseThisInsteadMod.Instance.Settings.AlwaysShow && !UseThisInstead.FoundModReplacements.Any())
         {
             return;
         }

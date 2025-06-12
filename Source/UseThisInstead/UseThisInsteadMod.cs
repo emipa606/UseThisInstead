@@ -12,7 +12,7 @@ internal class UseThisInsteadMod : Mod
     /// <summary>
     ///     The instance of the settings to be read by the mod
     /// </summary>
-    public static UseThisInsteadMod instance;
+    public static UseThisInsteadMod Instance;
 
     public static string ReplacementsFolderPath;
 
@@ -25,7 +25,7 @@ internal class UseThisInsteadMod : Mod
     /// <param name="content"></param>
     public UseThisInsteadMod(ModContentPack content) : base(content)
     {
-        instance = this;
+        Instance = this;
         Settings = GetSettings<UseThisInsteadSettings>();
         CurrentVersion = VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
         ReplacementsFolderPath = Path.Combine(Content.RootDir, "Replacements");
@@ -53,39 +53,39 @@ internal class UseThisInsteadMod : Mod
     /// <param name="rect"></param>
     public override void DoSettingsWindowContents(Rect rect)
     {
-        var listing_Standard = new Listing_Standard();
-        listing_Standard.Begin(rect);
-        listing_Standard.Gap();
+        var listingStandard = new Listing_Standard();
+        listingStandard.Begin(rect);
+        listingStandard.Gap();
 
-        if (listing_Standard.ButtonText("UTI.replacements".Translate(UseThisInstead.FoundModReplacements.Count),
+        if (listingStandard.ButtonText("UTI.replacements".Translate(UseThisInstead.FoundModReplacements.Count),
                 widthPct: 0.5f))
         {
             Find.WindowStack.Add(new Dialog_ModReplacements());
         }
 
-        listing_Standard.CheckboxLabeled("UTI.alwaysShow".Translate(), ref Settings.AlwaysShow,
+        listingStandard.CheckboxLabeled("UTI.alwaysShow".Translate(), ref Settings.AlwaysShow,
             "UTI.alwaysShowtt".Translate());
-        listing_Standard.CheckboxLabeled("UTI.allMods".Translate(), ref Settings.AllMods,
+        listingStandard.CheckboxLabeled("UTI.allMods".Translate(), ref Settings.AllMods,
             "UTI.allModstt".Translate());
-        listing_Standard.CheckboxLabeled("UTI.onlyRelevant".Translate(), ref Settings.OnlyRelevant,
+        listingStandard.CheckboxLabeled("UTI.onlyRelevant".Translate(), ref Settings.OnlyRelevant,
             "UTI.onlyRelevanttt".Translate());
         if (SteamManager.Initialized)
         {
-            listing_Standard.CheckboxLabeled("UTI.preferOverlay".Translate(), ref Settings.PreferOverlay,
+            listingStandard.CheckboxLabeled("UTI.preferOverlay".Translate(), ref Settings.PreferOverlay,
                 "UTI.preferOverlaytt".Translate());
         }
 
-        listing_Standard.CheckboxLabeled("UTI.veboseLogging".Translate(), ref Settings.VeboseLogging,
+        listingStandard.CheckboxLabeled("UTI.veboseLogging".Translate(), ref Settings.VeboseLogging,
             "UTI.veboseLoggingtt".Translate());
         if (CurrentVersion != null)
         {
-            listing_Standard.Gap();
+            listingStandard.Gap();
             GUI.contentColor = Color.gray;
-            listing_Standard.Label("UTI.modVersion".Translate(CurrentVersion));
+            listingStandard.Label("UTI.modVersion".Translate(CurrentVersion));
             GUI.contentColor = Color.white;
         }
 
-        listing_Standard.End();
+        listingStandard.End();
     }
 
     public override void WriteSettings()
