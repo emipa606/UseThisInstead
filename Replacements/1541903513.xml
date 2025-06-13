@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Atlas</Author>
+  <ModId>Atlas.MaterialsPlus.AT</ModId>
+  <ModName>Materials+</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.materialsplus</ReplacementModId>
+  <ReplacementName>Materials+ (Continued)</ReplacementName>
+  <ReplacementSteamId>3498029046</ReplacementSteamId>
+  <SteamId>1541903513</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>
