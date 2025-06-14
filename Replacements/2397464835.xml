@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mlie</Author>
+  <ModId>Mlie.O21Thaumrim</ModId>
+  <ModName>[Legacy] [O21] Thaumrim (Continued)</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.O21Thaumrim</ReplacementModId>
+  <ReplacementName>[O21] Thaumrim (Continued)</ReplacementName>
+  <ReplacementSteamId>3498171167</ReplacementSteamId>
+  <SteamId>2397464835</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
