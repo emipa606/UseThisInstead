@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>-210</Author>
+  <ModId>
+  </ModId>
+  <ModName>ColonyNeedAmmunitionMod</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.cnam</ReplacementModId>
+  <ReplacementName>Colony Needs Ammunition! (Continued)</ReplacementName>
+  <ReplacementSteamId>3500073397</ReplacementSteamId>
+  <SteamId>809365662</SteamId>
+  <Versions>0.15</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>
