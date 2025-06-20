@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Andreas Pardeike</Author>
+  <ModId>brrainz.justignoremepassing</ModId>
+  <ModName>Just Ignore Me Passing</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.JustIgnoreMePassing</ReplacementModId>
+  <ReplacementName>Just Ignore Me Passing (Continued)</ReplacementName>
+  <ReplacementSteamId>3503627342</ReplacementSteamId>
+  <SteamId>1231617602</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

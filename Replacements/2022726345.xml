@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>NECEROS</Author>
+  <ModId>neceros.metaldontburn</ModId>
+  <ModName>Metal Don't Burn</ModName>
+  <ReplacementAuthor>Neceros (Original), Chris</ReplacementAuthor>
+  <ReplacementModId>mario1.3patch.metaldontburn</ReplacementModId>
+  <ReplacementName>Metal Don't Burn (UNOFFICIAL 1.6 PATCH)</ReplacementName>
+  <ReplacementSteamId>2557145474</ReplacementSteamId>
+  <SteamId>2022726345</SteamId>
+  <Versions>1.1,1.2</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
