@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>抡语安天下</Author>
+  <ModId>Banneronisan.GeneralStone.Royalty</ModId>
+  <ModName>通用科技mod皇权DLC拓展包V1.2</ModName>
+  <ReplacementAuthor>Claymoresun</ReplacementAuthor>
+  <ReplacementModId>Claymoresun.GeneralStone.ForkedRoyalty</ReplacementModId>
+  <ReplacementName>通用科技mod皇权DLC拓展包V1.6</ReplacementName>
+  <ReplacementSteamId>3504327373</ReplacementSteamId>
+  <SteamId>2249538431</SteamId>
+  <Versions>1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>
