@@ -2,12 +2,12 @@
 <ModReplacement>
   <Author>Owlchemist</Author>
   <ModId>Owlchemist.PerspectivePaths</ModId>
-  <ModName>Perspective: Paths (unlisted)</ModName>
+  <ModName>Unknown</ModName>
   <ReplacementAuthor>FerrisCG</ReplacementAuthor>
   <ReplacementModId>Owlchemist.PerspectivePaths</ReplacementModId>
   <ReplacementName>Perspective: Paths Continued</ReplacementName>
   <ReplacementSteamId>3280637253</ReplacementSteamId>
   <SteamId>2934666296</SteamId>
   <Versions>1.4</Versions>
-  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
 </ModReplacement>
