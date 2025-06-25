@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Brrainz</Author>
+  <ModId>brrainz.reversecommands</ModId>
+  <ModName>Reverse Commands</ModName>
+  <ReplacementAuthor>Andreas Pardeike, Leoraaaaaaaaaaaaaaaaaaaaa</ReplacementAuthor>
+  <ReplacementModId>brrainz.reversecommands</ReplacementModId>
+  <ReplacementName>Reverse Commands [1.6]</ReplacementName>
+  <ReplacementSteamId>3507869498</ReplacementSteamId>
+  <SteamId>858744731</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
