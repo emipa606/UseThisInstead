@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Swampy Bogbeard</Author>
+  <ModId>bs.xenotypespawncontrol</ModId>
+  <ModName>Xenotype Spawn Control 1.5 Updated</ModName>
+  <ReplacementAuthor>bradson</ReplacementAuthor>
+  <ReplacementModId>bs.xenotypespawncontrol</ReplacementModId>
+  <ReplacementName>Xenotype Spawn Control</ReplacementName>
+  <ReplacementSteamId>2891975564</ReplacementSteamId>
+  <SteamId>3411568951</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>
