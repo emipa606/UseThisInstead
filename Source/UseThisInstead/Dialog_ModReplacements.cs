@@ -11,13 +11,13 @@ namespace UseThisInstead;
 [StaticConstructorOnStartup]
 public class Dialog_ModReplacements : Window
 {
-    private const int headerHeight = 50;
-    private const int rowHeight = 60;
+    private const int HeaderHeight = 50;
+    private const int RowHeight = 60;
     private static Vector2 scrollPosition;
     private static readonly Color alternateBackground = new(0.3f, 0.3f, 0.3f, 0.5f);
     private static readonly Vector2 previewImage = new(120f, 100f);
     private static readonly Vector2 buttonSize = new(140f, 25f);
-    private static readonly Texture2D ArrowTex = ContentFinder<Texture2D>.Get("UI/Overlays/TutorArrowRight");
+    private static readonly Texture2D arrowTex = ContentFinder<Texture2D>.Get("UI/Overlays/TutorArrowRight");
     private static readonly Texture2D steamIcon = ContentFinder<Texture2D>.Get("UI/Steam");
     private static readonly Texture2D folderIcon = ContentFinder<Texture2D>.Get("UI/Folder");
     private readonly List<ModReplacement> selectedReplacements = [];
@@ -183,10 +183,10 @@ public class Dialog_ModReplacements : Window
         listingStandard.End();
 
         var borderRect = inRect;
-        borderRect.y += subtitleRect.y + headerHeight;
-        borderRect.height -= subtitleRect.y + headerHeight;
+        borderRect.y += subtitleRect.y + HeaderHeight;
+        borderRect.height -= subtitleRect.y + HeaderHeight;
         var scrollContentRect = inRect;
-        scrollContentRect.height = UseThisInstead.FoundModReplacements.Count * (rowHeight + 1);
+        scrollContentRect.height = UseThisInstead.FoundModReplacements.Count * (RowHeight + 1);
 
         scrollContentRect.width -= 20;
         scrollContentRect.x = 0;
@@ -199,7 +199,7 @@ public class Dialog_ModReplacements : Window
         var alternate = false;
         foreach (var modInfo in UseThisInstead.FoundModReplacements)
         {
-            var rowRectFull = scrollListing.GetRect(rowHeight);
+            var rowRectFull = scrollListing.GetRect(RowHeight);
             alternate = !alternate;
             if (alternate)
             {
@@ -242,7 +242,7 @@ public class Dialog_ModReplacements : Window
                 }
             }
 
-            Widgets.DrawTextureFitted(spacerRect, ArrowTex, 1f);
+            Widgets.DrawTextureFitted(spacerRect, arrowTex, 1f);
 
             if (UseThisInstead.Replacing)
             {

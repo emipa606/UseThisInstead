@@ -147,7 +147,7 @@ public static class UseThisInstead
         foreach (var modReplacement in replacements)
         {
             counter++;
-            StatusMessages.Add("UTI.replacing".Translate(modReplacement.ModName, counter, replacements.Count));
+            addToStatusMessage("UTI.replacing".Translate(modReplacement.ModName, counter, replacements.Count));
             var justReplace = !modReplacement.ModMetaData.Active ||
                               modReplacement.ReplacementModId == modReplacement.ModId;
             if (!justReplace)
@@ -184,7 +184,7 @@ public static class UseThisInstead
             var modRequirements = requirements as ModRequirement[] ?? requirements.ToArray();
             if (modRequirements.Any() && modRequirements.Any(requirement => !requirement.IsSatisfied))
             {
-                StatusMessages.Add("UTI.checkingRequirements".Translate());
+                addToStatusMessage("UTI.checkingRequirements".Translate());
 
                 foreach (var modRequirement in modRequirements.Where(requirement => !requirement.IsSatisfied))
                 {
@@ -193,7 +193,7 @@ public static class UseThisInstead
                         var match = Regex.Match(dependency.steamWorkshopUrl, @"\d+$");
                         if (!match.Success)
                         {
-                            StatusMessages.Add("UTI.failedToSubscribe".Translate(dependency.displayName,
+                            addToStatusMessage("UTI.failedToSubscribe".Translate(dependency.displayName,
                                 dependency.steamWorkshopUrl));
                             Replacing = false;
                             continue;
@@ -212,7 +212,7 @@ public static class UseThisInstead
 
                     if (!justReplace && modRequirement is ModIncompatibility incompatibility)
                     {
-                        StatusMessages.Add("UTI.incompatibility".Translate(subscribedMod.Name,
+                        addToStatusMessage("UTI.incompatibility".Translate(subscribedMod.Name,
                             incompatibility.displayName));
                     }
                 }
@@ -223,7 +223,7 @@ public static class UseThisInstead
                 continue;
             }
 
-            StatusMessages.Add("UTI.activatingMods".Translate());
+            addToStatusMessage("UTI.activatingMods".Translate());
             foreach (var requirementId in requirementIds)
             {
                 if (ModLister.GetActiveModWithIdentifier(requirementId, true) == null)
@@ -242,7 +242,7 @@ public static class UseThisInstead
     {
         if (!modMetaData.OnSteamWorkshop)
         {
-            StatusMessages.Add("UTI.cantUnsubscribe".Translate(modName));
+            addToStatusMessage("UTI.cantUnsubscribe".Translate(modName));
             return true;
         }
 
@@ -255,12 +255,12 @@ public static class UseThisInstead
             return true;
         }
 
-        StatusMessages.Add("UTI.unsubscribing".Translate(modName, modId.m_PublishedFileId));
+        addToStatusMessage("UTI.unsubscribing".Translate(modName, modId.m_PublishedFileId));
         SteamUGC.UnsubscribeItem(modId);
-        unsubscribedMod = installedMods.FirstOrDefault(data => data.GetPublishedFileId() == modId);
+        var isSubscribed = isSubscribedToMod(modId);
         var counter = 0;
-        StatusMessages.Add("UTI.waitingUnsub".Translate());
-        while (unsubscribedMod != null)
+        addToStatusMessage("UTI.waitingUnsub".Translate());
+        while (isSubscribed)
         {
             counter++;
             if (counter > 120)
@@ -270,20 +270,24 @@ public static class UseThisInstead
 
             Thread.Sleep(500);
             ActivityMonitor = !ActivityMonitor;
-            installedMods = ModLister.AllInstalledMods.ToList();
-            unsubscribedMod = installedMods.FirstOrDefault(data =>
-                data.GetPublishedFileId() == modId);
+            isSubscribed = isSubscribedToMod(modId);
         }
 
-        if (unsubscribedMod != null)
+        if (isSubscribedToMod(modId))
         {
-            StatusMessages.Add("UTI.failedToUnsubscribe".Translate(modName, modId.m_PublishedFileId));
+            addToStatusMessage("UTI.failedToUnsubscribe".Translate(modName, modId.m_PublishedFileId));
             Replacing = false;
             return false;
         }
 
-        StatusMessages.Add("UTI.unsubscribed".Translate(modName));
+        addToStatusMessage("UTI.unsubscribed".Translate(modName));
         return true;
+    }
+
+    private static bool isSubscribedToMod(PublishedFileId_t modId)
+    {
+        var state = (EItemState)SteamUGC.GetItemState(modId);
+        return (state & EItemState.k_EItemStateSubscribed) != 0;
     }
 
     private static bool subscribeToMod(PublishedFileId_t modId, string modName)
@@ -295,13 +299,13 @@ public static class UseThisInstead
             return true;
         }
 
-        StatusMessages.Add("UTI.subscribing".Translate(modName, modId.m_PublishedFileId));
+        addToStatusMessage("UTI.subscribing".Translate(modName, modId.m_PublishedFileId));
         SteamUGC.SubscribeItem(modId);
 
         var counter = 0;
-        subscribedMod = installedMods.FirstOrDefault(data => data.GetPublishedFileId() == modId);
-        StatusMessages.Add("UTI.waitingSub".Translate());
-        while (subscribedMod == null)
+        var isSubscribed = isSubscribedToMod(modId);
+        addToStatusMessage("UTI.waitingSub".Translate());
+        while (!isSubscribed)
         {
             counter++;
             if (counter > 120)
@@ -311,19 +315,24 @@ public static class UseThisInstead
 
             Thread.Sleep(500);
             ActivityMonitor = !ActivityMonitor;
-            installedMods = ModLister.AllInstalledMods.ToList();
-            subscribedMod = installedMods.FirstOrDefault(data => data.GetPublishedFileId() == modId);
+            isSubscribed = isSubscribedToMod(modId);
         }
 
-        if (subscribedMod == null)
+        if (!isSubscribedToMod(modId))
         {
-            StatusMessages.Add("UTI.failedToSubscribe".Translate(modName, modId.m_PublishedFileId));
+            addToStatusMessage("UTI.failedToSubscribe".Translate(modName, modId.m_PublishedFileId));
             Replacing = false;
             return false;
         }
 
-        StatusMessages.Add("UTI.subscribed".Translate(modName));
+        addToStatusMessage("UTI.subscribed".Translate(modName));
         return true;
+    }
+
+    private static void addToStatusMessage(string message)
+    {
+        StatusMessages.Add(message);
+        logMessage(message, true);
     }
 
     private static void logMessage(string message, bool force = false, bool warning = false)

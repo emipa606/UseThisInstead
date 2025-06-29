@@ -1,5 +1,8 @@
 # Changelog for UseThisInstead
 
+1.6.18 - Will now use steam api to check subscription-status. Will also write all actions to the game log for reference
+
+
 1.6.17 - Maintanence. Added 1 rules and removed 0. Total rules: 1690
 
 

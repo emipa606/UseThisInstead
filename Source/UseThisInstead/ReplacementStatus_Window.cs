@@ -33,12 +33,12 @@ public class ReplacementStatus_Window : Window
 
     public override void DoWindowContents(Rect inRect)
     {
-        var statusMessages = UseThisInstead.StatusMessages.ToList();
-        if (!statusMessages.Any())
+        if (UseThisInstead.StatusMessages == null || !UseThisInstead.StatusMessages.Any())
         {
             return;
         }
 
+        var statusMessages = UseThisInstead.StatusMessages.ToList();
         statusMessages.Reverse();
         var listingStandard = new Listing_Standard();
         listingStandard.Begin(inRect);
