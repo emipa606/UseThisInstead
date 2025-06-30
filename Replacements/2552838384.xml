@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Syrus</Author>
+  <ModId>Syrus.HeatMap</ModId>
+  <ModName>Heat Map (Continued)</ModName>
+  <ReplacementAuthor>EpicDuck</ReplacementAuthor>
+  <ReplacementModId>epicduck.rimworld.heatmap</ReplacementModId>
+  <ReplacementName>HeatMap (Continued) (1.6 Temp)</ReplacementName>
+  <ReplacementSteamId>3511933508</ReplacementSteamId>
+  <SteamId>2552838384</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
