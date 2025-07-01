@@ -9,5 +9,10 @@
     " replacement suggestions"
   ],
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-06-30T11:55:57.9871042+02:00"
+  "LastXmlCleaning": "2025-07-01T15:10:27.8807975+02:00",
+  "Patches": false,
+  "Defs": false,
+  "Assemblies": true,
+  "LinesOfCode": 35678.0,
+  "LinesOfXML": 0
 }

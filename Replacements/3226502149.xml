@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Cavenaugh</Author>
+  <ModId>calltradeships.kv.rw</ModId>
+  <ModName>[KV] Call Trade Ships [1.5 Patched]</ModName>
+  <ReplacementAuthor>Wecardo</ReplacementAuthor>
+  <ReplacementModId>Wecardo.CallTradeShips</ReplacementModId>
+  <ReplacementName>PATCHED 1.6 [KV] Call Trade Ships</ReplacementName>
+  <ReplacementSteamId>3513064727</ReplacementSteamId>
+  <SteamId>3226502149</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>
