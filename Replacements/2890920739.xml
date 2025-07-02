@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Creeper</Author>
+  <ModId>Creeper.BetterInfoCard</ModId>
+  <ModName>BetterInfoCard</ModName>
+  <ReplacementAuthor>Creeper</ReplacementAuthor>
+  <ReplacementModId>DawnsGlow.BetterInfoCard</ReplacementModId>
+  <ReplacementName>BetterInfoCard (1.6 Temp)</ReplacementName>
+  <ReplacementSteamId>3513860181</ReplacementSteamId>
+  <SteamId>2890920739</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
