@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>epicfloor</Author>
+  <ModId>epicfloor.workercasket</ModId>
+  <ModName>VFE Pirates unofficial add-on: Workercasket</ModName>
+  <ReplacementAuthor>Brent Kerman</ReplacementAuthor>
+  <ReplacementModId>BK.workercasketrerecontinued</ReplacementModId>
+  <ReplacementName>VFE Pirates unofficial add-on: Workercasket (Re-recontinued)</ReplacementName>
+  <ReplacementSteamId>3516563130</ReplacementSteamId>
+  <SteamId>2834293434</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.6</ReplacementVersions>
+</ModReplacement>
