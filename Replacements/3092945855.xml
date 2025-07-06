@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>emitbreaker</Author>
+  <ModId>emitbreaker.MIM.WH40k.NC.SZ</ModId>
+  <ModName>MIM - WH40k Szarekhan</ModName>
+  <ReplacementAuthor>emitbreaker</ReplacementAuthor>
+  <ReplacementModId>emitbreaker.MIM.WH40k.NC.SZ</ReplacementModId>
+  <ReplacementName>MIM Warhammer 40k Szarekhan 1.6</ReplacementName>
+  <ReplacementSteamId>3517421307</ReplacementSteamId>
+  <SteamId>3092945855</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
