@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>yazmz</Author>
+  <ModId>yazmz.mechanoididleoptimization</ModId>
+  <ModName>Mechanoid Idle Optimization (1.6)</ModName>
+  <ReplacementAuthor>Yazmz</ReplacementAuthor>
+  <ReplacementModId>yazmz.mechanoididleoptimization</ReplacementModId>
+  <ReplacementName>Mechanoid Idle Optimization</ReplacementName>
+  <ReplacementSteamId>3369335744</ReplacementSteamId>
+  <SteamId>3510986412</SteamId>
+  <Versions>1.6</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

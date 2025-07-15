@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Smash Phil</Author>
+  <ModId>smashphil.srtsexpanded</ModId>
+  <ModName>SRTS Expanded</ModName>
+  <ReplacementAuthor>Smash Phil, Neceros, Shashlichnik (Шашлычник ;р)</ReplacementAuthor>
+  <ReplacementModId>Shashlichnik.srtsexpanded</ReplacementModId>
+  <ReplacementName>SRTS Expanded (continued)</ReplacementName>
+  <ReplacementSteamId>2938738526</ReplacementSteamId>
+  <SteamId>2878587061</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

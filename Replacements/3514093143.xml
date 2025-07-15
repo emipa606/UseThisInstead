@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>UwUtismXD</Author>
+  <ModId>UwUtismXD.IncreasedStack</ModId>
+  <ModName>Increased Stack 1.6</ModName>
+  <ReplacementAuthor>Taveron</ReplacementAuthor>
+  <ReplacementModId>Taveron.IncreasedStack</ReplacementModId>
+  <ReplacementName>Increased Stack</ReplacementName>
+  <ReplacementSteamId>798158924</ReplacementSteamId>
+  <SteamId>3514093143</SteamId>
+  <Versions>1.2,1.3,1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

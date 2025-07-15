@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Squirting Elephant</Author>
+  <ModId>SquirtingElephant.SleepDisturbed</ModId>
+  <ModName>No Sleep Disturbed</ModName>
+  <ReplacementAuthor>Defi</ReplacementAuthor>
+  <ReplacementModId>Defi.SleepDisturbed</ReplacementModId>
+  <ReplacementName>No Sleep Disturbed - 1.6</ReplacementName>
+  <ReplacementSteamId>3520195044</ReplacementSteamId>
+  <SteamId>2517499790</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

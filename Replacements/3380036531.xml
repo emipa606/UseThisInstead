@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>swatblack</Author>
+  <ModId>dm.corpsechildrenbodyenhancementupdated</ModId>
+  <ModName>Corpse Children: Ghoulish Body Enhancement 1.5</ModName>
+  <ReplacementAuthor>Kayesh</ReplacementAuthor>
+  <ReplacementModId>deimos.corpsechildrenbodyenhancementupdated</ReplacementModId>
+  <ReplacementName>Corpse Children: Ghoulish Body Enhancement 1.6</ReplacementName>
+  <ReplacementSteamId>3525310790</ReplacementSteamId>
+  <SteamId>3380036531</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

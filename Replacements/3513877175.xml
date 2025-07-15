@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Fluffy, Mersid</Author>
+  <ModId>DawnsGlow.BackupPowerUpdated</ModId>
+  <ModName>Backup Power (1.6 Temp)</ModName>
+  <ReplacementAuthor>Mersid</ReplacementAuthor>
+  <ReplacementModId>Mersid.BackupPowerUpdated</ReplacementModId>
+  <ReplacementName>Backup Power (Updated)</ReplacementName>
+  <ReplacementSteamId>3071356899</ReplacementSteamId>
+  <SteamId>3513877175</SteamId>
+  <Versions>1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

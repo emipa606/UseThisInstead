@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Harkon</Author>
+  <ModId>Harkon.BiotechAddOn.MedievalDeathrestCoffin</ModId>
+  <ModName>[HRK] Medieval deathrest coffin (Continued)</ModName>
+  <ReplacementAuthor>Unknown Author</ReplacementAuthor>
+  <ReplacementModId>Harkon.BiotechAddOn.MedievalDeathrestCoffin</ReplacementModId>
+  <ReplacementName>[HRK] Medieval deathrest coffin</ReplacementName>
+  <ReplacementSteamId>2881104575</ReplacementSteamId>
+  <SteamId>3503735393</SteamId>
+  <Versions>1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>我</Author>
+  <ModId>makabakaakawaka.StableCompatibility</ModId>
+  <ModName>Stable Compatibility</ModName>
+  <ReplacementAuthor>Replaction</ReplacementAuthor>
+  <ReplacementModId>Replaction.StableCompatibility</ReplacementModId>
+  <ReplacementName>Stable Compatibility (Continued) - Don't quarrel!</ReplacementName>
+  <ReplacementSteamId>3523640300</ReplacementSteamId>
+  <SteamId>2889556295</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
