@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>zerowhite</Author>
+  <ModId>ZeroWhite.Dailyfurniture</ModId>
+  <ModName>Daily furniture 塔林家具</ModName>
+  <ReplacementAuthor>JXW</ReplacementAuthor>
+  <ReplacementModId>JXW.DailyfurnitureContinued</ReplacementModId>
+  <ReplacementName>Daily furniture 1.6</ReplacementName>
+  <ReplacementSteamId>3526616523</ReplacementSteamId>
+  <SteamId>3024562670</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

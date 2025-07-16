@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>DGApla</Author>
+  <ModId>dgacr.corpsetochemfuel</ModId>
+  <ModName>CorpseToChemFuel</ModName>
+  <ReplacementAuthor>DGAcr</ReplacementAuthor>
+  <ReplacementModId>continued.corpsetochemfuellol</ReplacementModId>
+  <ReplacementName>CorpseToChemFuel continued (reuploadedetc)</ReplacementName>
+  <ReplacementSteamId>3526676749</ReplacementSteamId>
+  <SteamId>3437821125</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

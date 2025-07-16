@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>avilmask</Author>
+  <ModId>avilmask.CommonSense</ModId>
+  <ModName>Common Sense (1.6 Temp)</ModName>
+  <ReplacementAuthor>avilmask</ReplacementAuthor>
+  <ReplacementModId>avilmask.CommonSense</ReplacementModId>
+  <ReplacementName>Common Sense</ReplacementName>
+  <ReplacementSteamId>1561769193</ReplacementSteamId>
+  <SteamId>3516686258</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

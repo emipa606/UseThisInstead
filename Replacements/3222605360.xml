@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>zeus</Author>
+  <ModId>localghost.transmog</ModId>
+  <ModName>Transmog</ModName>
+  <ReplacementAuthor>Local Ghost, b0unt9</ReplacementAuthor>
+  <ReplacementModId>rw.mod.transmog</ReplacementModId>
+  <ReplacementName>Transmog (Fork)</ReplacementName>
+  <ReplacementSteamId>3526934473</ReplacementSteamId>
+  <SteamId>3222605360</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>
