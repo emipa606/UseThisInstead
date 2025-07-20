@@ -75,7 +75,17 @@ public class Dialog_ModReplacements : Window
         }
         else
         {
-            listingStandard.Gap();
+            if (UseThisInstead.UsingLatestVersion)
+            {
+                listingStandard.Gap();
+            }
+            else
+            {
+                var currentGuiColor = GUI.color;
+                GUI.color = Color.red;
+                listingStandard.Label("UTI.notUsingLatestVersion".Translate());
+                GUI.color = currentGuiColor;
+            }
         }
 
         Rect subtitleRect;

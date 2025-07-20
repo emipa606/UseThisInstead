@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Chicken Plucker, Taranchuk, b0unt9</Author>
+  <ModId>rw.mod.BCDsFirstAid</ModId>
+  <ModName>[RH2] BCD: First Aid (Fork)</ModName>
+  <ReplacementAuthor>Chicken Plucker</ReplacementAuthor>
+  <ReplacementModId>RH2.BCDs.First.Aid</ReplacementModId>
+  <ReplacementName>[RH2] BCD: First Aid</ReplacementName>
+  <ReplacementSteamId>2563152474</ReplacementSteamId>
+  <SteamId>3526927498</SteamId>
+  <Versions>1.2,1.3,1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

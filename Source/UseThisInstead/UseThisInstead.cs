@@ -5,10 +5,12 @@ using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Threading;
+using System.Xml;
 using System.Xml.Serialization;
 using HarmonyLib;
 using Steamworks;
 using UnityEngine;
+using UnityEngine.Networking;
 using Verse;
 
 namespace UseThisInstead;
@@ -24,10 +26,49 @@ public static class UseThisInstead
     public static bool ActivityMonitor;
     public static bool AnythingChanged;
     public static List<string> StatusMessages;
+    public static bool UsingLatestVersion = true;
+
+    private static readonly Uri versionUri =
+        new("https://raw.githubusercontent.com/emipa606/UseThisInstead/main/About/Manifest.xml");
 
     static UseThisInstead()
     {
         new Harmony("Mlie.UseThisInstead").PatchAll(Assembly.GetExecutingAssembly());
+        // Check if the latest GitHub release version is the same as the current installed version
+        try
+        {
+            using var webRequest = UnityWebRequest.Get(versionUri.ToString());
+            webRequest.SendWebRequest();
+
+            while (!webRequest.isDone)
+            {
+                Thread.Sleep(100);
+            }
+
+            if (webRequest.result != UnityWebRequest.Result.Success)
+            {
+                return;
+            }
+
+            var manifestDocument = new XmlDocument();
+            manifestDocument.LoadXml(webRequest.downloadHandler.text);
+            var currentVersion = UseThisInsteadMod.CurrentVersion;
+            UsingLatestVersion = currentVersion == manifestDocument.SelectSingleNode("/Manifest/version")?.InnerText;
+            if (UsingLatestVersion)
+            {
+                logMessage($"Using latest version: {currentVersion}");
+            }
+            else
+            {
+                logMessage(
+                    $"You are not using the latest version of the mod: {manifestDocument.SelectSingleNode("/Manifest/version")?.InnerText}{Environment.NewLine}Suggestions may be out of date!",
+                    warning: true);
+            }
+        }
+        catch (Exception e)
+        {
+            logMessage($"Failed to check for latest version: {e}");
+        }
     }
 
     public static void CheckForReplacements(bool noWait = false)

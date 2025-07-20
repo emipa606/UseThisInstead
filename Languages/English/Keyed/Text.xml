@@ -16,6 +16,7 @@
   <UTI.author>By: </UTI.author>
   <UTI.notUpdated>NOTE: Replacement does not support this version of RimWorld ({0})</UTI.notUpdated>
   <UTI.replace>Replace mod</UTI.replace>
+  <UTI.notUsingLatestVersion>You are not using the latest version of the mod, suggestions may be out of date!</UTI.notUsingLatestVersion>
   <UTI.activeModsChanged>Active mods changed, opening mod-config to enable and sort before restart</UTI.activeModsChanged>
   <UTI.activatingMods>Adding new mods to the active mod-list</UTI.activatingMods>
   <UTI.incompatibility>{0} is incompatible with an active mod: {0}</UTI.incompatibility>
