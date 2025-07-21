@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>GarryFlowers</Author>
+  <ModId>GarryFlowers.MoreSlaveryStuff</ModId>
+  <ModName>More Slavery Stuff</ModName>
+  <ReplacementAuthor>Masstell</ReplacementAuthor>
+  <ReplacementModId>Masstell.MoreSlaveryStuff</ReplacementModId>
+  <ReplacementName>More Slavery Stuff (Continued)</ReplacementName>
+  <ReplacementSteamId>3530586159</ReplacementSteamId>
+  <SteamId>2896845138</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

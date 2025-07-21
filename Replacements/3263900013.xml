@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mlie</Author>
+  <ModId>Mlie.MechalitFactionV2</ModId>
+  <ModName>Mechalit Faction v2 (Continued)</ModName>
+  <ReplacementAuthor>DaLLaN</ReplacementAuthor>
+  <ReplacementModId>Daniledman.MechalitFaction2</ReplacementModId>
+  <ReplacementName>Mechalit Faction v2 1.6</ReplacementName>
+  <ReplacementSteamId>2660600094</ReplacementSteamId>
+  <SteamId>3263900013</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

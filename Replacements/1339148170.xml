@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Uuugggg</Author>
+  <ModId>Uuugggg.RoomFood</ModId>
+  <ModName>Room Food</ModName>
+  <ReplacementAuthor>TheLordDrake</ReplacementAuthor>
+  <ReplacementModId>TheLordDrake.RoomFood</ReplacementModId>
+  <ReplacementName>Room Food [Updated for 1.6]</ReplacementName>
+  <ReplacementSteamId>3530729319</ReplacementSteamId>
+  <SteamId>1339148170</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
