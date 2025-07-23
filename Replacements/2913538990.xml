@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Sir Van</Author>
+  <ModId>SirVan.EltexWeaponry</ModId>
+  <ModName>Eltex Weaponry</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.eltexweaponry</ReplacementModId>
+  <ReplacementName>Eltex Weaponry (Continued)</ReplacementName>
+  <ReplacementSteamId>3532192464</ReplacementSteamId>
+  <SteamId>2913538990</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
