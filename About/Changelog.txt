@@ -1,5 +1,9 @@
 # Changelog for UseThisInstead
 
+1.6.34 - Maintanence. Added 9 rules and removed 8. Total rules: 1831
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
 1.6.33 - Maintanence. Added 4 rules and removed 0. Total rules: 1830
 
 
