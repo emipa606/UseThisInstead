@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Elseud</Author>
+  <ModId>EL.KenshiFauna</ModId>
+  <ModName>Kenshi Fauna</ModName>
+  <ReplacementAuthor>Elseud, Vexed</ReplacementAuthor>
+  <ReplacementModId>EL.KenshiFauna</ReplacementModId>
+  <ReplacementName>Kenshi Fauna 1.6 (Forked)</ReplacementName>
+  <ReplacementSteamId>3535797656</ReplacementSteamId>
+  <SteamId>3005834788</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

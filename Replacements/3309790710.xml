@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Abrolo</Author>
+  <ModId>Abrolo.Grimstone.Beasts</ModId>
+  <ModName>Grimstone : Beasts</ModName>
+  <ReplacementAuthor>Abrolo</ReplacementAuthor>
+  <ReplacementModId>Abrolo.Grimstone.Beasts</ReplacementModId>
+  <ReplacementName>Grimstone : Beasts 1.6 (Forked)</ReplacementName>
+  <ReplacementSteamId>3535302121</ReplacementSteamId>
+  <SteamId>3309790710</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

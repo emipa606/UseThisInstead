@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Sovereign</Author>
+  <ModId>Sov.VisanderHedge</ModId>
+  <ModName>Blooming hedges</ModName>
+  <ReplacementAuthor>Sovereign and Visander</ReplacementAuthor>
+  <ReplacementModId>Sov.VisanderHedge</ReplacementModId>
+  <ReplacementName>Blooming hedges 1.6 (forked)</ReplacementName>
+  <ReplacementSteamId>3535147693</ReplacementSteamId>
+  <SteamId>3146921182</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

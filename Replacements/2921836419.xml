@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Candycorn</Author>
+  <ModId>Candycorn.RickandMortyHairs</ModId>
+  <ModName>Rick and Morty Hairs</ModName>
+  <ReplacementAuthor>Candycorn</ReplacementAuthor>
+  <ReplacementModId>Candycorn.RickandMortyHairs</ReplacementModId>
+  <ReplacementName>Rick and Morty Hairs 1.6 (Forked)</ReplacementName>
+  <ReplacementSteamId>3535830142</ReplacementSteamId>
+  <SteamId>2921836419</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
