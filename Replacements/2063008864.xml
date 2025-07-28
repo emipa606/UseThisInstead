@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>alatta</Author>
+  <ModId>latta.infusion</ModId>
+  <ModName>Infusion 2</ModName>
+  <ReplacementAuthor>Sk</ReplacementAuthor>
+  <ReplacementModId>sk.infusion</ReplacementModId>
+  <ReplacementName>Infusion 2 - Continued</ReplacementName>
+  <ReplacementSteamId>3536247747</ReplacementSteamId>
+  <SteamId>2063008864</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

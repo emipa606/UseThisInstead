@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Fox Holiday</Author>
+  <ModId>BigWizz.Planetside</ModId>
+  <ModName>Planetside 2 - Terran Armory</ModName>
+  <ReplacementAuthor>xKinG_fREEdOMx</ReplacementAuthor>
+  <ReplacementModId>kingfreedom.Planetside.1.6</ReplacementModId>
+  <ReplacementName>Planetside 2 - Terran Armory 1.6</ReplacementName>
+  <ReplacementSteamId>3536365829</ReplacementSteamId>
+  <SteamId>3138747480</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

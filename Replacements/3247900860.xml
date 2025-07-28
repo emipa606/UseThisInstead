@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>у меня яйца чешут</Author>
+  <ModId>alt4s.VisitSettlements</ModId>
+  <ModName>Visit Settlements</ModName>
+  <ReplacementAuthor>Nina.Goblin</ReplacementAuthor>
+  <ReplacementModId>NinaGoblin.VisitSettlements</ReplacementModId>
+  <ReplacementName>Visit Settlements (1.6)</ReplacementName>
+  <ReplacementSteamId>3535955435</ReplacementSteamId>
+  <SteamId>3247900860</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
