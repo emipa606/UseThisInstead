@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mawy</Author>
+  <ModId>Mawy.craftable.eft</ModId>
+  <ModName>Craftable - [JDS] EFT Apparel</ModName>
+  <ReplacementAuthor>average_belgian</ReplacementAuthor>
+  <ReplacementModId>ab.eft.apparel</ReplacementModId>
+  <ReplacementName>[JDS] EFT Apparel + Faction/Crafting patches</ReplacementName>
+  <ReplacementSteamId>3536955649</ReplacementSteamId>
+  <SteamId>2417639307</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

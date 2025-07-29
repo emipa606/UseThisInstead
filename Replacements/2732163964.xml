@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>El</Author>
+  <ModId>ellit.glitterpaths</ModId>
+  <ModName>El's Glitterpaths</ModName>
+  <ReplacementAuthor>Ellit, AssassinsBro</ReplacementAuthor>
+  <ReplacementModId>assassinsbro.glitterpathscontinued</ReplacementModId>
+  <ReplacementName>El's Glitterpaths (Continued)</ReplacementName>
+  <ReplacementSteamId>3537159531</ReplacementSteamId>
+  <SteamId>2732163964</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
