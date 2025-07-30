@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>N7Huntsman</Author>
+  <ModId>n7huntsman.ceramics</ModId>
+  <ModName>Ceramics</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.ceramics</ReplacementModId>
+  <ReplacementName>Ceramics (Continued)</ReplacementName>
+  <ReplacementSteamId>3537698767</ReplacementSteamId>
+  <SteamId>1833163132</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
