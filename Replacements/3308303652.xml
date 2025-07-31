@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Resistance Band.</Author>
+  <ModId>New.ArchotechPowerArmor</ModId>
+  <ModName>Archotech Power Armor</ModName>
+  <ReplacementAuthor>Resistance Band</ReplacementAuthor>
+  <ReplacementModId>cz.ArchotechPowerArmor</ReplacementModId>
+  <ReplacementName>Archotech Power Armor (Continued)</ReplacementName>
+  <ReplacementSteamId>3538219920</ReplacementSteamId>
+  <SteamId>3308303652</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>
