@@ -14,6 +14,8 @@ This mod should work well together with my [Show Mod Updates](https://steamcommu
 
 This mod will be updated regularly to include new releases. I hope this will be of use and if you have info about a mod-continuation not showing up in the mod or a faulty replacement suggestion, please report it in the comments or on the linked Discord-server.
 
+**Note: for those using non-steam download like rimpy with steamcmd, apparently that solution does not reliably remove files when updating. So if you have a problem with old replacement showing up, try removing the mod fully between each update.**
+
 Mod-options
 
 
