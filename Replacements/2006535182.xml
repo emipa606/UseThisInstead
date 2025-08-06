@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Saakra</Author>
+  <ModId>Saakra.Empire</ModId>
+  <ModName>Empire</ModName>
+  <ReplacementAuthor>Saakra</ReplacementAuthor>
+  <ReplacementModId>Saakra.Empire.dev</ReplacementModId>
+  <ReplacementName>Empire 1.6 (Continued)</ReplacementName>
+  <ReplacementSteamId>3542975872</ReplacementSteamId>
+  <SteamId>2006535182</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

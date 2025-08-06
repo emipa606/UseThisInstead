@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Khadgarion</Author>
+  <ModId>Saakra.Empire.Test</ModId>
+  <ModName>Empire 1_5 (Continued)</ModName>
+  <ReplacementAuthor>Saakra</ReplacementAuthor>
+  <ReplacementModId>Saakra.Empire.dev</ReplacementModId>
+  <ReplacementName>Empire 1.6 (Continued)</ReplacementName>
+  <ReplacementSteamId>3542975872</ReplacementSteamId>
+  <SteamId>3228396189</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
