@@ -26,48 +26,58 @@ public static class UseThisInstead
     public static bool ActivityMonitor;
     public static bool AnythingChanged;
     public static List<string> StatusMessages;
-    public static bool UsingLatestVersion = true;
+    public static bool? UsingLatestVersion;
 
     private static readonly Uri versionUri =
         new("https://raw.githubusercontent.com/emipa606/UseThisInstead/main/About/Manifest.xml");
 
     static UseThisInstead()
     {
+        FoundModReplacements = [];
+        StatusMessages = [];
         new Harmony("Mlie.UseThisInstead").PatchAll(Assembly.GetExecutingAssembly());
-        // Check if the latest GitHub release version is the same as the current installed version
+        ThreadPool.QueueUserWorkItem(_ => checkLatestVersionAsync());
+    }
+
+    public static bool IsVersionCheckComplete { get; private set; }
+
+    private static void checkLatestVersionAsync()
+    {
         try
         {
             using var webRequest = UnityWebRequest.Get(versionUri.ToString());
             webRequest.SendWebRequest();
-
             while (!webRequest.isDone)
             {
                 Thread.Sleep(100);
             }
 
-            if (webRequest.result != UnityWebRequest.Result.Success)
+            if (webRequest.result == UnityWebRequest.Result.Success)
             {
-                return;
-            }
-
-            var manifestDocument = new XmlDocument();
-            manifestDocument.LoadXml(webRequest.downloadHandler.text);
-            var currentVersion = UseThisInsteadMod.CurrentVersion;
-            UsingLatestVersion = currentVersion == manifestDocument.SelectSingleNode("/Manifest/version")?.InnerText;
-            if (UsingLatestVersion)
-            {
-                logMessage($"Using latest version: {currentVersion}");
-            }
-            else
-            {
-                logMessage(
-                    $"You are not using the latest version of the mod: {manifestDocument.SelectSingleNode("/Manifest/version")?.InnerText}{Environment.NewLine}Suggestions may be out of date!",
-                    warning: true);
+                var manifestDocument = new XmlDocument();
+                manifestDocument.LoadXml(webRequest.downloadHandler.text);
+                var currentVersion = UseThisInsteadMod.CurrentVersion;
+                UsingLatestVersion =
+                    currentVersion == manifestDocument.SelectSingleNode("/Manifest/version")?.InnerText;
+                if (UsingLatestVersion == true)
+                {
+                    logMessage($"Using latest version: {currentVersion}");
+                }
+                else
+                {
+                    logMessage(
+                        $"You are not using the latest version of the mod: {manifestDocument.SelectSingleNode("/Manifest/version")?.InnerText}{Environment.NewLine}Suggestions may be out of date!",
+                        warning: true);
+                }
             }
         }
         catch (Exception e)
         {
             logMessage($"Failed to check for latest version: {e}");
+        }
+        finally
+        {
+            IsVersionCheckComplete = true;
         }
     }
 

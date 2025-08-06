@@ -1,5 +1,8 @@
 # Changelog for UseThisInstead
 
+1.6.46 - Made the version check async and hopefully fixed the starting of multiple copies of rimworld after update
+
+
 1.6.45 - Maintanence. Added 6 rules and removed 0. Total rules: 1905
 
 

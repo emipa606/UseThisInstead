@@ -9,12 +9,21 @@ namespace UseThisInstead;
 [HarmonyBefore("Mlie.ShowModUpdates")]
 public static class Widgets_ButtonText_Postfix
 {
+    private static bool restarting;
+
     public static void Postfix(ref Rect rect, string label)
     {
+        if (restarting || !UseThisInstead.IsVersionCheckComplete)
+        {
+            return;
+        }
+
         if (UseThisInstead.AnythingChanged && !Find.WindowStack.AnyWindowAbsorbingAllInput)
         {
+            restarting = true;
             ModsConfig.Save();
             ModsConfig.RestartFromChangedMods();
+            return;
         }
 
         if (label != LanguageDatabase.activeLanguage.FriendlyNameNative ||

@@ -63,8 +63,33 @@ public class Dialog_ModReplacements : Window
         if (UseThisInsteadMod.CurrentVersion != null)
         {
             Text.Font = GameFont.Tiny;
-            GUI.contentColor = Color.gray;
-            listingStandard.Label("UTI.modVersion".Translate(UseThisInsteadMod.CurrentVersion));
+            var extraText = "";
+            var tooltip = "";
+            switch (UseThisInstead.UsingLatestVersion)
+            {
+                case true:
+                    GUI.contentColor = Color.green;
+                    extraText = $" ({"UTI.usingLatestVersion".Translate()})";
+                    tooltip = "UTI.usingLatestVersionTooltip".Translate();
+                    break;
+                case false:
+                    GUI.contentColor = Color.red;
+                    extraText = $" ({"UTI.notUsingLatestVersion".Translate()})";
+                    tooltip = "UTI.notUsingLatestVersionTooltip".Translate();
+                    break;
+                case null:
+                    GUI.contentColor = Color.gray;
+                    tooltip = "UTI.FailedToFetchTooltip".Translate();
+                    break;
+            }
+
+            var labelRect =
+                listingStandard.Label($"{"UTI.modVersion".Translate(UseThisInsteadMod.CurrentVersion)}{extraText}");
+            if (!string.IsNullOrEmpty(tooltip))
+            {
+                TooltipHandler.TipRegion(labelRect, tooltip);
+            }
+
             GUI.contentColor = Color.white;
         }
 
@@ -72,20 +97,6 @@ public class Dialog_ModReplacements : Window
         if (UseThisInstead.AnythingChanged)
         {
             listingStandard.Label("UTI.restartNeeded".Translate());
-        }
-        else
-        {
-            if (UseThisInstead.UsingLatestVersion)
-            {
-                listingStandard.Gap();
-            }
-            else
-            {
-                var currentGuiColor = GUI.color;
-                GUI.color = Color.red;
-                listingStandard.Label("UTI.notUsingLatestVersion".Translate());
-                GUI.color = currentGuiColor;
-            }
         }
 
         Rect subtitleRect;
