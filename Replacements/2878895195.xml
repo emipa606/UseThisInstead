@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198002604008</Author>
+  <ModId>swwu.MechanitorCommandRange</ModId>
+  <ModName>Unlimited Mechanitor Command Range</ModName>
+  <ReplacementAuthor>swwu</ReplacementAuthor>
+  <ReplacementModId>swwu.MechanitorCommandRange</ReplacementModId>
+  <ReplacementName>Unlimited Mechanitor Command Range (Temp 1.6 Update)</ReplacementName>
+  <ReplacementSteamId>3543685172</ReplacementSteamId>
+  <SteamId>2878895195</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>
