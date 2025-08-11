@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561199377833097</Author>
+  <ModId>EL.Bungus</ModId>
+  <ModName>Risk of Rain Bungus</ModName>
+  <ReplacementAuthor>Elseud, Sovereign</ReplacementAuthor>
+  <ReplacementModId>EL.Bungus.Continued</ReplacementModId>
+  <ReplacementName>Risk of Rain Bungus (1.6 Temp)</ReplacementName>
+  <ReplacementSteamId>3546641771</ReplacementSteamId>
+  <SteamId>2940267235</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
