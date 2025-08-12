@@ -73,4 +73,8 @@ NOTE : Comme le mod est actuellement actif, un redémarrage sera déclenché lor
 NOTE : Comme un ou plusieurs mods sont actuellement actifs, un redémarrage sera déclenché lorsque vous fermerez la fenêtre de mods après avoir trié les nouveaux mods.</UTI.replaceMultipleModsActive>
   <UTI.reallyAbort>Les mods sont en train d'être remplacés, êtes-vous sûr de vouloir interrompre le processus ?</UTI.reallyAbort>
   <UTI.notUsingLatestVersion>Vous n'utilisez pas la dernière version du mod, les suggestions peuvent être obsolètes !</UTI.notUsingLatestVersion>
+  <UTI.FailedToFetchTooltip>Échec de la récupération des informations sur la dernière version, impossible de se connecter à GitHub</UTI.FailedToFetchTooltip>
+  <UTI.notUsingLatestVersionTooltip>Vous n'utilisez pas la dernière version du mod, les suggestions peuvent être obsolètes !</UTI.notUsingLatestVersionTooltip>
+  <UTI.usingLatestVersion>à jour</UTI.usingLatestVersion>
+  <UTI.usingLatestVersionTooltip>Vous utilisez la dernière version du mod, c'est bien !</UTI.usingLatestVersionTooltip>
 </LanguageData>

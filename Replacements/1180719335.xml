@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Kiame Vivacity</Author>
+  <ModId>impassablemapmaker.kv.rw</ModId>
+  <ModName>[KV] Impassable Map Maker</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.KVImpassableMapMaker</ReplacementModId>
+  <ReplacementName>[KV] Impassable Map Maker (Continued)</ReplacementName>
+  <ReplacementSteamId>3547048994</ReplacementSteamId>
+  <SteamId>1180719335</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198075944826</Author>
+  <ModId>Wemd.FueledHeaters</ModId>
+  <ModName>[WD] Fueled Heaters</ModName>
+  <ReplacementAuthor>Pineapple</ReplacementAuthor>
+  <ReplacementModId>Pineapple.fueledheaters</ReplacementModId>
+  <ReplacementName>[WD] Fueled Heaters (1.6 Updated)</ReplacementName>
+  <ReplacementSteamId>3546940856</ReplacementSteamId>
+  <SteamId>1924942266</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.6</ReplacementVersions>
+</ModReplacement>
