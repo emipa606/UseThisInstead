@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198035372761</Author>
+  <ModId>loregret.veextra.nonlethal</ModId>
+  <ModName>Non-Lethal Extra for Vanilla Expanded</ModName>
+  <ReplacementAuthor>Loregret</ReplacementAuthor>
+  <ReplacementModId>ganja.veextra.nonlethal</ReplacementModId>
+  <ReplacementName>Non-Lethal Extra for Vanilla Expanded (Continued)</ReplacementName>
+  <ReplacementSteamId>3549434396</ReplacementSteamId>
+  <SteamId>3097471692</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

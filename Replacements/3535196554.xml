@@ -2,12 +2,12 @@
 <ModReplacement>
   <Author>Kimchibok</Author>
   <ModId>KCB.RimStory</ModId>
-  <ModName>RimStory</ModName>
+  <ModName>RimStory 1.6 (forked)</ModName>
   <ReplacementAuthor>Kimchibok</ReplacementAuthor>
   <ReplacementModId>KCB.RimStory</ReplacementModId>
-  <ReplacementName>RimStory 1.6 (forked)</ReplacementName>
-  <ReplacementSteamId>3535196554</ReplacementSteamId>
-  <SteamId>3473850830</SteamId>
-  <Versions>1.5</Versions>
+  <ReplacementName>RimStory</ReplacementName>
+  <ReplacementSteamId>3473850830</ReplacementSteamId>
+  <SteamId>3535196554</SteamId>
+  <Versions>1.5,1.6</Versions>
   <ReplacementVersions>1.5,1.6</ReplacementVersions>
 </ModReplacement>
