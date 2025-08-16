@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561199804056576</Author>
+  <ModId>silkcircuit.resistancerestraintsmod</ModId>
+  <ModName>Prisoner Restraints</ModName>
+  <ReplacementAuthor>SilkCircuit</ReplacementAuthor>
+  <ReplacementModId>silkcircuit.resistancerestraintsmod</ReplacementModId>
+  <ReplacementName>Prisoner Restraints (Reupload for 1.6)</ReplacementName>
+  <ReplacementSteamId>3549564292</ReplacementSteamId>
+  <SteamId>3434403034</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

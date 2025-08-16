@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mlie</Author>
+  <ModId>Mlie.SpidercampsDogPack</ModId>
+  <ModName>[Depricated] Spidercamp's Dog Pack (Continued)</ModName>
+  <ReplacementAuthor>Qux</ReplacementAuthor>
+  <ReplacementModId>Qux.stray.dogs</ReplacementModId>
+  <ReplacementName>Stray Dogs (rescued)</ReplacementName>
+  <ReplacementSteamId>3549460027</ReplacementSteamId>
+  <SteamId>2453077534</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
