@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>
+  </Author>
+  <ModId>Murmur.OOCMoveSpeedBoost</ModId>
+  <ModName>Out of Combat Move Speed Boost</ModName>
+  <ReplacementAuthor>Coolzie</ReplacementAuthor>
+  <ReplacementModId>Coolzie.OOCReBoost</ReplacementModId>
+  <ReplacementName>Out of Combat ReBoost</ReplacementName>
+  <ReplacementSteamId>3527970878</ReplacementSteamId>
+  <SteamId>2146654275</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>空曜</Author>
+  <ModId>MYDE.DrakkenLaserDrill</ModId>
+  <ModName>Drakken Laser Drill</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.DrakkenLaserDrill</ReplacementModId>
+  <ReplacementName>Drakken Laser Drill (Continued)</ReplacementName>
+  <ReplacementSteamId>3550292796</ReplacementSteamId>
+  <SteamId>2941974740</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
