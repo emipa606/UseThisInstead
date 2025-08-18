@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198276158944</Author>
+  <ModId>Fluffy.Pharmacist</ModId>
+  <ModName>Pharmacist</ModName>
+  <ReplacementAuthor>
+  </ReplacementAuthor>
+  <ReplacementModId>Fluffy.Pharmacist</ReplacementModId>
+  <ReplacementName>Pharmacist: Represcribed</ReplacementName>
+  <ReplacementSteamId>3527418098</ReplacementSteamId>
+  <SteamId>3256204706</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

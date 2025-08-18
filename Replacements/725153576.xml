@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Fluffy</Author>
+  <ModId>Fluffy.AreaUnlocker</ModId>
+  <ModName>Area Unlocker</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.AreaUnlocker</ReplacementModId>
+  <ReplacementName>Area Unlocker (Continued)</ReplacementName>
+  <ReplacementSteamId>3550817577</ReplacementSteamId>
+  <SteamId>725153576</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
