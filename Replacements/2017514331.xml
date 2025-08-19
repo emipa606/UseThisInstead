@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>
+  </Author>
+  <ModId>Murmur.ISiD</ModId>
+  <ModName>Infestations Spawn in Darkness</ModName>
+  <ReplacementAuthor>Various</ReplacementAuthor>
+  <ReplacementModId>Koth.ISiD</ReplacementModId>
+  <ReplacementName>Infestations Spawn in Darkness 1.6</ReplacementName>
+  <ReplacementSteamId>3551839891</ReplacementSteamId>
+  <SteamId>2017514331</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
