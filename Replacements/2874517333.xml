@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModReplacement>
-  <Author>76561197971028520</Author>
-  <ModId>tradingspot.kv.rw</ModId>
-  <ModName>[KV] Trading Spot</ModName>
+  <Author>76561198154762940</Author>
+  <ModId>Grizzlemethis.TradingSpot.RW</ModId>
+  <ModName>[GMT] Trading Spot</ModName>
   <ReplacementAuthor>Programmer-Lily</ReplacementAuthor>
   <ReplacementModId>tradingpost.programmerlily.com</ReplacementModId>
   <ReplacementName>Trading Spot</ReplacementName>
   <ReplacementSteamId>3507108484</ReplacementSteamId>
-  <SteamId>1180719658</SteamId>
-  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <SteamId>2874517333</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
   <ReplacementVersions>1.0,1.1,1.2,1.3,1.5,1.6</ReplacementVersions>
 </ModReplacement>
