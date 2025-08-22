@@ -136,6 +136,18 @@ public static class UseThisInstead
                 continue;
             }
 
+            while (!replacement.ReplacementSupportsVersion())
+            {
+                if (!modReplacements.TryGetValue(replacement.ReplacementSteamId, out var newReplacement))
+                {
+                    break;
+                }
+
+                logMessage(
+                    $"Replacement for {mod.Name} does not support the latest version of the game, but found a replacement for that mod as well.");
+                replacement = newReplacement;
+            }
+
             var replacementPublishedFileId = replacement.GetReplacementPublishedFileId();
             if (!mod.Active &&
                 ModLister.AllInstalledMods.Any(data => data.GetPublishedFileId() == replacementPublishedFileId))
