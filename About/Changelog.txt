@@ -1,5 +1,8 @@
 # Changelog for UseThisInstead
 
+1.6.64 - Maintanence. Added 5 rules and removed 2. Total rules: 1982
+
+
 1.6.63 - Added recursive replacement search
 
 
