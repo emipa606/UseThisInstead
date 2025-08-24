@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198004728778</Author>
+  <ModId>jp.perfectpathing.updated</ModId>
+  <ModName>Perfect Pathfinding (1.5 Update)</ModName>
+  <ReplacementAuthor>llunak</ReplacementAuthor>
+  <ReplacementModId>llunak.PathfindingAvoidance</ReplacementModId>
+  <ReplacementName>Pathfinding Avoidance</ReplacementName>
+  <ReplacementSteamId>3530140490</ReplacementSteamId>
+  <SteamId>3474403869</SteamId>
+  <Versions>1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
