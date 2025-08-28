@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mehni</Author>
+  <ModId>DawnsGlow.Numbers</ModId>
+  <ModName>Numbers (1.6 Temp)</ModName>
+  <ReplacementAuthor>Mehni</ReplacementAuthor>
+  <ReplacementModId>Mehni.Numbers</ReplacementModId>
+  <ReplacementName>Numbers</ReplacementName>
+  <ReplacementSteamId>1414302321</ReplacementSteamId>
+  <SteamId>3513829896</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
