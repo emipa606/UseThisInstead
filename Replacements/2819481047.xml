@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198259510549</Author>
+  <ModId>odysseylotus.maleratkin</ModId>
+  <ModName>Male Ratkin</ModName>
+  <ReplacementAuthor>Ariandel</ReplacementAuthor>
+  <ReplacementModId>ariandel.odysseylotus.maleratkin</ReplacementModId>
+  <ReplacementName>Male Ratkin[1.6]</ReplacementName>
+  <ReplacementSteamId>3560251718</ReplacementSteamId>
+  <SteamId>2819481047</SteamId>
+  <Versions>1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
