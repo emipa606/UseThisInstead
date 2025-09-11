@@ -1,5 +1,8 @@
 # Changelog for UseThisInstead
 
+1.6.82 - Maintanence. Added 6 rules and removed 0. Total rules: 2014
+
+
 1.6.81 - Maintanence. Added 2 rules and removed 0. Total rules: 2008
 
 

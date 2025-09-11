@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>
+  </Author>
+  <ModId>Murmur.FactionResources</ModId>
+  <ModName>Faction Resources</ModName>
+  <ReplacementAuthor>Murmur</ReplacementAuthor>
+  <ReplacementModId>Mlie.FactionRaidCooldown</ReplacementModId>
+  <ReplacementName>Faction Raid Cooldown (Continued)</ReplacementName>
+  <ReplacementSteamId>3547098393</ReplacementSteamId>
+  <SteamId>2006644524</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

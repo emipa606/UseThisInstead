@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197993602698</Author>
+  <ModId>LtBob.PreemptiveStrike.Rimworld</ModId>
+  <ModName>Preemptive Strike (v1.4 Fork)</ModName>
+  <ReplacementAuthor>v1.0: DrCarl, v1.1: Lt.Bob, v1.4: Ogliss</ReplacementAuthor>
+  <ReplacementModId>mitasamodel.preemptivestrike</ReplacementModId>
+  <ReplacementName>Preemptive Strike 1.6</ReplacementName>
+  <ReplacementSteamId>3566031180</ReplacementSteamId>
+  <SteamId>2884952468</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
