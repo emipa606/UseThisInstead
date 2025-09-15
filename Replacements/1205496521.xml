@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198083415891</Author>
+  <ModId>forestfey.GermanShepherdCaravan</ModId>
+  <ModName>FFGermanShepherd Caravaneer re-upload</ModName>
+  <ReplacementAuthor>Harry_Robinson1</ReplacementAuthor>
+  <ReplacementModId>HarryRobinson.GermanShepherdCaravan</ReplacementModId>
+  <ReplacementName>German Shepherd Caravaneer 1.6</ReplacementName>
+  <ReplacementSteamId>3568442908</ReplacementSteamId>
+  <SteamId>1205496521</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
