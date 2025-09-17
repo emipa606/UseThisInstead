@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Zaljerem</Author>
+  <ModId>zal.swsenatecommando</ModId>
+  <ModName>[LF] Star Wars Republic Senate Commando (Continued)</ModName>
+  <ReplacementAuthor>Le Faux</ReplacementAuthor>
+  <ReplacementModId>LeFaux.SenateCommando</ReplacementModId>
+  <ReplacementName>[LF] Star Wars Republic Senate Commando</ReplacementName>
+  <ReplacementSteamId>2429710739</ReplacementSteamId>
+  <SteamId>2959718405</SteamId>
+  <Versions>1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
