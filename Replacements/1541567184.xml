@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197995250756</Author>
+  <ModId>zerithos.NiHal</ModId>
+  <ModName>Ni'Hal 1.0-1.4</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.nihal</ReplacementModId>
+  <ReplacementName>Ni'Hal (Continued)</ReplacementName>
+  <ReplacementSteamId>3571221462</ReplacementSteamId>
+  <SteamId>1541567184</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

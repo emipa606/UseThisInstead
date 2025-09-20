@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198079915390</Author>
+  <ModId>Hobbes.terrapumps</ModId>
+  <ModName>TerraPumps</ModName>
+  <ReplacementAuthor>Hobbes, Elktor31</ReplacementAuthor>
+  <ReplacementModId>Elktor31.terrapumps</ReplacementModId>
+  <ReplacementName>TerraPumps (Continued)</ReplacementName>
+  <ReplacementSteamId>3571094079</ReplacementSteamId>
+  <SteamId>2811424412</SteamId>
+  <Versions>1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

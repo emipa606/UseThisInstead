@@ -1,45 +1,79 @@
 # [Use This Instead](https://steamcommunity.com/sharedfiles/filedetails/?id=3396308787)
 
-![Image](https://i.imgur.com/iCj5o7O.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
-**TLDR: This mod scans your installed mods and suggest working/more updated replacements for those mods**
+Update of Revolus mod https://steamcommunity.com/sharedfiles/filedetails/?id=2032036337
 
-Continuations of mods has many names and has become an large part of the RimWorld modding community.
-It can be hard to keep track of when mods gets a new version by another modder. This mod tries to remedy that by keeping track and informing about when a mod has a replacement version on the workshop. 
+- Added translation strings
 
-Data from my own [collection](https://steamcommunity.com/sharedfiles/filedetails/?id=1541984105) of continued mods is a large part of this mod. Another large part is from my friends continuations; the [collection](https://steamcommunity.com/workshop/filedetails/?id=2787987321) by [Zaljerem](https://steamcommunity.com/id/zaljerem) and the [collection](https://steamcommunity.com/workshop/filedetails/?id=2099979037) by [velcroboy333](https://steamcommunity.com/profiles/76561198032065507). 
-The mod also uses info about mods that have been requested on my Discord server and continued by another modder as well as any mod published on the workshop using the usual suffixes for continued mods (as seen in the preview image).
+![Image](https://i.imgur.com/pufA0kM.png)
+	
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
-This mod should work well together with my [Show Mod Updates](https://steamcommunity.com/sharedfiles/filedetails/?id=3218690663) to make it easier to keep track of you favorite mods during those major RimWorld updates!
+Automatically compress savegame files: **It's actually quite a bit faster!**
 
-This mod will be updated regularly to include new releases. I hope this will be of use and if you have info about a mod-continuation not showing up in the mod or a faulty replacement suggestion, please report it in the comments or on the linked Discord-server.
+RimWorld stores your save games in a quite inefficient way. It uses pretty printed XML files, which makes it easy to debug, a feature that is very seldom needed. This mod disables the pretty printing, and compresses .rws files using gzip, a fast, and universally understood compression format.
 
-**Note: for those using non-steam download like rimpy with steamcmd, apparently that solution does not reliably remove files when updating. So if you have a problem with old replacement showing up, try removing the mod fully between each update.**
+The mod can be enabled at any time, but if you want to disable it, you have to decompress the files to make them readable again. Either disable compressing in the mod's settings, or use e.g. 7zip to unpack the files.
 
-Mod-options
+**Compatible to:**
 
 
--  Always show replacement button, event with no replacements
--  Show all possible replacements or only for active mods
--  Show all replacement-versions or only for the currently installed RimWorld version
--  Verbose logging for debugging
--  Replacement-button also in the mod-options for those with a custom gui-theme
+-  [RimSaves](https://steamcommunity.com/sharedfiles/filedetails/?id=1713367505)
+-  [More Autosave Slots](https://steamcommunity.com/sharedfiles/filedetails/?id=3410766209)
 
 
 
-![Image](https://i.imgur.com/Ds0rBAD.png)
+**Load order:**
 
-Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my [Wishlist](https://store.steampowered.com/wishlist/id/Mlie) or buy me a cup of tea.
 
-[![Image](https://i.imgur.com/VWG0yff.png)](https://ko-fi.com/G2G55DDYD)
+-  [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077)
+-  Core, and a lot more
+-  *[Better ModMismatch Window](https://steamcommunity.com/sharedfiles/filedetails/?id=1872244972) (optional)*
+-  **Savegame Compressor**
 
-![Image](https://i.imgur.com/5xwDG6H.png)
+
+
+**Changed log:**
+
+
+-  2020-03-24: Made compatible to [Better ModMismatch Window](https://steamcommunity.com/sharedfiles/filedetails/?id=1872244972)
+-  2020-03-23: Initial release
+
+
+
+## License
+
+This library is free software; you can redistribute it and/or modify it under the terms of the [GNU Lesser General Public License](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
+
+# You like my mods?
+
+Then please consider [donating to the Tierpark Neukölln](https://tierpark-neukoelln.berlin/spenden/) (Petting Zoo Neukölln, Berlin):
+BIC: BFSWDE33BER
+IBAN: DE 78 100 205 00000 316 5900
+Intended purpose: Spende für Tierpark Neukölln
+
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
 -  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  For best support, please use the Discord-channel for error-reporting.
+-  Do not report errors by making a discussion-thread, I get no notification of that.
+-  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
+
+
+
+![Image](https://i.imgur.com/5xwDG6H.png)
+
+
+
+-  See if the error persists if you just have this mod and its requirements active.
+-  If not, try adding your other mods until it happens again.
+-  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
