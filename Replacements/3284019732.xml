@@ -2,7 +2,7 @@
 <ModReplacement>
   <Author>Louize</Author>
   <ModId>louize.RuntimeGC</ModId>
-  <ModName>RuntimeGC [1.5] fork [Archived]</ModName>
+  <ModName>RuntimeGC [1.5] fork [Archived for now]</ModName>
   <ReplacementAuthor>user19990313, louize, RunningBugs</ReplacementAuthor>
   <ReplacementModId>louize.RuntimeGC.fork</ReplacementModId>
   <ReplacementName>RuntimeGC [1.6] fork2</ReplacementName>
