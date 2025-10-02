@@ -1,6 +1,6 @@
 # [Use This Instead](https://steamcommunity.com/sharedfiles/filedetails/?id=3396308787)
 
-![Image](https://i.imgur.com/iCj5o7O.png)
+![Image](https://i.postimg.cc/PJc4kLbg/Self-Info.png)
 
 **TLDR: This mod scans your installed mods and suggest working/more updated replacements for those mods**
 
@@ -27,13 +27,13 @@ Mod-options
 
 
 
-![Image](https://i.imgur.com/Ds0rBAD.png)
+![Image](https://i.postimg.cc/nr5ktsY8/Self-Support-And-Donations.png)
 
 Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my [Wishlist](https://store.steampowered.com/wishlist/id/Mlie) or buy me a cup of tea.
 
-[![Image](https://i.imgur.com/VWG0yff.png)](https://ko-fi.com/G2G55DDYD)
+[![Image](https://i.postimg.cc/4yn5MvtR/Kofi-Small.png)](https://ko-fi.com/G2G55DDYD)
 
-![Image](https://i.imgur.com/5xwDG6H.png)
+![Image](https://i.postimg.cc/cC6mj7Y4/Self-Reporting-Issues.png)
 
 
 
