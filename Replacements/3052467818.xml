@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198076544762</Author>
+  <ModId>nimrag.scenariosearchbar</ModId>
+  <ModName>Scenario Searchbars</ModName>
+  <ReplacementAuthor>Nimrag</ReplacementAuthor>
+  <ReplacementModId>nimrag.scenariosearchbar</ReplacementModId>
+  <ReplacementName>Scenario Searchbars [1.6]</ReplacementName>
+  <ReplacementSteamId>3579415129</ReplacementSteamId>
+  <SteamId>3052467818</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
