@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>
+  </Author>
+  <ModId>Plat.OPAtomizer</ModId>
+  <ModName>OP Atomizer 1.5</ModName>
+  <ReplacementAuthor>Belinko</ReplacementAuthor>
+  <ReplacementModId>belinko.GoodAtomizer</ReplacementModId>
+  <ReplacementName>OP Atomizer (Continued)</ReplacementName>
+  <ReplacementSteamId>3580141413</ReplacementSteamId>
+  <SteamId>3222784879</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

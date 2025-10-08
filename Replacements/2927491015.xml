@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197993690125</Author>
+  <ModId>Mlie.AndroidTiersTXSeries</ModId>
+  <ModName>Android tiers - TX Series (Continued)</ModName>
+  <ReplacementAuthor>aRandomKiwi, CrackaJack; 1.6 port by shelp</ReplacementAuthor>
+  <ReplacementModId>shelp.AndroidTiersTXSeries.1.6Port</ReplacementModId>
+  <ReplacementName>Android tiers - TX Series (1.6 Port)</ReplacementName>
+  <ReplacementSteamId>3579662510</ReplacementSteamId>
+  <SteamId>2927491015</SteamId>
+  <Versions>1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
