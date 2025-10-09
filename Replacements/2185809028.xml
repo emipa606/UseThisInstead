@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197991129326</Author>
+  <ModId>dhultgren.useminifiedbuildings</ModId>
+  <ModName>Use Minified Buildings</ModName>
+  <ReplacementAuthor>Programmer-Lily</ReplacementAuthor>
+  <ReplacementModId>buildfromstorage.programmerlily.com</ReplacementModId>
+  <ReplacementName>Build From Storage</ReplacementName>
+  <ReplacementSteamId>3523011187</ReplacementSteamId>
+  <SteamId>2185809028</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
