@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198169244520</Author>
+  <ModId>co.uk.epicguru.antimatterannihilation</ModId>
+  <ModName>Antimatter Annihilation</ModName>
+  <ReplacementAuthor>Epicguru (James B)</ReplacementAuthor>
+  <ReplacementModId>co.uk.epicguru.antimatterannihilation</ReplacementModId>
+  <ReplacementName>Antimatter Annihilation (1.6 Temporary Update)</ReplacementName>
+  <ReplacementSteamId>3583860914</ReplacementSteamId>
+  <SteamId>2113692574</SteamId>
+  <Versions>1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
