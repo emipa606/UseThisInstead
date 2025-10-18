@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198313372292</Author>
+  <ModId>alt4s.PrimitiveFridge</ModId>
+  <ModName>Primitive Fridge</ModName>
+  <ReplacementAuthor>serzhuk</ReplacementAuthor>
+  <ReplacementModId>serzhuk.PrimitiveFridge</ReplacementModId>
+  <ReplacementName>Primitive Fridge (Continued)</ReplacementName>
+  <ReplacementSteamId>3588183529</ReplacementSteamId>
+  <SteamId>3218602770</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198082999029</Author>
+  <ModId>Peanutter.JugglingMod</ModId>
+  <ModName>Juggling</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.juggling</ReplacementModId>
+  <ReplacementName>Juggling (Continued)</ReplacementName>
+  <ReplacementSteamId>3588545948</ReplacementSteamId>
+  <SteamId>2880272189</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

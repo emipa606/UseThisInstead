@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198046592121</Author>
+  <ModId>ONegative.ReworkedTemperatureExtremeEvents</ModId>
+  <ModName>Reworked Temperature Extreme Events [1.3]</ModName>
+  <ReplacementAuthor>Makari Aeron</ReplacementAuthor>
+  <ReplacementModId>MakariAeron.AdjustableTemperatureEvents</ReplacementModId>
+  <ReplacementName>Adjustable Temperature Events</ReplacementName>
+  <ReplacementSteamId>2894673715</ReplacementSteamId>
+  <SteamId>1372130541</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

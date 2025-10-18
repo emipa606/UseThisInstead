@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197971028520</Author>
+  <ModId>moretraitslots.kv.rw</ModId>
+  <ModName>[KV] More Trait Slots</ModName>
+  <ReplacementAuthor>Rainbeau Flambe (original), Kiame Vivacity, Taranchuk</ReplacementAuthor>
+  <ReplacementModId>moretraitslots.kv.rw</ReplacementModId>
+  <ReplacementName>[KV] More Trait Slots [1.4]</ReplacementName>
+  <ReplacementSteamId>2878346573</ReplacementSteamId>
+  <SteamId>1508292711</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198221685648</Author>
+  <ModId>tophd7.MedicalIVs</ModId>
+  <ModName>Medical IVs</ModName>
+  <ReplacementAuthor>Cantaloupe The Clown</ReplacementAuthor>
+  <ReplacementModId>cantaloupetheclown.MedicalIVsFork</ReplacementModId>
+  <ReplacementName>Medical IVs Fork</ReplacementName>
+  <ReplacementSteamId>3480177412</ReplacementSteamId>
+  <SteamId>3260029110</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

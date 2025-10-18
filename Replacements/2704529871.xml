@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198414820033</Author>
+  <ModId>Cliffyq.FootTrafficHeatmap</ModId>
+  <ModName>Foot Traffic Heatmap</ModName>
+  <ReplacementAuthor>
+  </ReplacementAuthor>
+  <ReplacementModId>missionz3r0.FootTrafficHeatmap</ReplacementModId>
+  <ReplacementName>Foot Traffic Heatmap</ReplacementName>
+  <ReplacementSteamId>3240217316</ReplacementSteamId>
+  <SteamId>2704529871</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

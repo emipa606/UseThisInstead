@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198017085779</Author>
+  <ModId>Owlchemist.AnimalGear.Equipment</ModId>
+  <ModName>Animal Equipment</ModName>
+  <ReplacementAuthor>Ingendum</ReplacementAuthor>
+  <ReplacementModId>Ingendum.AnimalArmorBasic</ReplacementModId>
+  <ReplacementName>Animal Apparel: Basic Armor</ReplacementName>
+  <ReplacementSteamId>3513849448</ReplacementSteamId>
+  <SteamId>2568865984</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>
