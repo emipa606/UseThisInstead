@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>
+  </Author>
+  <ModId>biowreck.hyperweaveplantation</ModId>
+  <ModName>Hyperweave Plantation</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.hyperweaveplantation</ReplacementModId>
+  <ReplacementName>Hyperweave Plantation (Continued)</ReplacementName>
+  <ReplacementSteamId>3592666774</ReplacementSteamId>
+  <SteamId>3219563281</SteamId>
+  <Versions>1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>
