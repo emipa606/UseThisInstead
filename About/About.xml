@@ -70,8 +70,19 @@ Since modding is just a hobby for me I expect no donations to keep modding. If y
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]
+
+[img]https://img.litet.net/logos/Self-ReportingIssues.png[/img]
+[list]
+[*] See if the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3396308787][img]https://img.shields.io/github/v/release/emipa606/UseThisInstead?label=latest%20version&amp;style=plastic&amp;labelColor=0070cd&amp;color=white[/img][/url] | tags:  continued mods,  replacement suggestions</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.135</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.136</modVersion>
 </ModMetaData>
