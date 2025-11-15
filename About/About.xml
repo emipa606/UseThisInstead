@@ -20,7 +20,7 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.postimg.cc/PJc4kLbg/Self-Info.png[/img]
+  <description>[img]https://img.litet.net/logos/Self-Info.png[/img]
 
 [b]TLDR: This mod scans your installed mods and suggest working/more updated replacements for those mods[/b]
 
@@ -47,30 +47,19 @@ Mod-options
 
 [table]
     [tr]
-        [td][url=https://discord.gg/h5TY6DA][img]https://i.postimg.cc/T1h9SjbF/Discord.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/UseThisInstead][img]https://i.postimg.cc/fykKF7X4/Github.png[/img][/url][/td]
+        [td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/UseThisInstead][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.postimg.cc/MHXD40RW/Safe-To-Add.png[/img][/td]
-        [td][img]https://i.postimg.cc/sx1c8PSf/Safe-To-Remove.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToRemove.png[/img][/td]
     [/tr]
 [/table]
 
-[img]https://i.postimg.cc/nr5ktsY8/Self-Support-And-Donations.png[/img]
+[img]https://img.litet.net/logos/Self-SupportAndDonations.png[/img]
 Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my [url=https://store.steampowered.com/wishlist/id/Mlie]Wishlist[/url] or buy me a cup of tea.
 
-[url=https://ko-fi.com/G2G55DDYD][img]https://i.postimg.cc/4yn5MvtR/Kofi-Small.png[/img][/url]
-
-[img]https://i.postimg.cc/cC6mj7Y4/Self-Reporting-Issues.png[/img]
-[list]
-[*] See if the the error persists if you just have this mod and its requirements active.
-[*] If not, try adding your other mods until it happens again.
-[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
-[*] For best support, please use the Discord-channel for error-reporting.
-[*] Do not report errors by making a discussion-thread, I get no notification of that.
-[*] If you have the solution for a problem, please post it to the GitHub repository.
-[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]
+[url=https://ko-fi.com/G2G55DDYD][img]https://img.litet.net/logos/Kofi-Small.png[/img][/url]
 
 [img]https://img.litet.net/logos/Self-ReportingIssues.png[/img]
 [list]
@@ -84,5 +73,5 @@ Since modding is just a hobby for me I expect no donations to keep modding. If y
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3396308787][img]https://img.shields.io/github/v/release/emipa606/UseThisInstead?label=latest%20version&amp;style=plastic&amp;labelColor=0070cd&amp;color=white[/img][/url] | tags:  continued mods,  replacement suggestions</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.137</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.138</modVersion>
 </ModMetaData>
