@@ -1,14 +1,14 @@
+using HarmonyLib;
+using MiniJSON;
+using Steamworks;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Compression;
 using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Threading;
-using System.Xml;
-using System.Xml.Serialization;
-using HarmonyLib;
-using Steamworks;
 using UnityEngine;
 using UnityEngine.Networking;
 using Verse;
@@ -18,18 +18,21 @@ namespace UseThisInstead;
 [StaticConstructorOnStartup]
 public static class UseThisInstead
 {
-    public static Vector2 ScrollPosition;
     private static Dictionary<ulong, ModReplacement> modReplacements = [];
-    public static List<ModReplacement> FoundModReplacements;
+    private static string replacementsPath = Path.Combine(
+        UseThisInsteadMod.Instance.Content.RootDir,
+        "replacements.json");
+    private static Uri replacementsUrl = new("https://data.litet.net/replacements.json.gz");
+    private static Uri alternateUrl = new("https://raw.githubusercontent.com/Mlie/UseThisInstead/main/replacements.json.gz");
     private static bool scanning;
-    public static bool Replacing;
     public static bool ActivityMonitor;
     public static bool AnythingChanged;
+    public static List<ModReplacement> FoundModReplacements;
+    public static bool Replacing;
+    public static Vector2 ScrollPosition;
     public static List<string> StatusMessages;
     public static bool? UsingLatestVersion;
-
-    private static readonly Uri versionUri =
-        new("https://raw.githubusercontent.com/emipa606/UseThisInstead/main/About/Manifest.xml");
+    private static FieldInfo modsFieldInfo = AccessTools.Field(typeof(ModLister), "mods");
 
     static UseThisInstead()
     {
@@ -39,67 +42,10 @@ public static class UseThisInstead
         ThreadPool.QueueUserWorkItem(_ => checkLatestVersionAsync());
     }
 
-    public static bool IsVersionCheckComplete { get; private set; }
-
-    private static void checkLatestVersionAsync()
+    private static void addToStatusMessage(string message)
     {
-        try
-        {
-            using var webRequest = UnityWebRequest.Get(versionUri.ToString());
-            webRequest.SendWebRequest();
-            while (!webRequest.isDone)
-            {
-                Thread.Sleep(100);
-            }
-
-            if (webRequest.result == UnityWebRequest.Result.Success)
-            {
-                var manifestDocument = new XmlDocument();
-                manifestDocument.LoadXml(webRequest.downloadHandler.text);
-                var currentVersion = UseThisInsteadMod.CurrentVersion;
-                UsingLatestVersion =
-                    currentVersion == manifestDocument.SelectSingleNode("/Manifest/version")?.InnerText;
-                if (UsingLatestVersion == true)
-                {
-                    logMessage($"Using latest version: {currentVersion}");
-                }
-                else
-                {
-                    logMessage(
-                        $"You are not using the latest version of the mod: {manifestDocument.SelectSingleNode("/Manifest/version")?.InnerText}{Environment.NewLine}Suggestions may be out of date!",
-                        warning: true);
-                }
-            }
-        }
-        catch (Exception e)
-        {
-            logMessage($"Failed to check for latest version: {e}");
-        }
-        finally
-        {
-            IsVersionCheckComplete = true;
-        }
-    }
-
-    public static void CheckForReplacements(bool noWait = false)
-    {
-        if (scanning)
-        {
-            return;
-        }
-
-        if (noWait)
-        {
-            checkForReplacements();
-            return;
-        }
-
-        scanning = true;
-        new Thread(() =>
-        {
-            Thread.CurrentThread.IsBackground = true;
-            checkForReplacements();
-        }).Start();
+        StatusMessages.Add(message);
+        logMessage(message, true);
     }
 
     private static void checkForReplacements()
@@ -107,6 +53,12 @@ public static class UseThisInstead
         if (!modReplacements.Any())
         {
             loadAllReplacementFiles();
+        }
+
+        if(!modReplacements.Any())
+        {
+            scanning = false;
+            return;
         }
 
         FoundModReplacements = [];
@@ -138,7 +90,7 @@ public static class UseThisInstead
 
             while (!replacement.ReplacementSupportsVersion())
             {
-                if (!modReplacements.TryGetValue(replacement.ReplacementSteamId, out var newReplacement))
+                if (!modReplacements.TryGetValue(replacement.GetNewPublishedFileId(), out var newReplacement))
                 {
                     break;
                 }
@@ -166,139 +118,212 @@ public static class UseThisInstead
             FoundModReplacements.Add(replacement);
         }
 
-        FoundModReplacements = FoundModReplacements.OrderBy(replacement => replacement.ModName).ToList();
+        FoundModReplacements = FoundModReplacements.OrderBy(replacement => replacement.oldName).ToList();
 
         logMessage($"Found {FoundModReplacements.Count} replacements", true);
 
         scanning = false;
     }
 
+    private static void checkLatestVersionAsync()
+    {
+        try
+        {
+            var lastVersion = UseThisInsteadMod.Instance.LastVersion;
+            if(!File.Exists(replacementsPath))
+            {
+                lastVersion = null;
+            }
+            foreach(var url in new[] { replacementsUrl, alternateUrl })
+            {
+                var request = UnityWebRequest.Get(url);
+
+                if(!string.IsNullOrEmpty(lastVersion))
+                {
+                    request.SetRequestHeader("If-None-Match", lastVersion);
+                }
+
+                request.SendWebRequest();
+                while(!request.isDone)
+                {
+                    Thread.Sleep(100);
+                }
+                if(request.responseCode == 304)
+                {
+                    logMessage($"Replacement database is up to date, checksum: {lastVersion}.");
+                    break;
+                } else if(request.result == UnityWebRequest.Result.Success)
+                {
+                    string newEtag = request.GetResponseHeader("ETag");
+                    string json = DecompressGzip(request.downloadHandler.data);
+                    SaveCached(replacementsPath, json);
+                    logMessage($"Updated replacement database from checksum {lastVersion} to {newEtag}");
+                    if(url == alternateUrl)
+                    {
+                        UseThisInsteadMod.Instance.LastAlternateVersion = newEtag;
+                    }
+                    else
+                    {
+                        UseThisInsteadMod.Instance.LastVersion = newEtag;
+                    }
+                    break;
+                } else
+                {
+                    logMessage($"Failed to update replacement database from {url}: {request.error}");
+                    lastVersion = UseThisInsteadMod.Instance.LastAlternateVersion;
+                    if (!File.Exists(replacementsPath))
+                    {
+                        lastVersion = null;
+                    }
+                }
+            }
+
+            void SaveCached(string file, string content) { File.WriteAllText(file, content); }
+        }
+        catch (Exception e)
+        {
+            logMessage($"Failed to check for latest version: {e}");
+        }
+        finally
+        {
+            IsVersionCheckComplete = true;
+            CheckForReplacements();
+        }
+    }
+
+    private static string DecompressGzip(byte[] compressed)
+    {
+        using var ms = new MemoryStream(compressed);
+        using var gz = new GZipStream(ms, CompressionMode.Decompress);
+        using var sr = new StreamReader(gz, System.Text.Encoding.UTF8);
+        return sr.ReadToEnd();
+    }
+
+    private static bool isSubscribedToMod(PublishedFileId_t modId)
+    {
+        var state = (EItemState)SteamUGC.GetItemState(modId);
+        return (state & EItemState.k_EItemStateSubscribed) != 0;
+    }
+
+
     private static void loadAllReplacementFiles()
     {
         modReplacements = [];
 
-        var replacementFiles = Directory.GetFiles(UseThisInsteadMod.ReplacementsFolderPath, "*.xml");
-        foreach (var replacementFile in replacementFiles)
+        if (!File.Exists(replacementsPath))
         {
-            using var streamReader = new StreamReader(replacementFile);
-            var xml = streamReader.ReadToEnd();
-            try
-            {
-                var serializer = new XmlSerializer(typeof(ModReplacement));
-                var replacement = (ModReplacement)serializer.Deserialize(new StringReader(xml));
-                modReplacements[replacement.SteamId] = replacement;
-            }
-            catch (Exception exception)
-            {
-                logMessage($"Failed to parse xml for {replacementFile}: {exception}", warning: true);
-            }
+            logMessage($"No replacement database found at {replacementsPath}, skipping loading replacements");
+            return;
         }
 
-        logMessage($"Loaded {modReplacements.Count} possible replacements");
+        logMessage($"Loading replacement database from {replacementsPath}");
+        try
+        {
+            var json = File.ReadAllText(replacementsPath);
+
+            if (string.IsNullOrWhiteSpace(json) || !json.TrimStart().StartsWith("{"))
+            {
+                logMessage("replacements.json does not start with '{' — malformed JSON?", warning: true);
+                return;
+            }
+
+            if (Json.Deserialize(json) is not Dictionary<string, object> root || !root.ContainsKey("rules"))
+            {
+                logMessage("Failed to parse replacements.json: rules missing", warning: true);
+                return;
+            }
+
+            var rules = root["rules"] as List<object>;
+            foreach (var rObj in rules)
+            {
+                if (rObj is not Dictionary<string, object> rDict) 
+                    continue;
+
+                var mod = new ModReplacement
+                {
+                    oldWorkshopId = rDict.GetValueOrDefault("oldWorkshopId") as string,
+                    oldName = rDict.GetValueOrDefault("oldName") as string,
+                    oldAuthor = rDict.GetValueOrDefault("oldAuthor") as string,
+                    oldPackageId = rDict.GetValueOrDefault("oldPackageId") as string,
+
+                    newWorkshopId = rDict.GetValueOrDefault("newWorkshopId") as string,
+                    newName = rDict.GetValueOrDefault("newName") as string,
+                    newAuthor = rDict.GetValueOrDefault("newAuthor") as string,
+                    newPackageId = rDict.GetValueOrDefault("newPackageId") as string,
+
+                    oldVersions = (rDict.GetValueOrDefault("oldVersions") as List<object>)?.Select(v => v.ToString()).ToArray() ?? [],
+                    newVersions = (rDict.GetValueOrDefault("newVersions") as List<object>)?.Select(v => v.ToString()).ToArray() ?? []
+                };
+
+                if (!string.IsNullOrEmpty(mod.oldWorkshopId))
+                {
+                    modReplacements[mod.GetOldPublishedFileId()] = mod;
+                }
+            }
+
+            logMessage($"Loaded {modReplacements.Count} possible replacements (generated {root.GetValueOrDefault("version")})");
+
+        }
+        catch (Exception exception)
+        {
+            logMessage($"Failed to parse replacements.json: {exception}", warning: true);
+        }
     }
 
-    public static void ReplaceMods(List<ModReplacement> replacements)
+
+    private static void logMessage(string message, bool force = false, bool warning = false)
     {
-        if (Replacing)
+        if (warning)
+        {
+            Log.Warning($"[UseThisInstead]: {message}");
+            return;
+        }
+
+        if (!force && !UseThisInsteadMod.Instance.Settings.VeboseLogging)
         {
             return;
         }
 
-        Replacing = true;
-        StatusMessages = [];
-        var counter = 0;
-        foreach (var modReplacement in replacements)
+        Log.Message($"[UseThisInstead]: {message}");
+    }
+
+    private static bool subscribeToMod(PublishedFileId_t modId, string modName)
+    {
+        var installedMods = ModLister.AllInstalledMods.ToList();
+        var subscribedMod = installedMods.FirstOrDefault(data => data.GetPublishedFileId() == modId);
+        if (subscribedMod != null)
         {
-            counter++;
-            addToStatusMessage("UTI.replacing".Translate(modReplacement.ModName, counter, replacements.Count));
-            var justReplace = !modReplacement.ModMetaData.Active ||
-                              modReplacement.ReplacementModId == modReplacement.ModId;
-            if (!justReplace)
-            {
-                ModsConfig.SetActive(modReplacement.ModId, false);
-            }
-
-            if (!unSubscribeToMod(modReplacement.ModMetaData, modReplacement.ModName))
-            {
-                continue;
-            }
-
-            Thread.Sleep(10);
-
-            if (!subscribeToMod(modReplacement.GetReplacementPublishedFileId(), modReplacement.ReplacementName))
-            {
-                continue;
-            }
-
-            Thread.Sleep(10);
-
-            var installedMods = ModLister.AllInstalledMods.ToList();
-            var subscribedMod = installedMods.FirstOrDefault(data =>
-                data.GetPublishedFileId() == modReplacement.GetReplacementPublishedFileId());
-
-            if (subscribedMod == null)
-            {
-                Replacing = false;
-                continue;
-            }
-
-            var requirements = subscribedMod.GetRequirements();
-            List<string> requirementIds = [];
-            var modRequirements = requirements as ModRequirement[] ?? requirements.ToArray();
-            if (modRequirements.Any() && modRequirements.Any(requirement => !requirement.IsSatisfied))
-            {
-                addToStatusMessage("UTI.checkingRequirements".Translate());
-
-                foreach (var modRequirement in modRequirements.Where(requirement => !requirement.IsSatisfied))
-                {
-                    if (modRequirement is ModDependency dependency)
-                    {
-                        var match = Regex.Match(dependency.steamWorkshopUrl, @"\d+$");
-                        if (!match.Success)
-                        {
-                            addToStatusMessage("UTI.failedToSubscribe".Translate(dependency.displayName,
-                                dependency.steamWorkshopUrl));
-                            Replacing = false;
-                            continue;
-                        }
-
-                        var modId = ulong.Parse(match.Value);
-                        if (subscribeToMod(new PublishedFileId_t(modId), dependency.displayName))
-                        {
-                            requirementIds.Add(dependency.packageId);
-                            continue;
-                        }
-
-                        Replacing = false;
-                        continue;
-                    }
-
-                    if (!justReplace && modRequirement is ModIncompatibility incompatibility)
-                    {
-                        addToStatusMessage("UTI.incompatibility".Translate(subscribedMod.Name,
-                            incompatibility.displayName));
-                    }
-                }
-            }
-
-            if (justReplace)
-            {
-                continue;
-            }
-
-            addToStatusMessage("UTI.activatingMods".Translate());
-            foreach (var requirementId in requirementIds)
-            {
-                if (ModLister.GetActiveModWithIdentifier(requirementId, true) == null)
-                {
-                    ModsConfig.SetActive(requirementId, true);
-                }
-            }
-
-            ModsConfig.SetActive(modReplacement.ReplacementModId, true);
+            return true;
         }
 
-        Replacing = false;
+        addToStatusMessage("UTI.subscribing".Translate(modName, modId.m_PublishedFileId));
+        SteamUGC.SubscribeItem(modId);
+
+        var counter = 0;
+        var isSubscribed = isSubscribedToMod(modId);
+        addToStatusMessage("UTI.waitingSub".Translate());
+        while (!isSubscribed)
+        {
+            counter++;
+            if (counter > 120)
+            {
+                break;
+            }
+
+            Thread.Sleep(500);
+            ActivityMonitor = !ActivityMonitor;
+            isSubscribed = isSubscribedToMod(modId);
+        }
+
+        if (!isSubscribedToMod(modId))
+        {
+            addToStatusMessage("UTI.failedToSubscribe".Translate(modName, modId.m_PublishedFileId));
+            Replacing = false;
+            return false;
+        }
+
+        addToStatusMessage("UTI.subscribed".Translate(modName));
+        return true;
     }
 
     private static bool unSubscribeToMod(ModMetaData modMetaData, string modName)
@@ -343,74 +368,144 @@ public static class UseThisInstead
             return false;
         }
 
+
+        try
+        {
+            var currentMods = ModLister.AllInstalledMods;
+            currentMods = currentMods.Where(data => data.GetPublishedFileId() != modId).ToList();
+            modsFieldInfo.SetValue(null, currentMods.ToList());
+        }
+        catch
+        {
+            // Ignored
+        }
+
         addToStatusMessage("UTI.unsubscribed".Translate(modName));
         return true;
     }
 
-    private static bool isSubscribedToMod(PublishedFileId_t modId)
+    public static void CheckForReplacements(bool noWait = false)
     {
-        var state = (EItemState)SteamUGC.GetItemState(modId);
-        return (state & EItemState.k_EItemStateSubscribed) != 0;
-    }
-
-    private static bool subscribeToMod(PublishedFileId_t modId, string modName)
-    {
-        var installedMods = ModLister.AllInstalledMods.ToList();
-        var subscribedMod = installedMods.FirstOrDefault(data => data.GetPublishedFileId() == modId);
-        if (subscribedMod != null)
+        if (scanning)
         {
-            return true;
+            return;
         }
 
-        addToStatusMessage("UTI.subscribing".Translate(modName, modId.m_PublishedFileId));
-        SteamUGC.SubscribeItem(modId);
+        if (noWait)
+        {
+            checkForReplacements();
+            return;
+        }
 
+        scanning = true;
+        new Thread(
+            () =>
+            {
+                Thread.CurrentThread.IsBackground = true;
+                checkForReplacements();
+            }).Start();
+    }
+
+    public static void ReplaceMods(List<ModReplacement> replacements)
+    {
+        if (Replacing)
+        {
+            return;
+        }
+
+        Replacing = true;
+        StatusMessages = [];
         var counter = 0;
-        var isSubscribed = isSubscribedToMod(modId);
-        addToStatusMessage("UTI.waitingSub".Translate());
-        while (!isSubscribed)
+        foreach (var modReplacement in replacements)
         {
             counter++;
-            if (counter > 120)
+            addToStatusMessage("UTI.replacing".Translate(modReplacement.oldName, counter, replacements.Count));
+            var justReplace = !modReplacement.ModMetaData.Active ||
+                modReplacement.newWorkshopId == modReplacement.oldWorkshopId;
+            if (!justReplace)
             {
-                break;
+                ModsConfig.SetActive(modReplacement.oldPackageId, false);
             }
 
-            Thread.Sleep(500);
-            ActivityMonitor = !ActivityMonitor;
-            isSubscribed = isSubscribedToMod(modId);
+            if (!unSubscribeToMod(modReplacement.ModMetaData, modReplacement.oldName))
+            {
+                continue;
+            }
+
+            Thread.Sleep(10);
+
+            if (!subscribeToMod(modReplacement.GetReplacementPublishedFileId(), modReplacement.newName))
+            {
+                continue;
+            }
+
+            Thread.Sleep(10);
+
+            var installedMods = ModLister.AllInstalledMods.ToList();
+            var subscribedMod = installedMods.FirstOrDefault(
+                data => data.GetPublishedFileId() == modReplacement.GetReplacementPublishedFileId());
+
+            if (subscribedMod == null)
+            {
+                continue;
+            }
+
+            var requirements = subscribedMod.GetRequirements();
+            List<string> requirementIds = [];
+            var modRequirements = requirements as ModRequirement[] ?? requirements.ToArray();
+            if (modRequirements.Any() && modRequirements.Any(requirement => !requirement.IsSatisfied))
+            {
+                addToStatusMessage("UTI.checkingRequirements".Translate());
+
+                foreach (var modRequirement in modRequirements.Where(requirement => !requirement.IsSatisfied))
+                {
+                    if (modRequirement is ModDependency dependency)
+                    {
+                        var match = Regex.Match(dependency.steamWorkshopUrl, @"\d+$");
+                        if (!match.Success)
+                        {
+                            addToStatusMessage(
+                                "UTI.failedToSubscribe".Translate(dependency.displayName, dependency.steamWorkshopUrl));
+                            continue;
+                        }
+
+                        var modId = ulong.Parse(match.Value);
+                        if (subscribeToMod(new PublishedFileId_t(modId), dependency.displayName))
+                        {
+                            requirementIds.Add(dependency.packageId);
+                            continue;
+                        }
+
+                        continue;
+                    }
+
+                    if (!justReplace && modRequirement is ModIncompatibility incompatibility)
+                    {
+                        addToStatusMessage(
+                            "UTI.incompatibility".Translate(subscribedMod.Name, incompatibility.displayName));
+                    }
+                }
+            }
+
+            if (justReplace)
+            {
+                continue;
+            }
+
+            addToStatusMessage("UTI.activatingMods".Translate());
+            foreach (var requirementId in requirementIds)
+            {
+                if (ModLister.GetActiveModWithIdentifier(requirementId, true) == null)
+                {
+                    ModsConfig.SetActive(requirementId, true);
+                }
+            }
+
+            ModsConfig.SetActive(modReplacement.newPackageId, true);
         }
 
-        if (!isSubscribedToMod(modId))
-        {
-            addToStatusMessage("UTI.failedToSubscribe".Translate(modName, modId.m_PublishedFileId));
-            Replacing = false;
-            return false;
-        }
-
-        addToStatusMessage("UTI.subscribed".Translate(modName));
-        return true;
+        Replacing = false;
     }
 
-    private static void addToStatusMessage(string message)
-    {
-        StatusMessages.Add(message);
-        logMessage(message, true);
-    }
-
-    private static void logMessage(string message, bool force = false, bool warning = false)
-    {
-        if (warning)
-        {
-            Log.Warning($"[UseThisInstead]: {message}");
-            return;
-        }
-
-        if (!force && !UseThisInsteadMod.Instance.Settings.VeboseLogging)
-        {
-            return;
-        }
-
-        Log.Message($"[UseThisInstead]: {message}");
-    }
+    public static bool IsVersionCheckComplete { get; private set; }
 }

@@ -14,10 +14,32 @@ internal class UseThisInsteadMod : Mod
     /// </summary>
     public static UseThisInsteadMod Instance;
 
-    public static string ReplacementsFolderPath;
-
     public static string CurrentVersion;
 
+    public string LastVersion
+    {
+        get { 
+            return Settings.LastVersion; 
+        }
+        set
+        {
+            Settings.LastVersion = value;
+            WriteSettingsOnly();
+        }
+    }
+
+    public string LastAlternateVersion
+    {
+        get
+        {
+            return Settings.LastAlternateVersion;
+        }
+        set
+        {
+            Settings.LastAlternateVersion = value;
+            WriteSettingsOnly();
+        }
+    }
 
     /// <summary>
     ///     Constructor
@@ -28,8 +50,6 @@ internal class UseThisInsteadMod : Mod
         Instance = this;
         Settings = GetSettings<UseThisInsteadSettings>();
         CurrentVersion = VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
-        ReplacementsFolderPath = Path.Combine(Content.RootDir, "Replacements");
-        UseThisInstead.CheckForReplacements();
     }
 
     /// <summary>

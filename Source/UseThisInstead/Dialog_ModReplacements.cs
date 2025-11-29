@@ -60,38 +60,6 @@ public class Dialog_ModReplacements : Window
         Text.Font = GameFont.Medium;
 
         listingStandard.Label("UTI.foundReplacements".Translate(UseThisInstead.FoundModReplacements.Count));
-        if (UseThisInsteadMod.CurrentVersion != null)
-        {
-            Text.Font = GameFont.Tiny;
-            var extraText = "";
-            var tooltip = "";
-            switch (UseThisInstead.UsingLatestVersion)
-            {
-                case true:
-                    GUI.contentColor = Color.green;
-                    extraText = $" ({"UTI.usingLatestVersion".Translate()})";
-                    tooltip = "UTI.usingLatestVersionTooltip".Translate();
-                    break;
-                case false:
-                    GUI.contentColor = Color.red;
-                    extraText = $" ({"UTI.notUsingLatestVersion".Translate()})";
-                    tooltip = "UTI.notUsingLatestVersionTooltip".Translate();
-                    break;
-                case null:
-                    GUI.contentColor = Color.gray;
-                    tooltip = "UTI.FailedToFetchTooltip".Translate();
-                    break;
-            }
-
-            var labelRect =
-                listingStandard.Label($"{"UTI.modVersion".Translate(UseThisInsteadMod.CurrentVersion)}{extraText}");
-            if (!string.IsNullOrEmpty(tooltip))
-            {
-                TooltipHandler.TipRegion(labelRect, tooltip);
-            }
-
-            GUI.contentColor = Color.white;
-        }
 
         Text.Font = GameFont.Small;
         if (UseThisInstead.AnythingChanged)
@@ -247,8 +215,8 @@ public class Dialog_ModReplacements : Window
                 Widgets.DrawTextureFitted(previewRect.ContractedBy(1f), modInfo.ModMetaData.PreviewImage, 1f);
             }
 
-            Widgets.Label(leftModRect.TopHalf(), modInfo.ModName);
-            Widgets.Label(leftModRect.BottomHalf(), $"{"UTI.author".Translate()}{modInfo.Author}");
+            Widgets.Label(leftModRect.TopHalf(), modInfo.oldName);
+            Widgets.Label(leftModRect.BottomHalf(), $"{"UTI.author".Translate()}{modInfo.oldAuthor}");
             TooltipHandler.TipRegion(leftModRect, modInfo.SteamUri(true).AbsoluteUri);
             Widgets.DrawHighlightIfMouseover(leftModRect);
             if (Widgets.ButtonInvisible(leftModRect))
@@ -295,8 +263,8 @@ public class Dialog_ModReplacements : Window
                 }
             }
 
-            Widgets.Label(rightModRect.TopHalf(), modInfo.ReplacementName);
-            Widgets.Label(rightModRect.BottomHalf(), $"{"UTI.author".Translate()}{modInfo.ReplacementAuthor}");
+            Widgets.Label(rightModRect.TopHalf(), modInfo.newName);
+            Widgets.Label(rightModRect.BottomHalf(), $"{"UTI.author".Translate()}{modInfo.newAuthor}");
             TooltipHandler.TipRegion(rightModRect, modInfo.SteamUri().AbsoluteUri);
             if (!modInfo.ReplacementSupportsVersion())
             {

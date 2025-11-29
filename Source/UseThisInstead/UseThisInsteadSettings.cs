@@ -12,6 +12,8 @@ internal class UseThisInsteadSettings : ModSettings
     public bool OnlyRelevant;
     public bool PreferOverlay;
     public bool VeboseLogging;
+    public string LastVersion;
+    public string LastAlternateVersion;
 
     /// <summary>
     ///     Saving and loading the values
@@ -20,6 +22,8 @@ internal class UseThisInsteadSettings : ModSettings
     {
         base.ExposeData();
         Scribe_Values.Look(ref AllMods, "AllMods");
+        Scribe_Values.Look(ref LastVersion, "LastVersion");
+        Scribe_Values.Look(ref LastAlternateVersion, "LastAlternateVersion");
         Scribe_Values.Look(ref PreferOverlay, "PreferOverlay");
         Scribe_Values.Look(ref AlwaysShow, "AlwaysShow");
         Scribe_Values.Look(ref OnlyRelevant, "OnlyRelevant");
