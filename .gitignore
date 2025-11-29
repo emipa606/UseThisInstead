@@ -236,6 +236,5 @@ $RECYCLE.BIN/
 _PublisherPlus.xml
 lastrun.log
 
-Replacements/
 /replacements.json
 !replacements.json.gz
