@@ -1,5 +1,10 @@
 # Changelog for UseThisInstead
 
+1.6.149 - Changed to json-format and external download of rules
+Fixed progress indicator when replacing mods
+Mods should no longer be listed in the replacement-window after removal
+
+
 1.6.148 - Maintanence. Added 2 rules and removed 1. Total rules: 2191
 
 

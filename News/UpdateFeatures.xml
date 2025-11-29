@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="UseThisInstead_UpdateFeatureBase">
+		<modNameReadable>UseThisInstead</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3396308787</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="UseThisInstead_UpdateFeatureBase">
+		<defName>UseThisInstead_1_6_148</defName>
+		<assemblyVersion>1.6.148</assemblyVersion>
+		<content>This mod had its rules defined as separate xml-files for each replacement.
+As the amount of rules now is above 2000 and requires daily updates, this has started to cause issues. Partly due to the relative slowness of reading thousands of files to generate the rule-set, but also having to republish the mod each day.
+As steam can take a while to update mods, some users may get old definitions and would have to resubscribe to the mod to force steam to download the latest version.
+That is why I now instead store all rules in one json-file that gets downloaded by the mod if there is a new version published. The file will be distributed via Cloudflare with a backup using Github.
+Hopefully this will make it easier to keep the rules updated for all users!</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+
