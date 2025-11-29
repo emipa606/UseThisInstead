@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198018724252</Author>
+  <ModId>Anomalous.DynamicPopulation</ModId>
+  <ModName>Dynamic Population</ModName>
+  <ReplacementAuthor>Maxhusky</ReplacementAuthor>
+  <ReplacementModId>net.maxhusky.population</ReplacementModId>
+  <ReplacementName>[MFH] Max's Population Settings</ReplacementName>
+  <ReplacementSteamId>3525027977</ReplacementSteamId>
+  <SteamId>1658712035</SteamId>
+  <Versions>1.0,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

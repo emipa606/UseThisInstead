@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Covre</Author>
+  <ModId>KIT.GunpowderWeapons</ModId>
+  <ModName>Kit's Gunpowder Weapons</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.kitgunpowder</ReplacementModId>
+  <ReplacementName>Kit's Gunpowder Weapons (Continued)</ReplacementName>
+  <ReplacementSteamId>3413714419</ReplacementSteamId>
+  <SteamId>2376928770</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

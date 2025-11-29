@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>crazedmonkey231</Author>
+  <ModId>mgr.rim</ModId>
+  <ModName>Metal Rim Rising</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.MetalRimRising</ReplacementModId>
+  <ReplacementName>Metal Rim Rising (Continued)</ReplacementName>
+  <ReplacementSteamId>3296073915</ReplacementSteamId>
+  <SteamId>2802023013</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

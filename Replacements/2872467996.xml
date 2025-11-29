@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>DetVisor</Author>
+  <ModId>MetalocifAndDetVisor.ValkyrieMech</ModId>
+  <ModName>Code: Valkyrie</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.valkyriemech</ReplacementModId>
+  <ReplacementName>Valkyrie Mech (Continued)</ReplacementName>
+  <ReplacementSteamId>3171145240</ReplacementSteamId>
+  <SteamId>2872467996</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

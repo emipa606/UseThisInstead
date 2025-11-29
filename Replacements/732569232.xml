@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Vindar</Author>
+  <ModId>
+  </ModId>
+  <ModName>Medieval Times</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.medievaltimes</ReplacementModId>
+  <ReplacementName>Medieval Times (Continued)</ReplacementName>
+  <ReplacementSteamId>2880558608</ReplacementSteamId>
+  <SteamId>732569232</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

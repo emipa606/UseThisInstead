@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198029054433</Author>
+  <ModId>Shenanigans.TribalBackstories</ModId>
+  <ModName>Tribal Backstories [1.3]</ModName>
+  <ReplacementAuthor>Shenanigans</ReplacementAuthor>
+  <ReplacementModId>Shenanigans.TribalBackstories1.4</ReplacementModId>
+  <ReplacementName>Tribal Backstories</ReplacementName>
+  <ReplacementSteamId>2879649038</ReplacementSteamId>
+  <SteamId>2773821103</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

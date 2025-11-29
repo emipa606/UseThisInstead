@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Torann</Author>
+  <ModId>torann.CaravanOptions</ModId>
+  <ModName>CaravanOptions</ModName>
+  <ReplacementAuthor>Oldasur</ReplacementAuthor>
+  <ReplacementModId>Oldasur.CaravanOptions</ReplacementModId>
+  <ReplacementName>CaravanOptions(Temp 1.6)</ReplacementName>
+  <ReplacementSteamId>3537224386</ReplacementSteamId>
+  <SteamId>1501729394</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>farmradish</Author>
+  <ModId>Farmradish.NyaronCosmetics</ModId>
+  <ModName>Biotech Nyaron</ModName>
+  <ReplacementAuthor>Montcal</ReplacementAuthor>
+  <ReplacementModId>Updated.NyaronCosmetics</ReplacementModId>
+  <ReplacementName>Biotech Nyaron Updated</ReplacementName>
+  <ReplacementSteamId>3538184875</ReplacementSteamId>
+  <SteamId>2881513314</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

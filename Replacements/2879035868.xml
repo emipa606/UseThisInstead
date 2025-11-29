@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Sea</Author>
+  <ModId>Xenofell.HermaphroditeGene</ModId>
+  <ModName>Hermaphrodite Gene</ModName>
+  <ReplacementAuthor>Rearden</ReplacementAuthor>
+  <ReplacementModId>Rearden.HermaphroditeGene</ReplacementModId>
+  <ReplacementName>Hermaphrodite Gene Continued</ReplacementName>
+  <ReplacementSteamId>3248739089</ReplacementSteamId>
+  <SteamId>2879035868</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

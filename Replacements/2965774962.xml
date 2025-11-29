@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>eth0net</Author>
+  <ModId>eth0net.CropStats</ModId>
+  <ModName>CropStats</ModName>
+  <ReplacementAuthor>
+  </ReplacementAuthor>
+  <ReplacementModId>planetace.cropstats</ReplacementModId>
+  <ReplacementName>Crop Stats</ReplacementName>
+  <ReplacementSteamId>3515900767</ReplacementSteamId>
+  <SteamId>2965774962</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

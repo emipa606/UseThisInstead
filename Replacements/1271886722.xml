@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Tremeloe</Author>
+  <ModId>
+  </ModId>
+  <ModName>[b18] Mushroom Lamps (Growable+)</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.MushroomLamps</ReplacementModId>
+  <ReplacementName>Mushroom Lamps (Continued)</ReplacementName>
+  <ReplacementSteamId>2379021572</ReplacementSteamId>
+  <SteamId>1271886722</SteamId>
+  <Versions>0.18</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

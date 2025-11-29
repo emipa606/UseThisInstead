@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Bidibits</Author>
+  <ModId>bidibits.cards.kurin</ModId>
+  <ModName>BitCards - Kurin</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.bitcardskurin</ReplacementModId>
+  <ReplacementName>BitCards - Kurin (Continued)</ReplacementName>
+  <ReplacementSteamId>2869166668</ReplacementSteamId>
+  <SteamId>2203112328</SteamId>
+  <Versions>1.1,1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

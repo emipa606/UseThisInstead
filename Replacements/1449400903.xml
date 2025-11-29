@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>[cn]nuclear</Author>
+  <ModId>
+  </ModId>
+  <ModName>Thermal Power:Reactor</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.ThermalPowerReactor</ReplacementModId>
+  <ReplacementName>Thermal Power:Reactor (Continued)</ReplacementName>
+  <ReplacementSteamId>2812229582</ReplacementSteamId>
+  <SteamId>1449400903</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Oldking</Author>
+  <ModId>Oldking.MultiBedRoyaltyPatch</ModId>
+  <ModName>Multi-Bed Royalty Patch</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.MultiBedRoyaltyPatch</ReplacementModId>
+  <ReplacementName>Multi-Bed Royalty Patch (Continued)</ReplacementName>
+  <ReplacementSteamId>2441022091</ReplacementSteamId>
+  <SteamId>2066116134</SteamId>
+  <Versions>1.1</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>BalmyStar</Author>
+  <ModId>BalmyStar.BAROTRAUMAmusic</ModId>
+  <ModName>BAROTRAUMA Music</ModName>
+  <ReplacementAuthor>GodlyAnnihilator</ReplacementAuthor>
+  <ReplacementModId>godlyannihilator.BAROTRAUMAmusic</ReplacementModId>
+  <ReplacementName>BAROTRAUMA Music 1.5</ReplacementName>
+  <ReplacementSteamId>3227692785</ReplacementSteamId>
+  <SteamId>3025958807</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>

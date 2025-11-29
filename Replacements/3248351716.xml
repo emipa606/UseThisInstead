@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198963422589</Author>
+  <ModId>h2forge.InclusiveSkinTones</ModId>
+  <ModName>Inclusive Skin Tones</ModName>
+  <ReplacementAuthor>Various</ReplacementAuthor>
+  <ReplacementModId>Koth.InclusiveSkinTones</ReplacementModId>
+  <ReplacementName>Inclusive Skin Tones 1.6</ReplacementName>
+  <ReplacementSteamId>3551840130</ReplacementSteamId>
+  <SteamId>3248351716</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

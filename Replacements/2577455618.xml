@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Waether</Author>
+  <ModId>waether.biosculptingplus</ModId>
+  <ModName>BioSculptingPlus</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.BioSculptingPlus</ReplacementModId>
+  <ReplacementName>BioSculptingPlus (Continued)</ReplacementName>
+  <ReplacementSteamId>3272451634</ReplacementSteamId>
+  <SteamId>2577455618</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>pelador</Author>
+  <ModId>
+  </ModId>
+  <ModName>Common Ailments</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.CommonAilments</ReplacementModId>
+  <ReplacementName>Common Ailments (Continued)</ReplacementName>
+  <ReplacementSteamId>2194968364</ReplacementSteamId>
+  <SteamId>2003149630</SteamId>
+  <Versions>1.1</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

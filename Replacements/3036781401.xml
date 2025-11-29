@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>cjgunnar</Author>
+  <ModId>cjgunnar.HiddenEnemyBio</ModId>
+  <ModName>Hidden Enemy Bio</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.HiddenEnemyBio</ReplacementModId>
+  <ReplacementName>Hidden Enemy Bio (Continued)</ReplacementName>
+  <ReplacementSteamId>3290742314</ReplacementSteamId>
+  <SteamId>3036781401</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

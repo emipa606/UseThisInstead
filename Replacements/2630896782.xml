@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Ben Lubar</Author>
+  <ModId>me.lubar.PrisonCommons</ModId>
+  <ModName>Prison Commons</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.PrisonCommons</ReplacementModId>
+  <ReplacementName>Prison Commons (Continued)</ReplacementName>
+  <ReplacementSteamId>2898000489</ReplacementSteamId>
+  <SteamId>2630896782</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

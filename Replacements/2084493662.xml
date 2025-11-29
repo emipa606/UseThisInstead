@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Fluffy</Author>
+  <ModId>Fluffy.BackupPower</ModId>
+  <ModName>Backup Power</ModName>
+  <ReplacementAuthor>Mersid</ReplacementAuthor>
+  <ReplacementModId>Mersid.BackupPowerUpdated</ReplacementModId>
+  <ReplacementName>Backup Power (Updated)</ReplacementName>
+  <ReplacementSteamId>3071356899</ReplacementSteamId>
+  <SteamId>2084493662</SteamId>
+  <Versions>1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

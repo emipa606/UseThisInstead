@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Oopah</Author>
+  <ModId>
+  </ModId>
+  <ModName>Blood Pact Ritual</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.BloodPactRitual</ReplacementModId>
+  <ReplacementName>Blood Pact Ritual (Continued)</ReplacementName>
+  <ReplacementSteamId>2194097170</ReplacementSteamId>
+  <SteamId>939055832</SteamId>
+  <Versions>0.17</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

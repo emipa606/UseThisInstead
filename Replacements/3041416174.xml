@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>迷雾旅人</Author>
+  <ModId>MapleApple.HighDensityHydroponics.Fixed</ModId>
+  <ModName>HighDensityHydroponics</ModName>
+  <ReplacementAuthor>Yume|MapleApple|ZouHb|Zades</ReplacementAuthor>
+  <ReplacementModId>MapleApple.HighDensityHydroponics.Fixed.ZouHb.zades</ReplacementModId>
+  <ReplacementName>High Density Hydroponics</ReplacementName>
+  <ReplacementSteamId>3534458015</ReplacementSteamId>
+  <SteamId>3041416174</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198027957889</Author>
+  <ModId>sflegion.genomist</ModId>
+  <ModName>Genomics</ModName>
+  <ReplacementAuthor>SFLegion</ReplacementAuthor>
+  <ReplacementModId>sflegion.genomist.continued</ReplacementModId>
+  <ReplacementName>Genomics (Continued)</ReplacementName>
+  <ReplacementSteamId>3604480838</ReplacementSteamId>
+  <SteamId>3019723795</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

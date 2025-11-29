@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Nova</Author>
+  <ModId>
+  </ModId>
+  <ModName>Fox Expansion</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.fox</ReplacementModId>
+  <ReplacementName>Fox Expansion (Continued)</ReplacementName>
+  <ReplacementSteamId>2818483526</ReplacementSteamId>
+  <SteamId>1978525050</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

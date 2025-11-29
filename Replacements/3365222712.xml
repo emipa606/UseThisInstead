@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Zaljerem</Author>
+  <ModId>zal.skillpotions</ModId>
+  <ModName>Skill Potions (Continued)</ModName>
+  <ReplacementAuthor>Copper Boltwire</ReplacementAuthor>
+  <ReplacementModId>Kegarr.CB745.SP</ReplacementModId>
+  <ReplacementName>Skill Potions</ReplacementName>
+  <ReplacementSteamId>2835350577</ReplacementSteamId>
+  <SteamId>3365222712</SteamId>
+  <Versions>1.5,1.6</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

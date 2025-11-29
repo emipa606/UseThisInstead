@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Amlifurx</Author>
+  <ModId>Amlifurx.StoryPack.SydailyFox</ModId>
+  <ModName>【1.2】SydailyFox</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.AFSydailyFox</ReplacementModId>
+  <ReplacementName>[Legacy] 【AF】SydailyFox (Continued)</ReplacementName>
+  <ReplacementSteamId>2817403346</ReplacementSteamId>
+  <SteamId>2134320184</SteamId>
+  <Versions>1.1,1.2</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>

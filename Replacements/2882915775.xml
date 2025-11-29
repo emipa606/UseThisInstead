@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>porio</Author>
+  <ModId>Porio.TunnulerFix</ModId>
+  <ModName>Allow Tunnelers To Drill</ModName>
+  <ReplacementAuthor>Kazami zam</ReplacementAuthor>
+  <ReplacementModId>Porio.TunnulerFix</ReplacementModId>
+  <ReplacementName>TEMPORARY 1.6 Allow Tunnelers To Drill</ReplacementName>
+  <ReplacementSteamId>3232132812</ReplacementSteamId>
+  <SteamId>2882915775</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

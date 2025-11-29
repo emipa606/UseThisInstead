@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Kriptobaam</Author>
+  <ModId>KEP.Ionic</ModId>
+  <ModName>KEP:Ionic Armoury</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.KEPIonic</ReplacementModId>
+  <ReplacementName>KEP:Ionic Armoury (Continued)</ReplacementName>
+  <ReplacementSteamId>2800023279</ReplacementSteamId>
+  <SteamId>2370590775</SteamId>
+  <Versions>1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

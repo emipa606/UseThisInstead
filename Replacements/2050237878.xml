@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>DoomsDay 343</Author>
+  <ModId>Doomsday343.Doomsdaysmelee</ModId>
+  <ModName>DD melee pack</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.doomsdaysweapons</ReplacementModId>
+  <ReplacementName>Doomsday's Weapons (Continued)</ReplacementName>
+  <ReplacementSteamId>2889806100</ReplacementSteamId>
+  <SteamId>2050237878</SteamId>
+  <Versions>1.1,1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

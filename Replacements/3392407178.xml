@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Louize</Author>
+  <ModId>8Z.CookCarefully</ModId>
+  <ModName>Cook Carefully</ModName>
+  <ReplacementAuthor>8Z</ReplacementAuthor>
+  <ReplacementModId>8Z.CookCarefully</ReplacementModId>
+  <ReplacementName>[1.3-1.6] Cook Carefully</ReplacementName>
+  <ReplacementSteamId>2846590640</ReplacementSteamId>
+  <SteamId>3392407178</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

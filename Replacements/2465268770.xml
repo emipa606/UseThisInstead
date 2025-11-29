@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Veronika Holmes</Author>
+  <ModId>VerriganHolmes.AutomatonII.AutomatonIIMod</ModId>
+  <ModName>[1.2] Automatons II: Robotic Boogaloo [1.4 UPDATE IN DESCRIPTION]</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.automatonstoo</ReplacementModId>
+  <ReplacementName>Automatons II: Robotic Boogaloo (Continued)</ReplacementName>
+  <ReplacementSteamId>2970480303</ReplacementSteamId>
+  <SteamId>2465268770</SteamId>
+  <Versions>1.2</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

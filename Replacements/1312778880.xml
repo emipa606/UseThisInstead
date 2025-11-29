@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Funeral Clown 4 Hire</Author>
+  <ModId>domian.core</ModId>
+  <ModName>Domian Conflict Pack (1.1 update)</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.domian</ReplacementModId>
+  <ReplacementName>Domian Conflict Pack (Continued)</ReplacementName>
+  <ReplacementSteamId>2855937981</ReplacementSteamId>
+  <SteamId>1312778880</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198095412602</Author>
+  <ModId>Xevion.HydroponicsExpanded</ModId>
+  <ModName>Hydroponics Expanded</ModName>
+  <ReplacementAuthor>ER</ReplacementAuthor>
+  <ReplacementModId>ER.HydroponicsExpandedContinued</ReplacementModId>
+  <ReplacementName>Hydroponics Expanded (Continued)</ReplacementName>
+  <ReplacementSteamId>3600238326</ReplacementSteamId>
+  <SteamId>3005196131</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

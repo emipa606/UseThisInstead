@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>YAYO</Author>
+  <ModId>com.yayo.election</ModId>
+  <ModName>VOTE and LEADER</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.VOTEAndLEADER</ReplacementModId>
+  <ReplacementName>VOTE and LEADER (Continued)</ReplacementName>
+  <ReplacementSteamId>2896484287</ReplacementSteamId>
+  <SteamId>2561949131</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

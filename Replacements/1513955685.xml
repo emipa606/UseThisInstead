@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>dracoix 🐉</Author>
+  <ModId>
+  </ModId>
+  <ModName>ZARS Simple Fish [B19]</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.simplefish</ReplacementModId>
+  <ReplacementName>ZARS Simple Fish (Continued)</ReplacementName>
+  <ReplacementSteamId>2941173785</ReplacementSteamId>
+  <SteamId>1513955685</SteamId>
+  <Versions>0.19</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

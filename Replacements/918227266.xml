@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Xen and Jecrell</Author>
+  <ModId>projectjedi.factions</ModId>
+  <ModName>Star Wars - Factions [Deprecated]</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.StarWarsFactions</ReplacementModId>
+  <ReplacementName>Star Wars - Factions (Continued)</ReplacementName>
+  <ReplacementSteamId>3544900066</ReplacementSteamId>
+  <SteamId>918227266</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

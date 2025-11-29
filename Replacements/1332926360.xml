@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Chakyl</Author>
+  <ModId>
+  </ModId>
+  <ModName>Synergy Flower B18</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.SynergyFlower</ReplacementModId>
+  <ReplacementName>Synergy Flower (Continued)</ReplacementName>
+  <ReplacementSteamId>2805487274</ReplacementSteamId>
+  <SteamId>1332926360</SteamId>
+  <Versions>0.18</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

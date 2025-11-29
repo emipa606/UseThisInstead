@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>legodude17</Author>
+  <ModId>legodude17.heavyweaponsreloading</ModId>
+  <ModName>Vanilla Weapons Expanded - Heavy - Reloading Patch</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.heavyweaponsreloading</ReplacementModId>
+  <ReplacementName>Vanilla Weapons Expanded - Heavy - Reloading Patch (Continued)</ReplacementName>
+  <ReplacementSteamId>3283751362</ReplacementSteamId>
+  <SteamId>2364527746</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

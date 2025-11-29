@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Myrleia</Author>
+  <ModId>beyondultra.smartweapons</ModId>
+  <ModName>Beyond Ultratech: Smart Weapons</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.beyondultrasmartweapons</ReplacementModId>
+  <ReplacementName>Beyond Ultratech: Smart Weapons (Continued)</ReplacementName>
+  <ReplacementSteamId>3171018274</ReplacementSteamId>
+  <SteamId>2636816296</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>topp2000</Author>
+  <ModId>Topp2000.CIWS.Defense</ModId>
+  <ModName>CIWS_Defense</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.CIWSDefense</ReplacementModId>
+  <ReplacementName>CIWS_Defense (Continued)</ReplacementName>
+  <ReplacementSteamId>2610390414</ReplacementSteamId>
+  <SteamId>1493496244</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

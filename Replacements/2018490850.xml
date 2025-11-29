@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Anonemous2, wofl</Author>
+  <ModId>wofl.MoreFurnitureUpdated</ModId>
+  <ModName>More Furniture [1.1 + 1.2]</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.MoreFurniture</ReplacementModId>
+  <ReplacementName>More Furniture (Continued)</ReplacementName>
+  <ReplacementSteamId>2565302299</ReplacementSteamId>
+  <SteamId>2018490850</SteamId>
+  <Versions>1.1,1.2</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

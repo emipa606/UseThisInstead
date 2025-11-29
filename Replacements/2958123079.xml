@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197993690125</Author>
+  <ModId>Mlie.WarhammerFimir</ModId>
+  <ModName>Warhammer: Fimir (Continued)</ModName>
+  <ReplacementAuthor>Kompadt</ReplacementAuthor>
+  <ReplacementModId>Kompadt.Warhammer.Fimir.z</ReplacementModId>
+  <ReplacementName>Warhammer: Fimir 1.6</ReplacementName>
+  <ReplacementSteamId>3605026676</ReplacementSteamId>
+  <SteamId>2958123079</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

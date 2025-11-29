@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Neildmac</Author>
+  <ModId>
+  </ModId>
+  <ModName>Caridion Arsenal A17 (Legacy)</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.CaridionArsenal</ReplacementModId>
+  <ReplacementName>Caridion Arsenal (Continued)</ReplacementName>
+  <ReplacementSteamId>2332908273</ReplacementSteamId>
+  <SteamId>846378171</SteamId>
+  <Versions>0.17</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

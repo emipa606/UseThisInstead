@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198042626816</Author>
+  <ModId>roolo.AlmostThere</ModId>
+  <ModName>Almost There!</ModName>
+  <ReplacementAuthor>Duztamva</ReplacementAuthor>
+  <ReplacementModId>duz.almosttherefork</ReplacementModId>
+  <ReplacementName>Almost There! Fork</ReplacementName>
+  <ReplacementSteamId>3515165298</ReplacementSteamId>
+  <SteamId>2372543327</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

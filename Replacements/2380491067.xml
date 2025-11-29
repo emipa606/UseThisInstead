@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>
+  </Author>
+  <ModId>Murmur.ThreatPointCap</ModId>
+  <ModName>Threat Point Cap</ModName>
+  <ReplacementAuthor>1trickPwnyta</ReplacementAuthor>
+  <ReplacementModId>unlimitedthreatscale.1trickPwnyta</ReplacementModId>
+  <ReplacementName>Unlimited Threat Scale</ReplacementName>
+  <ReplacementSteamId>2562732435</ReplacementSteamId>
+  <SteamId>2380491067</SteamId>
+  <Versions>1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

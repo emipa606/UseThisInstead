@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Wuerger</Author>
+  <ModId>Wuerger.Frontline.Bunkers.Addon</ModId>
+  <ModName>Frontline - Additional Guns for Bunkers</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.FrontlineAdditionalGunsForBunkers</ReplacementModId>
+  <ReplacementName>Frontline - Additional Guns for Bunkers (Continued)</ReplacementName>
+  <ReplacementSteamId>2471434138</ReplacementSteamId>
+  <SteamId>1547118378</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

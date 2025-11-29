@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Zephy</Author>
+  <ModId>biotech.avali</ModId>
+  <ModName>Biotech - Avali</ModName>
+  <ReplacementAuthor>miniusAreas</ReplacementAuthor>
+  <ReplacementModId>biotech.avali.forked</ReplacementModId>
+  <ReplacementName>Biotech Avali Forked</ReplacementName>
+  <ReplacementSteamId>3240216906</ReplacementSteamId>
+  <SteamId>2893711709</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

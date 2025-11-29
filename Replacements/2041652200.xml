@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Sielfyr</Author>
+  <ModId>Sielfyr.VetFoodRestriction</ModId>
+  <ModName>Animals Don't Need Lavish Meal To Heal</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.AnimalsDontNeedLavishMealToHeal</ReplacementModId>
+  <ReplacementName>Animals Don't Need Lavish Meal To Heal (Continued)</ReplacementName>
+  <ReplacementSteamId>3426238303</ReplacementSteamId>
+  <SteamId>2041652200</SteamId>
+  <Versions>1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

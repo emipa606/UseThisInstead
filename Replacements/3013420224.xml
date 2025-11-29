@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Oskar Potocki</Author>
+  <ModId>NoobertNebulous.Vidtuber</ModId>
+  <ModName>Noobert Nebulous - Vidtuber</ModName>
+  <ReplacementAuthor>LTS</ReplacementAuthor>
+  <ReplacementModId>NoobertNebulous.Vidtuber</ReplacementModId>
+  <ReplacementName>Noobert Nebulous - Vidtuber (Continued)</ReplacementName>
+  <ReplacementSteamId>3313984755</ReplacementSteamId>
+  <SteamId>3013420224</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198147260756</Author>
+  <ModId>LordOfTheRims.Dwarves.Reupload</ModId>
+  <ModName>Lord of the Rims - Dwarves Continued</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.lotrdwarves</ReplacementModId>
+  <ReplacementName>Lord of the Rims - Dwarves (Continued)</ReplacementName>
+  <ReplacementSteamId>3548257505</ReplacementSteamId>
+  <SteamId>3383095382</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

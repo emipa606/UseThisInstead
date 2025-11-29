@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>JisPichi</Author>
+  <ModId>jp.StrangerDanger</ModId>
+  <ModName>Stranger Danger</ModName>
+  <ReplacementAuthor>FerrisCG</ReplacementAuthor>
+  <ReplacementModId>jp.StrangerDanger</ReplacementModId>
+  <ReplacementName>Stranger Danger Continued</ReplacementName>
+  <ReplacementSteamId>3267912850</ReplacementSteamId>
+  <SteamId>2554037708</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>

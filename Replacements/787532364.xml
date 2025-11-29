@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>RK Skuller</Author>
+  <ModId>
+  </ModId>
+  <ModName>Destroyed City</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.DestroyedCity</ReplacementModId>
+  <ReplacementName>[Legacy] Destroyed City (Continued)</ReplacementName>
+  <ReplacementSteamId>2190314124</ReplacementSteamId>
+  <SteamId>787532364</SteamId>
+  <Versions>0.15</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>

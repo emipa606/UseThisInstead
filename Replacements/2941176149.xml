@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Zaljerem</Author>
+  <ModId>zal.legionaryequipment</ModId>
+  <ModName>Legionary Equipment (Continued)</ModName>
+  <ReplacementAuthor>Koni, Mlie, TurtleShroom, Sasha, Zaljeran</ReplacementAuthor>
+  <ReplacementModId>Mlie.AncientRimCore</ReplacementModId>
+  <ReplacementName>Ancient Rim Mod Series (Continued) (TSP)</ReplacementName>
+  <ReplacementSteamId>3507862392</ReplacementSteamId>
+  <SteamId>2941176149</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

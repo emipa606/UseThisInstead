@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Ben Lubar</Author>
+  <ModId>me.lubar.BlueprintMaterialDebt</ModId>
+  <ModName>Blueprint Material Debt</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.BlueprintMaterialDebt</ReplacementModId>
+  <ReplacementName>Blueprint Material Debt (Continued)</ReplacementName>
+  <ReplacementSteamId>3023764871</ReplacementSteamId>
+  <SteamId>2615407383</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

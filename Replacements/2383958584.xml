@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Bullet Magnet</Author>
+  <ModId>BulletMagnet.PSSLessLethalDefenceSystem</ModId>
+  <ModName>Less-Lethal Defence System - [out of date, new version linked inside]</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.LessLethal</ReplacementModId>
+  <ReplacementName>Less-Lethal Defence System</ReplacementName>
+  <ReplacementSteamId>2780596316</ReplacementSteamId>
+  <SteamId>2383958584</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

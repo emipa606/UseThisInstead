@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>tiagorbrodrigues</Author>
+  <ModId>TR.HardWA</ModId>
+  <ModName>Hardworking animals 1.5 - Forked</ModName>
+  <ReplacementAuthor>DADMANT</ReplacementAuthor>
+  <ReplacementModId>Daniledman.HardworkingAnimals</ReplacementModId>
+  <ReplacementName>Hardworking animals 1.6</ReplacementName>
+  <ReplacementSteamId>933324235</ReplacementSteamId>
+  <SteamId>3224445931</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

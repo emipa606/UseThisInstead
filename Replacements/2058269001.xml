@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Vaniat</Author>
+  <ModId>Vanya.VanillaEX.Abilities</ModId>
+  <ModName>Vanya's Abilities</ModName>
+  <ReplacementAuthor>RicoFox233</ReplacementAuthor>
+  <ReplacementModId>VanyaRF.VanillaEX.Abilities</ReplacementModId>
+  <ReplacementName>Vanya's Abilities</ReplacementName>
+  <ReplacementSteamId>3225537941</ReplacementSteamId>
+  <SteamId>2058269001</SteamId>
+  <Versions>1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

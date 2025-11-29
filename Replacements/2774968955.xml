@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Feng Xinzi</Author>
+  <ModId>bbb.buildhive.zh</ModId>
+  <ModName>Build your hive</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.buildhive</ReplacementModId>
+  <ReplacementName>Build Your Hive (Continued)</ReplacementName>
+  <ReplacementSteamId>2955420392</ReplacementSteamId>
+  <SteamId>2774968955</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Vogt</Author>
+  <ModId>Aze.HotkeysDev</ModId>
+  <ModName>Hotkeys 1.5</ModName>
+  <ReplacementAuthor>mitasamodel</ReplacementAuthor>
+  <ReplacementModId>Aze.Hotkeys.Fork.mitasamodel</ReplacementModId>
+  <ReplacementName>Hotkeys 1.6</ReplacementName>
+  <ReplacementSteamId>3536306259</ReplacementSteamId>
+  <SteamId>3271264818</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Josh Mate, OpGamer97</Author>
+  <ModId>JM.betterTraders</ModId>
+  <ModName>(DO NOT USE) Better Traders Unofficial</ModName>
+  <ReplacementAuthor>Josh Mate</ReplacementAuthor>
+  <ReplacementModId>JM.betterTraders</ReplacementModId>
+  <ReplacementName>Better Traders</ReplacementName>
+  <ReplacementSteamId>2012774042</ReplacementSteamId>
+  <SteamId>3526584952</SteamId>
+  <Versions>1.2,1.3,1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

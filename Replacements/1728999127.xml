@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Kikohi</Author>
+  <ModId>kikohi.forsakens</ModId>
+  <ModName>Forsakens</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.forsakens</ReplacementModId>
+  <ReplacementName>Forsakens (Continued)</ReplacementName>
+  <ReplacementSteamId>3263003456</ReplacementSteamId>
+  <SteamId>1728999127</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

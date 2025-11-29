@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Clown Cat</Author>
+  <ModId>ClownCat.VOEE.Ranch</ModId>
+  <ModName>Vanilla Outposts Expanded Expanded: Ranch</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.VanillaOutpostsExpandedExpandedRanch</ReplacementModId>
+  <ReplacementName>Vanilla Outposts Expanded Expanded: Ranch (Continued)</ReplacementName>
+  <ReplacementSteamId>2900645347</ReplacementSteamId>
+  <SteamId>2797007124</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

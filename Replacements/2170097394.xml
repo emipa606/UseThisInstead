@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Itzal</Author>
+  <ModId>itzal.vw.emg</ModId>
+  <ModName>Project Itzal - Even More Guns</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.piemg</ReplacementModId>
+  <ReplacementName>Project Itzal - Even More Guns (Continued)</ReplacementName>
+  <ReplacementSteamId>3101264921</ReplacementSteamId>
+  <SteamId>2170097394</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

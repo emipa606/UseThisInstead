@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Spidercamp</Author>
+  <ModId>SpiderCamp.SpiderCampHorses</ModId>
+  <ModName>Spidercamp's Horses</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.SpidercampsHorses</ReplacementModId>
+  <ReplacementName>Spidercamp's Horses (Continued)</ReplacementName>
+  <ReplacementSteamId>2580255266</ReplacementSteamId>
+  <SteamId>1233906319</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

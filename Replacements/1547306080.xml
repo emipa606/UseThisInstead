@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Xen</Author>
+  <ModId>xen.fix.tame</ModId>
+  <ModName>Xen's Taming Fixer</ModName>
+  <ReplacementAuthor>LuxJelly</ReplacementAuthor>
+  <ReplacementModId>luxx.fix.tame</ReplacementModId>
+  <ReplacementName>Xen's Taming Fixer (Continued)</ReplacementName>
+  <ReplacementSteamId>3143171343</ReplacementSteamId>
+  <SteamId>1547306080</SteamId>
+  <Versions>1.1</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

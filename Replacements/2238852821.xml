@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Cozar</Author>
+  <ModId>Cozarkian.RimSeasoning.VCookE</ModId>
+  <ModName>RimSeasoning VCE Patch</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.RSVCE</ReplacementModId>
+  <ReplacementName>RimSeasoning VCE Patch (Continued)</ReplacementName>
+  <ReplacementSteamId>2834295923</ReplacementSteamId>
+  <SteamId>2238852821</SteamId>
+  <Versions>1.2</Versions>
+  <ReplacementVersions>1.3,1.4</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Hohen</Author>
+  <ModId>HH.Coinage.LITE</ModId>
+  <ModName>Coinage Lite [HH]</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.coinage</ReplacementModId>
+  <ReplacementName>Coinage (Continued)</ReplacementName>
+  <ReplacementSteamId>3500063189</ReplacementSteamId>
+  <SteamId>2912839006</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

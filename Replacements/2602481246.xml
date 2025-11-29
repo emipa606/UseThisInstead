@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>CactusPie</Author>
+  <ModId>RimWorld.CactusPie.NoSlaveRomance</ModId>
+  <ModName>No slave romance</ModName>
+  <ReplacementAuthor>Laurient</ReplacementAuthor>
+  <ReplacementModId>RimWorld.CactusPie.NoSlaveRomance</ReplacementModId>
+  <ReplacementName>No Slave Romance (Re-Continued)</ReplacementName>
+  <ReplacementSteamId>3281170664</ReplacementSteamId>
+  <SteamId>2602481246</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

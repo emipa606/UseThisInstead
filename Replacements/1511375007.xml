@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>CookieWookiee (original) and Kiame Vivacity</Author>
+  <ModId>supplyanddemand.rw</ModId>
+  <ModName>[KV] Supply and Demand</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.KVSupplyAndDemand</ReplacementModId>
+  <ReplacementName>[KV] Supply and Demand (Continued)</ReplacementName>
+  <ReplacementSteamId>3290701666</ReplacementSteamId>
+  <SteamId>1511375007</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

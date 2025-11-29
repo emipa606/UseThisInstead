@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mlie</Author>
+  <ModId>
+  </ModId>
+  <ModName>Mechanoid Master Blaster</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.MechanoidMasterBlaster</ReplacementModId>
+  <ReplacementName>[Legacy] Mechanoid Master Blaster (Continued)</ReplacementName>
+  <ReplacementSteamId>2013229253</ReplacementSteamId>
+  <SteamId>1731170217</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>

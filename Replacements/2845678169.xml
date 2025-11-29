@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Atmey</Author>
+  <ModId>Atmey.SOSATExpansion</ModId>
+  <ModName>SOS2 AT Expansion</ModName>
+  <ReplacementAuthor>trigger</ReplacementAuthor>
+  <ReplacementModId>trigger.SOSATExpansionFork</ReplacementModId>
+  <ReplacementName>SOS2 AT Expansion 1.5 Fork</ReplacementName>
+  <ReplacementSteamId>3507824552</ReplacementSteamId>
+  <SteamId>2845678169</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.5</ReplacementVersions>
+</ModReplacement>

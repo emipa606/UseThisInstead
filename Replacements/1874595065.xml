@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>FlashPoint55</Author>
+  <ModId>FLASHPOINT55.SimpleOgreRaceremoverestrictionpatch</ModId>
+  <ModName>Simple Ogre Race remove restriction patch</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.SORRR</ReplacementModId>
+  <ReplacementName>Simple Ogre Race Remove Restriction Patch (Continued)</ReplacementName>
+  <ReplacementSteamId>2923824270</ReplacementSteamId>
+  <SteamId>1874595065</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

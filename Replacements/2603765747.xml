@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Owlchemist</Author>
+  <ModId>Owlchemist.CleanPathfinding</ModId>
+  <ModName>Clean Pathfinding 2</ModName>
+  <ReplacementAuthor>FerrisCG</ReplacementAuthor>
+  <ReplacementModId>Owlchemist.CleanPathfinding</ReplacementModId>
+  <ReplacementName>Clean Pathfinding 2 Continued</ReplacementName>
+  <ReplacementSteamId>3260446812</ReplacementSteamId>
+  <SteamId>2603765747</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.5</ReplacementVersions>
+</ModReplacement>

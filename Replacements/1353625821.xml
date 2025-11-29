@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Uuugggg</Author>
+  <ModId>Uuugggg.UseBedrolls</ModId>
+  <ModName>Use Bedrolls</ModName>
+  <ReplacementAuthor>TheLordDrake</ReplacementAuthor>
+  <ReplacementModId>TheLordDrake.UseBedrolls</ReplacementModId>
+  <ReplacementName>Use Bedrolls [Updated for 1.6]</ReplacementName>
+  <ReplacementSteamId>3530803039</ReplacementSteamId>
+  <SteamId>1353625821</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198012464791</Author>
+  <ModId>Erin.Chocobos</ModId>
+  <ModName>Erin's Chocobos</ModName>
+  <ReplacementAuthor>Erin</ReplacementAuthor>
+  <ReplacementModId>Erin.FFAnimals</ReplacementModId>
+  <ReplacementName>Erin's Final Fantasy Animals</ReplacementName>
+  <ReplacementSteamId>2877589761</ReplacementSteamId>
+  <SteamId>2573040103</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

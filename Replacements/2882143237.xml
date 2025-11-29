@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>NoSleeper</Author>
+  <ModId>NoSleep.Hemofungus</ModId>
+  <ModName>Hemofungus</ModName>
+  <ReplacementAuthor>FerrisCG</ReplacementAuthor>
+  <ReplacementModId>NoSleep.Hemofungus</ReplacementModId>
+  <ReplacementName>Hemofungus Continued</ReplacementName>
+  <ReplacementSteamId>3259446830</ReplacementSteamId>
+  <SteamId>2882143237</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

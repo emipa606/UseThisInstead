@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>tikubonn</Author>
+  <ModId>
+  </ModId>
+  <ModName>[b18] Land Fill (Terrains+)</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.LandFill</ReplacementModId>
+  <ReplacementName>Land Fill (Terrains+) (Continued)</ReplacementName>
+  <ReplacementSteamId>2162781055</ReplacementSteamId>
+  <SteamId>1274692210</SteamId>
+  <Versions>0.18</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

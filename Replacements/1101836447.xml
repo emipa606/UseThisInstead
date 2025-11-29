@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Profit</Author>
+  <ModId>
+  </ModId>
+  <ModName>mount and rim: worldband</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.mountrim</ReplacementModId>
+  <ReplacementName>Mount and Rim: Worldband (Continued)</ReplacementName>
+  <ReplacementSteamId>2611507969</ReplacementSteamId>
+  <SteamId>1101836447</SteamId>
+  <Versions>0.18</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

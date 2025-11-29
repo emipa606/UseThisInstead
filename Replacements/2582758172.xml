@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>busted_bunny</Author>
+  <ModId>bustedbunny.capturethem</ModId>
+  <ModName>Capture Them</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.CaptureThem</ReplacementModId>
+  <ReplacementName>Capture Them (Continued)</ReplacementName>
+  <ReplacementSteamId>3255137581</ReplacementSteamId>
+  <SteamId>2582758172</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

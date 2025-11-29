@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>the_codewarrior</Author>
+  <ModId>thecodewarrior.ArmoredFloors</ModId>
+  <ModName>Armored Floors</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.ArmoredFloors</ReplacementModId>
+  <ReplacementName>Armored Floors (Continued)</ReplacementName>
+  <ReplacementSteamId>3414421281</ReplacementSteamId>
+  <SteamId>2910219893</SteamId>
+  <Versions>1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

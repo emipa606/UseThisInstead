@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>shakeyourbunny</Author>
+  <ModId>shakeyourbunny.skeletallegion</ModId>
+  <ModName>Jernalk's Skeletal Legion (continued)</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.skeletallegion</ReplacementModId>
+  <ReplacementName>Jernfalk's Skeletal Legion (Continued)</ReplacementName>
+  <ReplacementSteamId>2886510562</ReplacementSteamId>
+  <SteamId>2255092108</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

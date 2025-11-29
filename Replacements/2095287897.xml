@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Clippy</Author>
+  <ModId>rayjay.SyntheticAnimals</ModId>
+  <ModName>Synthetic Animals</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.syntheticanimals</ReplacementModId>
+  <ReplacementName>Synthetic Animals (Continued)</ReplacementName>
+  <ReplacementSteamId>3171141566</ReplacementSteamId>
+  <SteamId>2095287897</SteamId>
+  <Versions>1.1,1.2</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

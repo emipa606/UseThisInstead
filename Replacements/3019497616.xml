@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>ArtisticFumbles</Author>
+  <ModId>qm.foundations</ModId>
+  <ModName>Foundations (Update)</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.foundations</ReplacementModId>
+  <ReplacementName>Foundations (Continued)</ReplacementName>
+  <ReplacementSteamId>3435258527</ReplacementSteamId>
+  <SteamId>3019497616</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

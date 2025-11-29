@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mosh</Author>
+  <ModId>
+  </ModId>
+  <ModName>EM Ancient Technology</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.EMAncientTechnology</ReplacementModId>
+  <ReplacementName>EM Ancient Technology (Continued)</ReplacementName>
+  <ReplacementSteamId>2568842105</ReplacementSteamId>
+  <SteamId>1347140034</SteamId>
+  <Versions>0.18</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

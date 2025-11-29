@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Sky</Author>
+  <ModId>sky.autoname.autonameanimals</ModId>
+  <ModName>Auto-Name Animals</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.AutoNameAnimals</ReplacementModId>
+  <ReplacementName>Auto-Name Animals (Continued)</ReplacementName>
+  <ReplacementSteamId>3402821177</ReplacementSteamId>
+  <SteamId>2911717665</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

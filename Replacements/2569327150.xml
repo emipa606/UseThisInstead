@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Seos</Author>
+  <ModId>seos.vfe.mechanoids.drones</ModId>
+  <ModName>VFE - Mechanoids : Drones</ModName>
+  <ReplacementAuthor>Scorpio</ReplacementAuthor>
+  <ReplacementModId>scorpio.savetheassembler</ReplacementModId>
+  <ReplacementName>Save the VEM Assembler and Prison Drones</ReplacementName>
+  <ReplacementSteamId>2679405627</ReplacementSteamId>
+  <SteamId>2569327150</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>

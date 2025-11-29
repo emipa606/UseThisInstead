@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Semo</Author>
+  <ModId>Semo583.GloomyHExtraHUHKitchen</ModId>
+  <ModName>Gloomy Extra - Kitchen</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.gloomyextrakitchen</ReplacementModId>
+  <ReplacementName>Gloomy Extra - Kitchen (Continued)</ReplacementName>
+  <ReplacementSteamId>3147698168</ReplacementSteamId>
+  <SteamId>1730938407</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

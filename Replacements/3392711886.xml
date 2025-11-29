@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561199804056576</Author>
+  <ModId>silkcircuit.pyronomaniac</ModId>
+  <ModName>Pyro-No-Maniac</ModName>
+  <ReplacementAuthor>echotidefish</ReplacementAuthor>
+  <ReplacementModId>EchoTideFish.PyronomaniacForked</ReplacementModId>
+  <ReplacementName>Pyro-No-Maniac 1.6</ReplacementName>
+  <ReplacementSteamId>3579661795</ReplacementSteamId>
+  <SteamId>3392711886</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

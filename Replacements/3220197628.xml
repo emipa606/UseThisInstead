@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Ionfrigate12345</Author>
+  <ModId>SR.ModRimworld.FactionalWarContinued</ModId>
+  <ModName>[SR]Factional War Continued [Abandoned]</ModName>
+  <ReplacementAuthor>llunak</ReplacementAuthor>
+  <ReplacementModId>SR.ModRimworld.FactionalWarContinued</ReplacementModId>
+  <ReplacementName>[SR]Factional War (fork)</ReplacementName>
+  <ReplacementSteamId>3423264477</ReplacementSteamId>
+  <SteamId>3220197628</SteamId>
+  <Versions>1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

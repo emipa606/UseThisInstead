@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Thom Blair III</Author>
+  <ModId>
+  </ModId>
+  <ModName>Small Power Cell [1.0]</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.smallpowercell</ReplacementModId>
+  <ReplacementName>Small Power Cell (Continued)</ReplacementName>
+  <ReplacementSteamId>3171140467</ReplacementSteamId>
+  <SteamId>1530315871</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

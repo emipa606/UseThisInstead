@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>XeoNovaDan</Author>
+  <ModId>
+  </ModId>
+  <ModName>[XND] Vanilla-Friendly Animal Surgery</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.XNDVanillaFriendlyAnimalSurgery</ReplacementModId>
+  <ReplacementName>[XND] Vanilla-Friendly Animal Surgery (Continued)</ReplacementName>
+  <ReplacementSteamId>2343960451</ReplacementSteamId>
+  <SteamId>1130112804</SteamId>
+  <Versions>0.18</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

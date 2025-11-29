@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Slashandz</Author>
+  <ModId>Slashandz.NoMoreUnstableFuelNodes</ModId>
+  <ModName>No More Unstable Fuel Nodes</ModName>
+  <ReplacementAuthor>HeatherAthebyne</ReplacementAuthor>
+  <ReplacementModId>heatherathebyne.NoMoreUnstableFuelNodes</ReplacementModId>
+  <ReplacementName>No More Unstable Fuel Nodes (Continued)</ReplacementName>
+  <ReplacementSteamId>3233745870</ReplacementSteamId>
+  <SteamId>2655289037</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

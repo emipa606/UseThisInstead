@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>PAD</Author>
+  <ModId>Lelbaro.Covetheus.LBC</ModId>
+  <ModName>[LB] Covetheus</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.covetheus</ReplacementModId>
+  <ReplacementName>Covetheus (Continued)</ReplacementName>
+  <ReplacementSteamId>2668329684</ReplacementSteamId>
+  <SteamId>2077371272</SteamId>
+  <Versions>1.1</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

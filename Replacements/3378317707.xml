@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>NickHaldon</Author>
+  <ModId>NoahS.RimsecSecurityContinued</ModId>
+  <ModName>Rimsec Security Continued</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.rimsecsecurity</ReplacementModId>
+  <ReplacementName>Rimsec Security (Continued)</ReplacementName>
+  <ReplacementSteamId>3520375010</ReplacementSteamId>
+  <SteamId>3378317707</SteamId>
+  <Versions>1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

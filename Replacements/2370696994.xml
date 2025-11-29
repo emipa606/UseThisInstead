@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>legodude17</Author>
+  <ModId>legodude17.vfemechscp</ModId>
+  <ModName>Vanilla Factions Expanded - Mechanoids - Auto-Mortar Shell Choice Patch</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.vfemechscp</ReplacementModId>
+  <ReplacementName>VFE Mechanoids - Auto-Mortar Shell Choice Patch (Continued)</ReplacementName>
+  <ReplacementSteamId>3253738736</ReplacementSteamId>
+  <SteamId>2370696994</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>NECEROS</Author>
+  <ModId>neceros.animalmedicalbed</ModId>
+  <ModName>Animal Medical Bed</ModName>
+  <ReplacementAuthor>GodlyAnnihilator</ReplacementAuthor>
+  <ReplacementModId>GodlyAnnihilator.AnimalMedicalBed</ReplacementModId>
+  <ReplacementName>Animal Medical Bed 1.5</ReplacementName>
+  <ReplacementSteamId>3221610549</ReplacementSteamId>
+  <SteamId>2016958187</SteamId>
+  <Versions>1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>

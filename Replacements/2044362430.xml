@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Captain Nemo</Author>
+  <ModId>pf.nemo</ModId>
+  <ModName>Primitive Firearms</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.pf</ReplacementModId>
+  <ReplacementName>Primitive Firearms (Continued)</ReplacementName>
+  <ReplacementSteamId>2621940474</ReplacementSteamId>
+  <SteamId>2044362430</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

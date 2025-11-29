@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>✬Rustic Fox✬</Author>
+  <ModId>RusticFox.FFGrenades</ModId>
+  <ModName>Firefoam Grenades [1.0->1.2]</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.FFGrenades</ReplacementModId>
+  <ReplacementName>Firefoam Grenades (Continued)</ReplacementName>
+  <ReplacementSteamId>2803318194</ReplacementSteamId>
+  <SteamId>2007832026</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

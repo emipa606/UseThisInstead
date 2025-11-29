@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Lumbago</Author>
+  <ModId>TheWingedGuy.WWII.Soviet.Faction</ModId>
+  <ModName>WWII Soviet Faction</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.WWIISovietFaction</ReplacementModId>
+  <ReplacementName>WWII Soviet Faction (Continued)</ReplacementName>
+  <ReplacementSteamId>2720749893</ReplacementSteamId>
+  <SteamId>1902717840</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

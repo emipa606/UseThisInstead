@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198015121418</Author>
+  <ModId>Ryflamer.Rimcraft.Animals</ModId>
+  <ModName>[Ry]Rimcraft Animals</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.rimcraftanimals</ReplacementModId>
+  <ReplacementName>[Ry]Rimcraft Animals (Continued)</ReplacementName>
+  <ReplacementSteamId>3599363187</ReplacementSteamId>
+  <SteamId>1710127259</SteamId>
+  <Versions>1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>ToyWalrus</Author>
+  <ModId>toywalrus.itemrequests</ModId>
+  <ModName>A Petition for Provisions</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.APetitionForProvisions</ReplacementModId>
+  <ReplacementName>A Petition for Provisions (Continued)</ReplacementName>
+  <ReplacementSteamId>2444190820</ReplacementSteamId>
+  <SteamId>1904213444</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

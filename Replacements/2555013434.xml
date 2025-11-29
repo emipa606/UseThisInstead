@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198016279777</Author>
+  <ModId>DevDesigner.RolesApparelUnlocked</ModId>
+  <ModName>Roles Apparel Unlocked</ModName>
+  <ReplacementAuthor>Delmain</ReplacementAuthor>
+  <ReplacementModId>DelmainTweaks.RoleApparel</ReplacementModId>
+  <ReplacementName>Delmain Tweaks - Role Apparel</ReplacementName>
+  <ReplacementSteamId>2980235255</ReplacementSteamId>
+  <SteamId>2555013434</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

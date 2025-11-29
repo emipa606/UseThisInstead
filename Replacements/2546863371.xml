@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Comigo Games</Author>
+  <ModId>ComigoGames.Miniaturization.Kitchen</ModId>
+  <ModName>Comigo's Nutrition</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.ComigosNutrition</ReplacementModId>
+  <ReplacementName>Comigo's Nutrition (Continued)</ReplacementName>
+  <ReplacementSteamId>3290758760</ReplacementSteamId>
+  <SteamId>2546863371</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

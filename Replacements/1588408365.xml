@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Neon1028</Author>
+  <ModId>
+  </ModId>
+  <ModName>[PS] Reconditioning Pod</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.PSReconditioningPod</ReplacementModId>
+  <ReplacementName>[PS] Reconditioning Pod (Continued)</ReplacementName>
+  <ReplacementSteamId>2044003955</ReplacementSteamId>
+  <SteamId>1588408365</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

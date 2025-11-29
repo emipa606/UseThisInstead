@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>busted_bunny</Author>
+  <ModId>bustedbunny.recylethis</ModId>
+  <ModName>Recycle This</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.RecycleThis</ReplacementModId>
+  <ReplacementName>Recycle This (Continued)</ReplacementName>
+  <ReplacementSteamId>3253550009</ReplacementSteamId>
+  <SteamId>2567877605</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

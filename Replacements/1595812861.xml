@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Charlotte</Author>
+  <ModId>notfood.Outfitted</ModId>
+  <ModName>Outfitted</ModName>
+  <ReplacementAuthor>Amoebanana</ReplacementAuthor>
+  <ReplacementModId>homiru.Outfitted</ReplacementModId>
+  <ReplacementName>Outfitted Continued</ReplacementName>
+  <ReplacementSteamId>3454809174</ReplacementSteamId>
+  <SteamId>1595812861</SteamId>
+  <Versions>1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5</ReplacementVersions>
+</ModReplacement>

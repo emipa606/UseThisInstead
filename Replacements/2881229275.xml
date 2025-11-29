@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Imoja</Author>
+  <ModId>Imoja.TastyHemo</ModId>
+  <ModName>TastyHemo</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.TastyHemo</ReplacementModId>
+  <ReplacementName>TastyHemo (Continued)</ReplacementName>
+  <ReplacementSteamId>3378134602</ReplacementSteamId>
+  <SteamId>2881229275</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

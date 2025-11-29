@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>kaamp</Author>
+  <ModId>Kaamp.MoreDryads</ModId>
+  <ModName>More Dryads</ModName>
+  <ReplacementAuthor>Klutz Specter</ReplacementAuthor>
+  <ReplacementModId>KlutzSpecter.MoreStuff.MoreDryads</ReplacementModId>
+  <ReplacementName>More Dryads 1.4-1.5</ReplacementName>
+  <ReplacementSteamId>3237409944</ReplacementSteamId>
+  <SteamId>2565352058</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>

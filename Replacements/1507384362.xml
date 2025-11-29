@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197971028520</Author>
+  <ModId>consolidatedtraits.kv.rw</ModId>
+  <ModName>[KV] Consolidated Traits</ModName>
+  <ReplacementAuthor>Rainbeau Flambe (original) &amp; Kiame Vivacity (exDev) &amp; Luca (Current Maintainer)</ReplacementAuthor>
+  <ReplacementModId>consolidatedtraits.lc.rw</ReplacementModId>
+  <ReplacementName>[LC] Consolidated Traits</ReplacementName>
+  <ReplacementSteamId>2879753009</ReplacementSteamId>
+  <SteamId>1507384362</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

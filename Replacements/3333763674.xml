@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Siveen</Author>
+  <ModId>Siveen.Drawbridges</ModId>
+  <ModName>Drawbridges (See Mlies version)</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.Drawbridges</ReplacementModId>
+  <ReplacementName>Drawbridges (Continued)</ReplacementName>
+  <ReplacementSteamId>3565815124</ReplacementSteamId>
+  <SteamId>3333763674</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

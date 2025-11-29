@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Jamity</Author>
+  <ModId>
+  </ModId>
+  <ModName>[1.0 | JAM] Brad's Plaid! (v1.0.2)</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.plaid</ReplacementModId>
+  <ReplacementName>[JAM] Brad's Plaid! (Continued)</ReplacementName>
+  <ReplacementSteamId>3157201443</ReplacementSteamId>
+  <SteamId>1450369061</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>ToyWalrus</Author>
+  <ModId>toywalrus.bsl</ModId>
+  <ModName>Sun Lamp+</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.SunLamp</ReplacementModId>
+  <ReplacementName>Sun Lamp+ (Continued)</ReplacementName>
+  <ReplacementSteamId>3009774333</ReplacementSteamId>
+  <SteamId>1884482150</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

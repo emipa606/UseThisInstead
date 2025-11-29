@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Sovereign</Author>
+  <ModId>Sovereign.Cerberusweapons</ModId>
+  <ModName>Cerberus Weapons / Mass Effect</ModName>
+  <ReplacementAuthor>Truchinsky</ReplacementAuthor>
+  <ReplacementModId>Truchinsky.CerberusFaction</ReplacementModId>
+  <ReplacementName>Cerberus Faction</ReplacementName>
+  <ReplacementSteamId>3390648157</ReplacementSteamId>
+  <SteamId>2761724281</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

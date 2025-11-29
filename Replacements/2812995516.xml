@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>SFLegion</Author>
+  <ModId>sflegion.vfeea.powerextract</ModId>
+  <ModName>VFEEA - Extract Super-Nanites</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.VFEEAExtractSuperNanites</ReplacementModId>
+  <ReplacementName>VFEEA - Extract Super-Nanites (Continued)</ReplacementName>
+  <ReplacementSteamId>3450725002</ReplacementSteamId>
+  <SteamId>2812995516</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>

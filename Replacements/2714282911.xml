@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Ouroboros</Author>
+  <ModId>medieval.prop.ouroboros</ModId>
+  <ModName>Fishing Village Decor and Props (Discontinued)</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.fishprops</ReplacementModId>
+  <ReplacementName>Fishing Village Decor and Props (Continued)</ReplacementName>
+  <ReplacementSteamId>2902499006</ReplacementSteamId>
+  <SteamId>2714282911</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

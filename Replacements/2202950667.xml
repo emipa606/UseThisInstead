@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>NECEROS</Author>
+  <ModId>neceros.packagedpizzasvanillarecipe</ModId>
+  <ModName>Packaged Pizzas Vanilla Recipe</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.packagedpizzasvanillarecipe</ReplacementModId>
+  <ReplacementName>Packaged Pizzas Vanilla Recipe (Continued)</ReplacementName>
+  <ReplacementSteamId>2806046556</ReplacementSteamId>
+  <SteamId>2202950667</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

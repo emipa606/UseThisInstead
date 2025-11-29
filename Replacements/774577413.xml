@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Alaestor</Author>
+  <ModId>Alaestor.QuantumCooling</ModId>
+  <ModName>[Abandoned] Quantum Cooling</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.QuantumCooling</ReplacementModId>
+  <ReplacementName>Quantum Cooling (Continued)</ReplacementName>
+  <ReplacementSteamId>2432699889</ReplacementSteamId>
+  <SteamId>774577413</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

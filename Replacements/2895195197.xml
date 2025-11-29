@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Seos</Author>
+  <ModId>seos.m.storages</ModId>
+  <ModName>Storage - Shelves</ModName>
+  <ReplacementAuthor>klvlt</ReplacementAuthor>
+  <ReplacementModId>seos.m.storages.klvlt.fork</ReplacementModId>
+  <ReplacementName>Storage - Shelves (Simplified Fork)</ReplacementName>
+  <ReplacementSteamId>3275179932</ReplacementSteamId>
+  <SteamId>2895195197</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

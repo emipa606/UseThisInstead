@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>民火</Author>
+  <ModId>tammybee.cutplantsbeforebuilding</ModId>
+  <ModName>Cut plants before building[1.0-1.4]</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.CutPlantsBeforeBuilding</ReplacementModId>
+  <ReplacementName>Cut plants before building (Continued)</ReplacementName>
+  <ReplacementSteamId>3286376165</ReplacementSteamId>
+  <SteamId>1539025677</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

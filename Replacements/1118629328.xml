@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Cryusaki</Author>
+  <ModId>
+  </ModId>
+  <ModName>WW1 Weapons Pack</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.WW1</ReplacementModId>
+  <ReplacementName>WW1 Weapons Pack (Continued)</ReplacementName>
+  <ReplacementSteamId>2611203791</ReplacementSteamId>
+  <SteamId>1118629328</SteamId>
+  <Versions>0.17</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

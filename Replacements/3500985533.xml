@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Eoral Milk</Author>
+  <ModId>Mehni.PickUpAndHaul.Unoffical</ModId>
+  <ModName>Pick Up And Haul Unoffical (1.6)</ModName>
+  <ReplacementAuthor>Mehni</ReplacementAuthor>
+  <ReplacementModId>Mehni.PickUpAndHaul</ReplacementModId>
+  <ReplacementName>Pick Up And Haul</ReplacementName>
+  <ReplacementSteamId>1279012058</ReplacementSteamId>
+  <SteamId>3500985533</SteamId>
+  <Versions>1.6</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

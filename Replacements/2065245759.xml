@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>民火</Author>
+  <ModId>tammybee.youcanharvest</ModId>
+  <ModName>You Can Harvest![1.1-1.4]</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.YouCanHarvest</ReplacementModId>
+  <ReplacementName>You Can Harvest! (Continued)</ReplacementName>
+  <ReplacementSteamId>3378783644</ReplacementSteamId>
+  <SteamId>2065245759</SteamId>
+  <Versions>1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

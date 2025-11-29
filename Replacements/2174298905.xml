@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197995219517</Author>
+  <ModId>AsGAlligator.TFTD</ModId>
+  <ModName>XCOM:Terror From the Deep weapons</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.tftd</ReplacementModId>
+  <ReplacementName>XCOM:Terror From the Deep Weapons (Continued)</ReplacementName>
+  <ReplacementSteamId>3569040277</ReplacementSteamId>
+  <SteamId>2174298905</SteamId>
+  <Versions>1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

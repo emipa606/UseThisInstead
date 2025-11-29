@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Taranchuk</Author>
+  <ModId>moretraitslots.kv.rw</ModId>
+  <ModName>[KV] More Trait Slots [1.4]</ModName>
+  <ReplacementAuthor>Side1iner</ReplacementAuthor>
+  <ReplacementModId>Side1iner.TraitSlotsPlus</ReplacementModId>
+  <ReplacementName>Trait Slots Plus</ReplacementName>
+  <ReplacementSteamId>3217782973</ReplacementSteamId>
+  <SteamId>2878346573</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

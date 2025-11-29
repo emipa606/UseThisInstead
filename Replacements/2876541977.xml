@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>joseasoler</Author>
+  <ModId>joseasoler.TradingOptions</ModId>
+  <ModName>Trading Options</ModName>
+  <ReplacementAuthor>José Ángel Soler Ortiz</ReplacementAuthor>
+  <ReplacementModId>joseasoler.TradingOptions</ReplacementModId>
+  <ReplacementName>Trading Options Continue</ReplacementName>
+  <ReplacementSteamId>3524414310</ReplacementSteamId>
+  <SteamId>2876541977</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

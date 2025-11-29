@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Xen</Author>
+  <ModId>xen.races.racc</ModId>
+  <ModName>Racc Race 1.1</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.raccrace</ReplacementModId>
+  <ReplacementName>Racc Race (Continued)</ReplacementName>
+  <ReplacementSteamId>3416366618</ReplacementSteamId>
+  <SteamId>2018388533</SteamId>
+  <Versions>1.1</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

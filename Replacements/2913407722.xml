@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>garfu</Author>
+  <ModId>lp.levelthisForked2</ModId>
+  <ModName>Level This! - Fixed Options</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.levelthis</ReplacementModId>
+  <ReplacementName>Level This! (Continued)</ReplacementName>
+  <ReplacementSteamId>3263017689</ReplacementSteamId>
+  <SteamId>2913407722</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

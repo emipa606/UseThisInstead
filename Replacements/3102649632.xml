@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198064363306</Author>
+  <ModId>GarryFlowers.GenderedGenes</ModId>
+  <ModName>[1.4/1.5] Gendered Genes</ModName>
+  <ReplacementAuthor>Garry Flowers</ReplacementAuthor>
+  <ReplacementModId>GarryFlowers.GenderedGenes2</ReplacementModId>
+  <ReplacementName>Gendered Genes 2</ReplacementName>
+  <ReplacementSteamId>3555383445</ReplacementSteamId>
+  <SteamId>3102649632</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

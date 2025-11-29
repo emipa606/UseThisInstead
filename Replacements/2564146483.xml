@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Shtossi</Author>
+  <ModId>com.RimWorld.Shtossi.Hyperweave</ModId>
+  <ModName>Hyperweave Plantation</ModName>
+  <ReplacementAuthor>biowreck</ReplacementAuthor>
+  <ReplacementModId>biowreck.hyperweaveplantation</ReplacementModId>
+  <ReplacementName>Hyperweave Plantation</ReplacementName>
+  <ReplacementSteamId>3219563281</ReplacementSteamId>
+  <SteamId>2564146483</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

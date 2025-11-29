@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Iwo Rosiak</Author>
+  <ModId>IwoRosiak.DreamersDream</ModId>
+  <ModName>Dreamer's Dreams</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.DreamersDreams</ReplacementModId>
+  <ReplacementName>Dreamer's Dreams (Continued)</ReplacementName>
+  <ReplacementSteamId>3584984139</ReplacementSteamId>
+  <SteamId>2514986353</SteamId>
+  <Versions>1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>SalmonToastie</Author>
+  <ModId>salmontoastie.lizardfolk_copy_copy</ModId>
+  <ModName>Forgotten Realms - Lizardfolk</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.lizardfolk</ReplacementModId>
+  <ReplacementName>Forgotten Realms - Lizardfolk (Continued)</ReplacementName>
+  <ReplacementSteamId>3146993377</ReplacementSteamId>
+  <SteamId>2417383578</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

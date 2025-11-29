@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Marn</Author>
+  <ModId>
+  </ModId>
+  <ModName>More Vanilla Turrets</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.morevanillaturrets</ReplacementModId>
+  <ReplacementName>More Vanilla Turrets (Continued)</ReplacementName>
+  <ReplacementSteamId>3283744514</ReplacementSteamId>
+  <SteamId>730528968</SteamId>
+  <Versions>0.17</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

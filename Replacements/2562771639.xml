@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>John Skibidi</Author>
+  <ModId>Faryzal2020.AMC.LRA</ModId>
+  <ModName>Absolutely More Cannons - Long Range Artillery [DEPRECATED]</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.AMCLRA</ReplacementModId>
+  <ReplacementName>Absolutely More Cannons - Long Range Artillery (Continued)</ReplacementName>
+  <ReplacementSteamId>2937664830</ReplacementSteamId>
+  <SteamId>2562771639</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>

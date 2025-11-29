@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>RamRod</Author>
+  <ModId>FalloutRaces.Ghouls</ModId>
+  <ModName>Fallout Races: Playable Ghoul Compatible with 1.1! Looking for Beta Testers for future mods.</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.falloutracesplayableghoul</ReplacementModId>
+  <ReplacementName>FCP - Fallout Races: Playable Ghoul (Continued)</ReplacementName>
+  <ReplacementSteamId>3288435857</ReplacementSteamId>
+  <SteamId>1908250492</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

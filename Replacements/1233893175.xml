@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Kiame Vivacity</Author>
+  <ModId>infinitestorage.kv.rw</ModId>
+  <ModName>[KV] Infinite Storage</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.KVInfiniteStorage</ReplacementModId>
+  <ReplacementName>[KV] Infinite Storage (Continued)</ReplacementName>
+  <ReplacementSteamId>2932669764</ReplacementSteamId>
+  <SteamId>1233893175</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

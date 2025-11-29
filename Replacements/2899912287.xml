@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Seos</Author>
+  <ModId>seos.m.storage.containers</ModId>
+  <ModName>Storage - Containers</ModName>
+  <ReplacementAuthor>klvlt</ReplacementAuthor>
+  <ReplacementModId>seos.m.storage.containers.klvlt.onefive</ReplacementModId>
+  <ReplacementName>Storage - Containers 1.5</ReplacementName>
+  <ReplacementSteamId>3275211616</ReplacementSteamId>
+  <SteamId>2899912287</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

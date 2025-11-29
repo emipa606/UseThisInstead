@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198119242914</Author>
+  <ModId>zeitloser.rimworldhearts</ModId>
+  <ModName>Rimworld Hearts</ModName>
+  <ReplacementAuthor>Zeitloser</ReplacementAuthor>
+  <ReplacementModId>zeitloser.rimworldhearts</ReplacementModId>
+  <ReplacementName>Rimworld Hearts (1.6 Fork)</ReplacementName>
+  <ReplacementSteamId>3593019877</ReplacementSteamId>
+  <SteamId>2386352416</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

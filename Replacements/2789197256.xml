@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Krelinos</Author>
+  <ModId>Krelinos.BiocodeIt</ModId>
+  <ModName>Biocode It!</ModName>
+  <ReplacementAuthor>tixiv</ReplacementAuthor>
+  <ReplacementModId>Tixiv.BiocodeIt</ReplacementModId>
+  <ReplacementName>Biocode It!</ReplacementName>
+  <ReplacementSteamId>3453796692</ReplacementSteamId>
+  <SteamId>2789197256</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

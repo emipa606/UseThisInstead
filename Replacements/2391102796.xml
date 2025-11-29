@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>MrKociak</Author>
+  <ModId>MrKociak.MoreArchotechStuffandThingsReupload</ModId>
+  <ModName>More Archotech Garbage [Discontinued, maybe still functional, wouldn't bet on that tho]</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.morearchotechgarbage</ReplacementModId>
+  <ReplacementName>More Archotech Garbage (Continued)</ReplacementName>
+  <ReplacementSteamId>3241944893</ReplacementSteamId>
+  <SteamId>2391102796</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>emitbreaker</Author>
+  <ModId>emitbreaker.MIM.WH40k.NC.Core</ModId>
+  <ModName>MIM - WH40k Necron Core</ModName>
+  <ReplacementAuthor>emitbreaker</ReplacementAuthor>
+  <ReplacementModId>emitbreaker.MIM.WH40k.NC.Core</ReplacementModId>
+  <ReplacementName>MIM Warhammer 40k Necron Core</ReplacementName>
+  <ReplacementSteamId>3517416016</ReplacementSteamId>
+  <SteamId>3092936341</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

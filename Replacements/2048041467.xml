@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Itzal</Author>
+  <ModId>itzal.pi.tmg</ModId>
+  <ModName>Project Itzal - Too Many Guns</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.pitoomg</ReplacementModId>
+  <ReplacementName>Project Itzal - Too Many Guns (Continued)</ReplacementName>
+  <ReplacementSteamId>3101261891</ReplacementSteamId>
+  <SteamId>2048041467</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

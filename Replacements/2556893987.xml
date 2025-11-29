@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>YAYO, Horsefry</Author>
+  <ModId>com.yayo.planet</ModId>
+  <ModName>Yayo's Planet 1.3</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.YayosPlanet</ReplacementModId>
+  <ReplacementName>Yayo's Planet (Continued)</ReplacementName>
+  <ReplacementSteamId>3009789220</ReplacementSteamId>
+  <SteamId>2556893987</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

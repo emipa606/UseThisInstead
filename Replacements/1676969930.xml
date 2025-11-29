@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>AUTOMATIC</Author>
+  <ModId>automatic.highqualitytextures</ModId>
+  <ModName>High quality textures</ModName>
+  <ReplacementAuthor>piercedupmetalhead</ReplacementAuthor>
+  <ReplacementModId>Chad.highqualitytextures1.5</ReplacementModId>
+  <ReplacementName>High Quality Textures 1.5</ReplacementName>
+  <ReplacementSteamId>3158892620</ReplacementSteamId>
+  <SteamId>1676969930</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>

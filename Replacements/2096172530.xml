@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Distman (Ministry Of Mom)</Author>
+  <ModId>MOM.MedievalRoyaltyFaction</ModId>
+  <ModName>Medieval Royalty Faction</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.MedievalRoyaltyFaction</ReplacementModId>
+  <ReplacementName>Medieval Royalty Faction (Continued)</ReplacementName>
+  <ReplacementSteamId>2645023261</ReplacementSteamId>
+  <SteamId>2096172530</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4</ReplacementVersions>
+</ModReplacement>

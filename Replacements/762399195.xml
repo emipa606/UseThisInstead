@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>erdelf</Author>
+  <ModId>
+  </ModId>
+  <ModName>Healing Gun</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.HealingGun</ReplacementModId>
+  <ReplacementName>Healing Gun (Continued)</ReplacementName>
+  <ReplacementSteamId>2779561472</ReplacementSteamId>
+  <SteamId>762399195</SteamId>
+  <Versions>0.19</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

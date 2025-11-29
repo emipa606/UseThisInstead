@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>silentdeth</Author>
+  <ModId>Silentdeth.SlavesArentPeople</ModId>
+  <ModName>Slaves Aren't People</ModName>
+  <ReplacementAuthor>Arky</ReplacementAuthor>
+  <ReplacementModId>Arkymn.SlavesArentPeople</ReplacementModId>
+  <ReplacementName>Slaves Aren't People (Unofficial)</ReplacementName>
+  <ReplacementSteamId>3406458432</ReplacementSteamId>
+  <SteamId>2897601862</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.5</ReplacementVersions>
+</ModReplacement>

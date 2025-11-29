@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>SalmonToastie</Author>
+  <ModId>salmontoastie.Loxo</ModId>
+  <ModName>Forgotten Realms - Loxo</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.loxo</ReplacementModId>
+  <ReplacementName>Forgotten Realms - Loxo (Continued)</ReplacementName>
+  <ReplacementSteamId>3147105686</ReplacementSteamId>
+  <SteamId>2699242889</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

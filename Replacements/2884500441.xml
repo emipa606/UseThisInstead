@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Unreal D</Author>
+  <ModId>Unreal.SameRoomLovin</ModId>
+  <ModName>Same Room Lovin'</ModName>
+  <ReplacementAuthor>MarximusMaximus</ReplacementAuthor>
+  <ReplacementModId>marximus.SameRoomLovin</ReplacementModId>
+  <ReplacementName>Same Room Lovin' (1.5, 1.6)</ReplacementName>
+  <ReplacementSteamId>3235762925</ReplacementSteamId>
+  <SteamId>2884500441</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

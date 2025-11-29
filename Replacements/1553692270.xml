@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Knight</Author>
+  <ModId>Knight.infiniteturrets</ModId>
+  <ModName>Infinite Turrets</ModName>
+  <ReplacementAuthor>Mengya</ReplacementAuthor>
+  <ReplacementModId>Mengya.NeedNoTurretBullets</ReplacementModId>
+  <ReplacementName>Turret Does Not Consume Ammo</ReplacementName>
+  <ReplacementSteamId>3235799418</ReplacementSteamId>
+  <SteamId>1553692270</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mazisky</Author>
+  <ModId>UltimateLighting.Mod</ModId>
+  <ModName>Lighting and Weather Graphics</ModName>
+  <ReplacementAuthor>GanjaMan [NL]</ReplacementAuthor>
+  <ReplacementModId>ganja.UltimateLighting.Mod</ReplacementModId>
+  <ReplacementName>Lighting and Weather Graphics (continued)</ReplacementName>
+  <ReplacementSteamId>3311701674</ReplacementSteamId>
+  <SteamId>3085549395</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>wool</Author>
+  <ModId>wool.uselesshair</ModId>
+  <ModName>uselesshair</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.uselesshair</ReplacementModId>
+  <ReplacementName>Useless Hair (Continued)</ReplacementName>
+  <ReplacementSteamId>3044216509</ReplacementSteamId>
+  <SteamId>2689011282</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

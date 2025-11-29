@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Balthoraz</Author>
+  <ModId>Balthoraz.RimUniverse.BiomesModule</ModId>
+  <ModName>RimUniverse - Biomes</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.RimUniverseBiomes</ReplacementModId>
+  <ReplacementName>RimUniverse - Biomes (Continued)</ReplacementName>
+  <ReplacementSteamId>2576823260</ReplacementSteamId>
+  <SteamId>2257048351</SteamId>
+  <Versions>1.2</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

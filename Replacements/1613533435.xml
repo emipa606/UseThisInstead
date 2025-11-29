@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Soyuz, DanRatherman, SpiderCamp, and dismarzero.</Author>
+  <ModId>
+  </ModId>
+  <ModName>Westerado</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.Westerado</ReplacementModId>
+  <ReplacementName>Westerado (Continued)</ReplacementName>
+  <ReplacementSteamId>2236973780</ReplacementSteamId>
+  <SteamId>1613533435</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

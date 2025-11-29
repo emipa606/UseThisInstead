@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Murmur</Author>
+  <ModId>Murmur.IncidentDisabler</ModId>
+  <ModName>Incident Disabler</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.IncidentDisabler</ReplacementModId>
+  <ReplacementName>Incident Disabler (Continued)</ReplacementName>
+  <ReplacementSteamId>3574116665</ReplacementSteamId>
+  <SteamId>2347633285</SteamId>
+  <Versions>1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Blue Bird</Author>
+  <ModId>bluebird.com.tammybee.raiderinfo</ModId>
+  <ModName>RaiderInfo[1.5] - Forked</ModName>
+  <ReplacementAuthor>pluralled</ReplacementAuthor>
+  <ReplacementModId>pluralled.raiderinfo</ReplacementModId>
+  <ReplacementName>RaiderInfo[1.6] - Forked</ReplacementName>
+  <ReplacementSteamId>3532072446</ReplacementSteamId>
+  <SteamId>3241731953</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

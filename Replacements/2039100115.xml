@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>zhrocks11</Author>
+  <ModId>zhrocks11.CraftableComponents</ModId>
+  <ModName>Easily Craftable Components [1.3+]</ModName>
+  <ReplacementAuthor>Kinetic tail</ReplacementAuthor>
+  <ReplacementModId>kinetictail.CraftableComponents</ReplacementModId>
+  <ReplacementName>Easily-Craftable-Components[Continued]</ReplacementName>
+  <ReplacementSteamId>3219473344</ReplacementSteamId>
+  <SteamId>2039100115</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

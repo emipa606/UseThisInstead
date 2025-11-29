@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Spdskatr,firefoxpdm,Mlie,kd8lvt</Author>
+  <ModId>firefoxpdm.ResearchableStatUpgrades</ModId>
+  <ModName>Researchable Stat Upgrades Rewritten</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.ResearchableStatUpgrades</ReplacementModId>
+  <ReplacementName>Researchable Stat Upgrades (Continued)</ReplacementName>
+  <ReplacementSteamId>3585148922</ReplacementSteamId>
+  <SteamId>2597460077</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>ZzZombo</Author>
+  <ModId>ZzZombo.commission.AnimalCages</ModId>
+  <ModName>Animal Cages</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.animalcages</ReplacementModId>
+  <ReplacementName>Animal Cages (Continued)</ReplacementName>
+  <ReplacementSteamId>3416360282</ReplacementSteamId>
+  <SteamId>2458577231</SteamId>
+  <Versions>1.1,1.2</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

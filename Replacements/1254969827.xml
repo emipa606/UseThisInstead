@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197993430118</Author>
+  <ModId>neceros.balancedeclipseandsolarflare</ModId>
+  <ModName>Balanced Eclipse and Solar Flare</ModName>
+  <ReplacementAuthor>NECEROS, forked by Skelly</ReplacementAuthor>
+  <ReplacementModId>Skelly.NECEROS.balancedeclipseandsolarflare.forked</ReplacementModId>
+  <ReplacementName>Balanced Eclipse and Solar Flare - Forked</ReplacementName>
+  <ReplacementSteamId>2929407615</ReplacementSteamId>
+  <SteamId>1254969827</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Keshash</Author>
+  <ModId>Caulaflower.ExtendedInjuries</ModId>
+  <ModName>[1.4] More Injuries</ModName>
+  <ReplacementAuthor>Th3_Fr3d</ReplacementAuthor>
+  <ReplacementModId>Th3Fr3d.ExtendedInjuries</ReplacementModId>
+  <ReplacementName>More Injuries (Continued)</ReplacementName>
+  <ReplacementSteamId>3348840185</ReplacementSteamId>
+  <SteamId>2892012512</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

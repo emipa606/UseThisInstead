@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Baad</Author>
+  <ModId>eBae.NoQuestsWithoutComms</ModId>
+  <ModName>No Quests Without Comms</ModName>
+  <ReplacementAuthor>GwinnBleidd</ReplacementAuthor>
+  <ReplacementModId>eBae.NoQuestsWithoutComms</ReplacementModId>
+  <ReplacementName>No Quests Without Comms</ReplacementName>
+  <ReplacementSteamId>2557302879</ReplacementSteamId>
+  <SteamId>2136753617</SteamId>
+  <Versions>1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

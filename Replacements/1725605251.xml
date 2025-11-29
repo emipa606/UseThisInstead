@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Maiev</Author>
+  <ModId>
+  </ModId>
+  <ModName>The Drow Race Fantasy Edition [1.0] (Not 1.1 compatible.)</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.FantasyDrow</ReplacementModId>
+  <ReplacementName>The Drow Race Fantasy Edition (Continued)</ReplacementName>
+  <ReplacementSteamId>2854347901</ReplacementSteamId>
+  <SteamId>1725605251</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

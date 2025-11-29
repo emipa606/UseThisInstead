@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Ravvy</Author>
+  <ModId>ravvy.DD.Void.Addon</ModId>
+  <ModName>[RWY]Dragon's Descent: Void Dwellers</ModName>
+  <ReplacementAuthor>firedragonmc</ReplacementAuthor>
+  <ReplacementModId>ravvy.DD.Void.Addon</ReplacementModId>
+  <ReplacementName>[RWY]Dragon's Descent: Void Dwellers</ReplacementName>
+  <ReplacementSteamId>3349058179</ReplacementSteamId>
+  <SteamId>2185295561</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

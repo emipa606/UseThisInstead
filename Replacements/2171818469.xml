@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Syzal</Author>
+  <ModId>syzal.mods.fhfs</ModId>
+  <ModName>Friendly Hostile Factions</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.FHF</ReplacementModId>
+  <ReplacementName>Friendly Hostile Factions (Continued)</ReplacementName>
+  <ReplacementSteamId>2812503053</ReplacementSteamId>
+  <SteamId>2171818469</SteamId>
+  <Versions>1.1,1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

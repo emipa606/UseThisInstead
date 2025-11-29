@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>ShunTheWitch</Author>
+  <ModId>ShunTheWitch.Plasmamonopatch</ModId>
+  <ModName>Plasma Mono Weapons Crafting patch</ModName>
+  <ReplacementAuthor>Kasrkin</ReplacementAuthor>
+  <ReplacementModId>Kasrkin.Plasmamonopatch</ReplacementModId>
+  <ReplacementName>Plasma Mono Weapons Crafting patch (continued)</ReplacementName>
+  <ReplacementSteamId>3274665197</ReplacementSteamId>
+  <SteamId>3156304894</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

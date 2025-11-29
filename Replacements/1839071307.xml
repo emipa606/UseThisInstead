@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Crustypeanut</Author>
+  <ModId>
+  </ModId>
+  <ModName>[1.0] RimCuisine 2: All Plants All Biomes Optional Patch</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.RC2.APABP</ReplacementModId>
+  <ReplacementName>RimCuisine 2: All Plants All Biomes Patch (Continued)</ReplacementName>
+  <ReplacementSteamId>2069602730</ReplacementSteamId>
+  <SteamId>1839071307</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

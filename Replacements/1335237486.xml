@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>straha242</Author>
+  <ModId>
+  </ModId>
+  <ModName>Battle Rifle</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.battlerifle</ReplacementModId>
+  <ReplacementName>Battle Rifle (Continued)</ReplacementName>
+  <ReplacementSteamId>2609888538</ReplacementSteamId>
+  <SteamId>1335237486</SteamId>
+  <Versions>0.18</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

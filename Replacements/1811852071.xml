@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Meng De</Author>
+  <ModId>MengDe.DBZRA.Revived</ModId>
+  <ModName>Dragon Ball Z: Rimworld Adventures - Revived!</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.dbzra</ReplacementModId>
+  <ReplacementName>Dragon Ball Z: Rimworld Adventures (Continued)</ReplacementName>
+  <ReplacementSteamId>3142844897</ReplacementSteamId>
+  <SteamId>1811852071</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.4</ReplacementVersions>
+</ModReplacement>

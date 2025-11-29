@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Halituis Amaricanous</Author>
+  <ModId>HalituisAmaricanous.VSWBounce</ModId>
+  <ModName>Vanilla Spacer weapons - Bounce Gun</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.vswbounce</ReplacementModId>
+  <ReplacementName>Vanilla Spacer Weapons - Bounce Gun (Continued)</ReplacementName>
+  <ReplacementSteamId>3251506853</ReplacementSteamId>
+  <SteamId>2906455444</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

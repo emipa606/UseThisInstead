@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Zezz</Author>
+  <ModId>Zezz.PandM.Rituals</ModId>
+  <ModName>Precepts and Memes - Rituals module</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.PreceptsAndMemesRitualsModule</ReplacementModId>
+  <ReplacementName>Precepts and Memes - Rituals module (Continued)</ReplacementName>
+  <ReplacementSteamId>2894628849</ReplacementSteamId>
+  <SteamId>2586107221</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

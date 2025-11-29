@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Zed</Author>
+  <ModId>zed.0xff.GeneCourier</ModId>
+  <ModName>Gene Courier Gene</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.genecourier</ReplacementModId>
+  <ReplacementName>Gene Courier Gene (Continued)</ReplacementName>
+  <ReplacementSteamId>3381152252</ReplacementSteamId>
+  <SteamId>2963773456</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

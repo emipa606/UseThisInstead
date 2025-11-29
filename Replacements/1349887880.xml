@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mosh</Author>
+  <ModId>
+  </ModId>
+  <ModName>EM Tools</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.EMTools</ReplacementModId>
+  <ReplacementName>EM Tools (Continued)</ReplacementName>
+  <ReplacementSteamId>2067169371</ReplacementSteamId>
+  <SteamId>1349887880</SteamId>
+  <Versions>0.18</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

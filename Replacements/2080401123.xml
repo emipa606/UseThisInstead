@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Itzal</Author>
+  <ModId>itzal.vw.cp</ModId>
+  <ModName>Project Itzal - Community Pack</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.picp</ReplacementModId>
+  <ReplacementName>Project Itzal - Community Pack (Continued)</ReplacementName>
+  <ReplacementSteamId>3100825991</ReplacementSteamId>
+  <SteamId>2080401123</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

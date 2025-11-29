@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>MrGlasses</Author>
+  <ModId>mrglasses.weathercontroldevice</ModId>
+  <ModName>Weather Control Device (rebuild)</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.WeatherControlDevice</ReplacementModId>
+  <ReplacementName>Weather Control Device (Continued)</ReplacementName>
+  <ReplacementSteamId>2584797720</ReplacementSteamId>
+  <SteamId>2051083983</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

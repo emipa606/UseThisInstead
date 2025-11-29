@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>basics :)</Author>
+  <ModId>Aze.HotkeysDev</ModId>
+  <ModName>Hotkeys 1.4</ModName>
+  <ReplacementAuthor>Vogt</ReplacementAuthor>
+  <ReplacementModId>Aze.HotkeysDev</ReplacementModId>
+  <ReplacementName>Hotkeys 1.5</ReplacementName>
+  <ReplacementSteamId>3271264818</ReplacementSteamId>
+  <SteamId>2903148673</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5</ReplacementVersions>
+</ModReplacement>

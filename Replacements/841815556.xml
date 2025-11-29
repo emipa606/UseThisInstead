@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>ikasaba</Author>
+  <ModId>
+  </ModId>
+  <ModName>Vomit Bomb</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.VomitBomb</ReplacementModId>
+  <ReplacementName>Vomit Bomb (Continued)</ReplacementName>
+  <ReplacementSteamId>2464778085</ReplacementSteamId>
+  <SteamId>841815556</SteamId>
+  <Versions>0.16</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

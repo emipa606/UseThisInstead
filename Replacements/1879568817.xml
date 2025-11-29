@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>elfstone</Author>
+  <ModId>
+  </ModId>
+  <ModName>Last Visited</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.lastvisited</ReplacementModId>
+  <ReplacementName>Last Visited (Continued)</ReplacementName>
+  <ReplacementSteamId>3507014727</ReplacementSteamId>
+  <SteamId>1879568817</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

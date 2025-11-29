@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Alan Dariva, Usagirei</Author>
+  <ModId>com.github.alandariva.moreplanning</ModId>
+  <ModName>More Planning [1.5]</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.MorePlanning</ReplacementModId>
+  <ReplacementName>More Planning (Continued)</ReplacementName>
+  <ReplacementSteamId>3554743746</ReplacementSteamId>
+  <SteamId>2551225702</SteamId>
+  <Versions>1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

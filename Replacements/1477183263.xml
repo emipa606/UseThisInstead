@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>mpwoz</Author>
+  <ModId>
+  </ModId>
+  <ModName>10x Carrying Capacity</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.10xCarryingCapacity</ReplacementModId>
+  <ReplacementName>10x Carrying Capacity (Continued)</ReplacementName>
+  <ReplacementSteamId>2019000693</ReplacementSteamId>
+  <SteamId>1477183263</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

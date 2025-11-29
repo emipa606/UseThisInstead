@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Ziehn</Author>
+  <ModId>
+  </ModId>
+  <ModName>Milkable Colonists</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.MilkableColonists</ReplacementModId>
+  <ReplacementName>Milkable Colonists (Continued)</ReplacementName>
+  <ReplacementSteamId>2218407878</ReplacementSteamId>
+  <SteamId>1563793492</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.0,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197993690125</Author>
+  <ModId>Mlie.WarhammerDeathjacks</ModId>
+  <ModName>Warhammer: Deathjacks (Continued)</ModName>
+  <ReplacementAuthor>Kompadt</ReplacementAuthor>
+  <ReplacementModId>Kompadt.Warhammer.Freeguild.Deathjacks</ReplacementModId>
+  <ReplacementName>Warhammer:Freeguild+Deathjacks 1.6</ReplacementName>
+  <ReplacementSteamId>3602680092</ReplacementSteamId>
+  <SteamId>2971780621</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

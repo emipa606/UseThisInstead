@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198000127180</Author>
+  <ModId>TedDraws.MedicinesPlus.AT</ModId>
+  <ModName>Medicines+ (Forked) [1.3]</ModName>
+  <ReplacementAuthor>Papito</ReplacementAuthor>
+  <ReplacementModId>Papito.MedicinesPlus.AT</ReplacementModId>
+  <ReplacementName>Medicines+</ReplacementName>
+  <ReplacementSteamId>2878860499</ReplacementSteamId>
+  <SteamId>2558272601</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

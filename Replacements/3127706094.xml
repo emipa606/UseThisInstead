@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>AMERICAN PATRIOT</Author>
+  <ModId>toph.biace</ModId>
+  <ModName>Bisexual and Asexual genes</ModName>
+  <ReplacementAuthor>hora</ReplacementAuthor>
+  <ReplacementModId>hora.biacegenes</ReplacementModId>
+  <ReplacementName>Bisexual and Asexual genes (forked)</ReplacementName>
+  <ReplacementSteamId>3517995746</ReplacementSteamId>
+  <SteamId>3127706094</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

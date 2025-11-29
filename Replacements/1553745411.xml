@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Bunkier</Author>
+  <ModId>
+  </ModId>
+  <ModName>[1.0] Jernfalk's Paper Currency Mod</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.jerncurr</ReplacementModId>
+  <ReplacementName>Jernfalk's Paper Currency (Continued)</ReplacementName>
+  <ReplacementSteamId>2768902387</ReplacementSteamId>
+  <SteamId>1553745411</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

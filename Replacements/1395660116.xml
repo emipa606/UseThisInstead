@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Shotgunfrenzy</Author>
+  <ModId>
+  </ModId>
+  <ModName>SF [B18] Vanometric Tech</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.vanotech</ReplacementModId>
+  <ReplacementName>Vanometric Tech (Continued)</ReplacementName>
+  <ReplacementSteamId>3166735968</ReplacementSteamId>
+  <SteamId>1395660116</SteamId>
+  <Versions>0.18</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Acruid</Author>
+  <ModId>Acruid.RepairBench</ModId>
+  <ModName>Repair Workbench</ModName>
+  <ReplacementAuthor>GwinnBleidd</ReplacementAuthor>
+  <ReplacementModId>Acruid.RepairBench</ReplacementModId>
+  <ReplacementName>Repair Workbench</ReplacementName>
+  <ReplacementSteamId>3228272471</ReplacementSteamId>
+  <SteamId>733997423</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

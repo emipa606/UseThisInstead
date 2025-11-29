@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Bara CoMiGo</Author>
+  <ModId>ComigoGames.Patches.VCESugarGrain</ModId>
+  <ModName>Comigo's Adequate Cooking Expanded</ModName>
+  <ReplacementAuthor>cyanobot</ReplacementAuthor>
+  <ReplacementModId>ComigoGames.Patches.VCESugarGrain</ReplacementModId>
+  <ReplacementName>Comigo's Adequate Cooking Continued</ReplacementName>
+  <ReplacementSteamId>3331622419</ReplacementSteamId>
+  <SteamId>2553865508</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

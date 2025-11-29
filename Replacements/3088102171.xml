@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198052719042</Author>
+  <ModId>GwenBlanketSpecter.MeditationFocus</ModId>
+  <ModName>Meditation Focus Traits and Genes</ModName>
+  <ReplacementAuthor>Vazrua, GwenBlanketSpecter, Airo, Nameless</ReplacementAuthor>
+  <ReplacementModId>GwenBlanketSpecter.MeditationFocus.Continued</ReplacementModId>
+  <ReplacementName>Meditation Focus Traits and Genes (Continued)</ReplacementName>
+  <ReplacementSteamId>3572166443</ReplacementSteamId>
+  <SteamId>3088102171</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

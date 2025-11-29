@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198272592569</Author>
+  <ModId>Rooboid.Minotaur</ModId>
+  <ModName>Roo's Minotaur Xenotype</ModName>
+  <ReplacementAuthor>Tug</ReplacementAuthor>
+  <ReplacementModId>tug.Minotaur</ReplacementModId>
+  <ReplacementName>Roo's Minotaur Xenotype (1.6)</ReplacementName>
+  <ReplacementSteamId>3548423129</ReplacementSteamId>
+  <SteamId>2927812651</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

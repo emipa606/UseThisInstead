@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Ryoma</Author>
+  <ModId>rimofmadness.CallofCthulhuCosmicHorrors</ModId>
+  <ModName>[Outdated] Call of Cthulhu - Cosmic Horrors [Deprecated]</ModName>
+  <ReplacementAuthor>ano0bis</ReplacementAuthor>
+  <ReplacementModId>rimofmadness.CallofCthulhuCosmicHorrors</ReplacementModId>
+  <ReplacementName>Call of Cthulhu - Cosmic Horrors - Unofficial 1.5-1.6</ReplacementName>
+  <ReplacementSteamId>3319844548</ReplacementSteamId>
+  <SteamId>765890823</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

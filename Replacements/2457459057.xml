@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>SalmonToastie</Author>
+  <ModId>salmontoastie.jammy_copy</ModId>
+  <ModName>Jammy</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.jammy</ReplacementModId>
+  <ReplacementName>Jammy (Continued)</ReplacementName>
+  <ReplacementSteamId>3147590825</ReplacementSteamId>
+  <SteamId>2457459057</SteamId>
+  <Versions>1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

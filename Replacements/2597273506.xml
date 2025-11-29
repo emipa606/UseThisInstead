@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>DimonSever000</Author>
+  <ModId>DimonSever000.ApparelTab.Specific</ModId>
+  <ModName>Apparel Tab+ [1.3]</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.ApparelTab</ReplacementModId>
+  <ReplacementName>Apparel Tab+ (Continued)</ReplacementName>
+  <ReplacementSteamId>3417112717</ReplacementSteamId>
+  <SteamId>2597273506</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

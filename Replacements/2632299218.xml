@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>VêhêLTê</Author>
+  <ModId>VLT_shield</ModId>
+  <ModName>VLT OP ranged shield</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.vltshield</ReplacementModId>
+  <ReplacementName>VLT OP Ranged Shield (Continued)</ReplacementName>
+  <ReplacementSteamId>3224213559</ReplacementSteamId>
+  <SteamId>2632299218</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Myrleia</Author>
+  <ModId>miathea.cigarettes</ModId>
+  <ModName>Cigarettes!</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.cigarettes</ReplacementModId>
+  <ReplacementName>Cigarettes! (Continued)</ReplacementName>
+  <ReplacementSteamId>3151759310</ReplacementSteamId>
+  <SteamId>2645756957</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

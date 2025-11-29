@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Odz</Author>
+  <ModId>ods.StarShip.Powersuits</ModId>
+  <ModName>[1.1/1.2] Star Ship Troopers Powersuits!</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.stpowersuits</ReplacementModId>
+  <ReplacementName>[Ods] Starship Troopers Powersuits! (Continued)</ReplacementName>
+  <ReplacementSteamId>3312018527</ReplacementSteamId>
+  <SteamId>1638556887</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

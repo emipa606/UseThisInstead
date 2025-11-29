@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Permanoob OG</Author>
+  <ModId>Permanoob.CEBulletBomb</ModId>
+  <ModName>Ammo Scrapping (CE) (Deprecated)</ModName>
+  <ReplacementAuthor>дог</ReplacementAuthor>
+  <ReplacementModId>permanoob.ammoscrapping</ReplacementModId>
+  <ReplacementName>Ammo Scrapping (CE) (Continued)</ReplacementName>
+  <ReplacementSteamId>3288685591</ReplacementSteamId>
+  <SteamId>2805732048</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

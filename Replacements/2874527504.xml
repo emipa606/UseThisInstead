@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Grizzle</Author>
+  <ModId>Grizzlemethis.tickspersecond.RW</ModId>
+  <ModName>[GMT] TicksPerSecond 1.5</ModName>
+  <ReplacementAuthor>Defi</ReplacementAuthor>
+  <ReplacementModId>Defi.tickspersecond.RW</ReplacementModId>
+  <ReplacementName>TicksPerSecond - 1.6</ReplacementName>
+  <ReplacementSteamId>3520118081</ReplacementSteamId>
+  <SteamId>2874527504</SteamId>
+  <Versions>1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

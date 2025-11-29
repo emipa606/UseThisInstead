@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>SirMashedPotato</Author>
+  <ModId>SirMashedPotato.BlackPlague</ModId>
+  <ModName>RimWorld - Black Plague</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.blackplague</ReplacementModId>
+  <ReplacementName>RimWorld - Black Plague (Continued)</ReplacementName>
+  <ReplacementSteamId>3312023094</ReplacementSteamId>
+  <SteamId>2798827353</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

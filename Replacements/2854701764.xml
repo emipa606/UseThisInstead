@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Ushanka</Author>
+  <ModId>Ushanka.MatrixRimloaded</ModId>
+  <ModName>[1.3] Matrix Rimloaded</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.MatrixRimloaded</ReplacementModId>
+  <ReplacementName>Matrix Rimloaded (Continued)</ReplacementName>
+  <ReplacementSteamId>2889861094</ReplacementSteamId>
+  <SteamId>2854701764</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

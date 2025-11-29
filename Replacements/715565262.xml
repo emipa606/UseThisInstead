@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Fluffy</Author>
+  <ModId>Fluffy.ColonyManager</ModId>
+  <ModName>Colony Manager</ModName>
+  <ReplacementAuthor>We're in Heaven</ReplacementAuthor>
+  <ReplacementModId>Heaven.ColonyManagerFork</ReplacementModId>
+  <ReplacementName>Colony Manager Fork</ReplacementName>
+  <ReplacementSteamId>3262932412</ReplacementSteamId>
+  <SteamId>715565262</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

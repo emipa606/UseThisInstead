@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Arisher</Author>
+  <ModId>Arisher.Medieval.Tailor</ModId>
+  <ModName>Medieval Tailor</ModName>
+  <ReplacementAuthor>Tinda</ReplacementAuthor>
+  <ReplacementModId>Tinda.Medieval.Tailor.Continued</ReplacementModId>
+  <ReplacementName>Medieval Tailor Continued</ReplacementName>
+  <ReplacementSteamId>3512201406</ReplacementSteamId>
+  <SteamId>2929259187</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

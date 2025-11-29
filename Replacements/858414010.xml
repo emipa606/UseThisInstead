@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197964575630</Author>
+  <ModId>
+  </ModId>
+  <ModName>Exotic Armory</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.exoticarmory</ReplacementModId>
+  <ReplacementName>Exotic Armory (Continued)</ReplacementName>
+  <ReplacementSteamId>3588913772</ReplacementSteamId>
+  <SteamId>858414010</SteamId>
+  <Versions>0.16</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

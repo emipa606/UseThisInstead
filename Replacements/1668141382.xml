@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>NanitesInRed</Author>
+  <ModId>Grimm.Unlimited</ModId>
+  <ModName>Un-Limited (Discontinued)</ModName>
+  <ReplacementAuthor>NuanKi</ReplacementAuthor>
+  <ReplacementModId>NuanKi.UnlimitedReborn</ReplacementModId>
+  <ReplacementName>Un-Limited Reborn</ReplacementName>
+  <ReplacementSteamId>3295368629</ReplacementSteamId>
+  <SteamId>1668141382</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

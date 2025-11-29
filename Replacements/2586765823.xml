@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Unknown Author</Author>
+  <ModId>DakkPasserida.AnimaReplant</ModId>
+  <ModName>Replantable Anima Trees</ModName>
+  <ReplacementAuthor>Spuffy</ReplacementAuthor>
+  <ReplacementModId>Spuffy.AnimaReplant</ReplacementModId>
+  <ReplacementName>Replantable Anima Trees (Continued)</ReplacementName>
+  <ReplacementSteamId>3503586725</ReplacementSteamId>
+  <SteamId>2586765823</SteamId>
+  <Versions>1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

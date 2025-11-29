@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>John Skibidi</Author>
+  <ModId>Faryzal2020.AMC.AC</ModId>
+  <ModName>AMC Extension - Armored Centipedes</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.AMCAC</ReplacementModId>
+  <ReplacementName>Armored Centipedes (Continued)</ReplacementName>
+  <ReplacementSteamId>2937665859</ReplacementSteamId>
+  <SteamId>2505565939</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

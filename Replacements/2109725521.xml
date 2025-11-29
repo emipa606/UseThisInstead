@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>PAD</Author>
+  <ModId>Lelbaro.VanillaArmorsRetexture.LBVAR</ModId>
+  <ModName>[LB] Vanilla Armors Retexture</ModName>
+  <ReplacementAuthor>Sir Humphrey Appleby</ReplacementAuthor>
+  <ReplacementModId>Humphrey.Public.VanillaArmourRetextured</ReplacementModId>
+  <ReplacementName>Vanilla Armour Retextured (Continued)</ReplacementName>
+  <ReplacementSteamId>3192201443</ReplacementSteamId>
+  <SteamId>2109725521</SteamId>
+  <Versions>1.1,1.2</Versions>
+  <ReplacementVersions>1.5</ReplacementVersions>
+</ModReplacement>

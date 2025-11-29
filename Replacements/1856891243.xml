@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Captain Nemo</Author>
+  <ModId>
+  </ModId>
+  <ModName>19th Century Weaponry</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.19thCentury</ReplacementModId>
+  <ReplacementName>19th Century Weaponry (Continued)</ReplacementName>
+  <ReplacementSteamId>2893925123</ReplacementSteamId>
+  <SteamId>1856891243</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

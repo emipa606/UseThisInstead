@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Chrisomix</Author>
+  <ModId>Chrisoman.hildascreatures.deerfox</ModId>
+  <ModName>Hilda's Creatures - Deerfox</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.deerfox</ReplacementModId>
+  <ReplacementName>Hilda's Creatures - Deerfox (Continued)</ReplacementName>
+  <ReplacementSteamId>2818484342</ReplacementSteamId>
+  <SteamId>2372758777</SteamId>
+  <Versions>1.1,1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

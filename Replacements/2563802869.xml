@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>cvar</Author>
+  <ModId>cvar.Joywire</ModId>
+  <ModName>Joywire</ModName>
+  <ReplacementAuthor>Gideon</ReplacementAuthor>
+  <ReplacementModId>cvar.Joywire</ReplacementModId>
+  <ReplacementName>Joywire</ReplacementName>
+  <ReplacementSteamId>3236256767</ReplacementSteamId>
+  <SteamId>2563802869</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

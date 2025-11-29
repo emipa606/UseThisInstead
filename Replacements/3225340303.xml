@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>tiagorbrodrigues</Author>
+  <ModId>tr.AutoCutBlight</ModId>
+  <ModName>Auto-Cut Blight 1.5 - Forked</ModName>
+  <ReplacementAuthor>Defi</ReplacementAuthor>
+  <ReplacementModId>Defi.AutoCutBlight</ReplacementModId>
+  <ReplacementName>Auto-Cut Blight - 1.6</ReplacementName>
+  <ReplacementSteamId>3520167264</ReplacementSteamId>
+  <SteamId>3225340303</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

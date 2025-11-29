@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mlie</Author>
+  <ModId>Mlie.ZeroTechBionic</ModId>
+  <ModName>ZeroTech-Bionic (Continued)</ModName>
+  <ReplacementAuthor>LingLuo</ReplacementAuthor>
+  <ReplacementModId>LingLuo.ZeroTechBinoic</ReplacementModId>
+  <ReplacementName>ZeroTech-Binoic</ReplacementName>
+  <ReplacementSteamId>3260401433</ReplacementSteamId>
+  <SteamId>2609649719</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

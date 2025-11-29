@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>pelador</Author>
+  <ModId>
+  </ModId>
+  <ModName>Camouflage and Stealth</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.CamouflageandStealth</ReplacementModId>
+  <ReplacementName>Camouflage and Stealth (Continued)</ReplacementName>
+  <ReplacementSteamId>2196949737</ReplacementSteamId>
+  <SteamId>2019776293</SteamId>
+  <Versions>1.1</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

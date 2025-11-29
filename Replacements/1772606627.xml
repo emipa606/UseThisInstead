@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Redrus Fijorn</Author>
+  <ModId>RedrusFijorn.FantasticFlora</ModId>
+  <ModName>Fantastic Flora [1.1]</ModName>
+  <ReplacementAuthor>velcroboy333</ReplacementAuthor>
+  <ReplacementModId>Velcroboy333.FantasticFloraCont</ReplacementModId>
+  <ReplacementName>Fantastic Flora(continued)</ReplacementName>
+  <ReplacementSteamId>2504647479</ReplacementSteamId>
+  <SteamId>1772606627</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561199122815759</Author>
+  <ModId>hrg164hjo.vfefuelpipenet.sos2</ModId>
+  <ModName>Fuel Pipenet for SOS2</ModName>
+  <ReplacementAuthor>Cruel Moose</ReplacementAuthor>
+  <ReplacementModId>hrg164hjo.vfefuelpipenet.sos2</ReplacementModId>
+  <ReplacementName>Fuel Pipenet for SOS2 1.6</ReplacementName>
+  <ReplacementSteamId>3554122922</ReplacementSteamId>
+  <SteamId>3066648800</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

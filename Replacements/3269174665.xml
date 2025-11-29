@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>LTS</Author>
+  <ModId>LTS.PS</ModId>
+  <ModName>Spacer Shields</ModName>
+  <ReplacementAuthor>LTS</ReplacementAuthor>
+  <ReplacementModId>LTS.PS</ReplacementModId>
+  <ReplacementName>Spacer Shields 1.6</ReplacementName>
+  <ReplacementSteamId>3536995307</ReplacementSteamId>
+  <SteamId>3269174665</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

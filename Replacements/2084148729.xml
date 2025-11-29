@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Neceros</Author>
+  <ModId>neceros.plantgrowthsync</ModId>
+  <ModName>Plant Growth Sync</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.PlantGrowthSync</ReplacementModId>
+  <ReplacementName>Plant Growth Sync (Continued)</ReplacementName>
+  <ReplacementSteamId>2807616911</ReplacementSteamId>
+  <SteamId>2084148729</SteamId>
+  <Versions>1.1,1.2</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

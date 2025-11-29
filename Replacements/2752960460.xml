@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Ouroboros</Author>
+  <ModId>ILuvSilicon.ArasakaBattlesuit</ModId>
+  <ModName>Arasaka Battlesuit</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.arasakabattlesuit</ReplacementModId>
+  <ReplacementName>Arasaka Battlesuit (Continued)</ReplacementName>
+  <ReplacementSteamId>3028156537</ReplacementSteamId>
+  <SteamId>2752960460</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

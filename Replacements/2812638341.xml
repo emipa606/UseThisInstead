@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Dallt</Author>
+  <ModId>Augmented.Vanilla.Grenades</ModId>
+  <ModName>Augmented Vanilla - Grenades</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.avg</ReplacementModId>
+  <ReplacementName>Augmented Vanilla - Grenades (Continued)</ReplacementName>
+  <ReplacementSteamId>2902489808</ReplacementSteamId>
+  <SteamId>2812638341</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

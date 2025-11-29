@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Xen</Author>
+  <ModId>
+  </ModId>
+  <ModName>Xen's Iconic Guns</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.xeniconicguns</ReplacementModId>
+  <ReplacementName>Xen's Iconic Guns (Continued)</ReplacementName>
+  <ReplacementSteamId>2869558135</ReplacementSteamId>
+  <SteamId>882631595</SteamId>
+  <Versions>0.16</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

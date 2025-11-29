@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Kayedon</Author>
+  <ModId>KYD.BakedBread</ModId>
+  <ModName>[KYD] Baked Bread (1.2-1.4)</ModName>
+  <ReplacementAuthor>Halicade</ReplacementAuthor>
+  <ReplacementModId>Hali.KYD.BakedBread</ReplacementModId>
+  <ReplacementName>[KYD] Baked Bread (Continued)</ReplacementName>
+  <ReplacementSteamId>3448613490</ReplacementSteamId>
+  <SteamId>2271637616</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

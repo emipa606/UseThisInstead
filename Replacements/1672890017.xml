@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>CaramelChaos</Author>
+  <ModId>CaramelChaos.ValkyrieCorpGunPrinting</ModId>
+  <ModName>Valkyrie Corp. Gun Printing</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.ValkyrieCorpGunPrinting</ReplacementModId>
+  <ReplacementName>Valkyrie Corp. Gun Printing (Continued)</ReplacementName>
+  <ReplacementSteamId>2835788289</ReplacementSteamId>
+  <SteamId>1672890017</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

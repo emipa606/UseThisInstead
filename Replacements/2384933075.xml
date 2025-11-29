@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Lumbago</Author>
+  <ModId>Lumbago.ConquestorFaction</ModId>
+  <ModName>Conquestor Faction</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.conquestorfaction</ReplacementModId>
+  <ReplacementName>Conquestor Faction (Continued)</ReplacementName>
+  <ReplacementSteamId>2819994302</ReplacementSteamId>
+  <SteamId>2384933075</SteamId>
+  <Versions>1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

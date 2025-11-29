@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Syrchalis</Author>
+  <ModId>syrchalis.thrumkin</ModId>
+  <ModName>[SYR] Thrumkin</ModName>
+  <ReplacementAuthor>Sans</ReplacementAuthor>
+  <ReplacementModId>Sans.thrumkin</ReplacementModId>
+  <ReplacementName>[SYR] Thrumkin Continued+</ReplacementName>
+  <ReplacementSteamId>3307995997</ReplacementSteamId>
+  <SteamId>2017359567</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>

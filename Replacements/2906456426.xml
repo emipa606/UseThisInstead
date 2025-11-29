@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Halituis Amaricanous</Author>
+  <ModId>HalituisAmaricanous.VSWEBolt</ModId>
+  <ModName>Vanilla Spacer weapons - Explosive Bolt</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.vswebolt</ReplacementModId>
+  <ReplacementName>Vanilla Spacer Weapons - Explosive Bolt (Continued)</ReplacementName>
+  <ReplacementSteamId>3251507626</ReplacementSteamId>
+  <SteamId>2906456426</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>JomoKiN</Author>
+  <ModId>JomoKiN.RimworldColoniesEvolvedCORE</ModId>
+  <ModName>Rimworld: Colonies Evolved | Halo Weapons and Armor | Depreciated: Please See Description</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.rcec</ReplacementModId>
+  <ReplacementName>Rimworld: Colonies Evolved | Halo Weapons and Armor (Continued)</ReplacementName>
+  <ReplacementSteamId>3167837174</ReplacementSteamId>
+  <SteamId>1948437040</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

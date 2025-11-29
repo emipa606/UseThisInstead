@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>crazedmonkey231</Author>
+  <ModId>crazedmonkey231.spread.the.word</ModId>
+  <ModName>Spread The Word</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.SpreadTheWord</ReplacementModId>
+  <ReplacementName>Spread The Word (Continued)</ReplacementName>
+  <ReplacementSteamId>3287847068</ReplacementSteamId>
+  <SteamId>2829387657</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

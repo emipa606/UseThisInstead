@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>ozziestig</Author>
+  <ModId>ozziestig.CrappyMenu</ModId>
+  <ModName>Crappy Menu</ModName>
+  <ReplacementAuthor>Belinko</ReplacementAuthor>
+  <ReplacementModId>Belinko.CrappyMenuContinued</ReplacementModId>
+  <ReplacementName>Crappy Menu Continued</ReplacementName>
+  <ReplacementSteamId>3342685008</ReplacementSteamId>
+  <SteamId>2060724642</SteamId>
+  <Versions>1.1</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

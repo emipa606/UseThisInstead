@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>moronic</Author>
+  <ModId>AR13S.Arachne1point0</ModId>
+  <ModName>Arachne Race</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.arachnerace</ReplacementModId>
+  <ReplacementName>Arachne Race (Continued)</ReplacementName>
+  <ReplacementSteamId>3236210966</ReplacementSteamId>
+  <SteamId>1589454687</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

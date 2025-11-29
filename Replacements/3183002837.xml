@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Halituis Amaricanous</Author>
+  <ModId>JAHV.SpacerVehiclesHAL</ModId>
+  <ModName>Titan Vehicles</ModName>
+  <ReplacementAuthor>Nepenthe</ReplacementAuthor>
+  <ReplacementModId>JAHV.SpacerVehiclesHAL.CONTINUED</ReplacementModId>
+  <ReplacementName>Titan Vehicles Continued</ReplacementName>
+  <ReplacementSteamId>3231024121</ReplacementSteamId>
+  <SteamId>3183002837</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

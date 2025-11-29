@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Vingy</Author>
+  <ModId>vingy.randomgrowthchoices</ModId>
+  <ModName>RandomGrowthChoices</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.randomgrowthchoices</ReplacementModId>
+  <ReplacementName>RandomGrowthChoices (Continued)</ReplacementName>
+  <ReplacementSteamId>3413983862</ReplacementSteamId>
+  <SteamId>2880853100</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

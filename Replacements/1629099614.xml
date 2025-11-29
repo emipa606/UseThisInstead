@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>tammybee</Author>
+  <ModId>tammybee.statueofanimal</ModId>
+  <ModName>Statue of Animal[1.0-1.4]</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.statueofanimal</ReplacementModId>
+  <ReplacementName>Statue of Animal (Continued)</ReplacementName>
+  <ReplacementSteamId>3407427159</ReplacementSteamId>
+  <SteamId>1629099614</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

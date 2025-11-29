@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Gunseeker</Author>
+  <ModId>EvaineQ.AdvancedProsthetics</ModId>
+  <ModName>Advanced Prosthetics (RE-UPLOAD)</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.AdvancedProsthetics</ReplacementModId>
+  <ReplacementName>Advanced Prosthetics (Continued)</ReplacementName>
+  <ReplacementSteamId>2838759180</ReplacementSteamId>
+  <SteamId>2111331772</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

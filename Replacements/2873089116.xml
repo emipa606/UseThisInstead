@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Ancot</Author>
+  <ModId>Ancot.EponaFacialAnimation</ModId>
+  <ModName>Epona Facial Animation</ModName>
+  <ReplacementAuthor>整天白日夢</ReplacementAuthor>
+  <ReplacementModId>Ancot.EponaFacialAnimationUno</ReplacementModId>
+  <ReplacementName>Epona Facial Animation (Unofficial) [Discontinued]</ReplacementName>
+  <ReplacementSteamId>3250669274</ReplacementSteamId>
+  <SteamId>2873089116</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.5</ReplacementVersions>
+</ModReplacement>

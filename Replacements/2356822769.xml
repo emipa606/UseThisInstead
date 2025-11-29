@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>AncientGammoner</Author>
+  <ModId>AncientGammoner.GroundTargeter</ModId>
+  <ModName>Ground Targeter</ModName>
+  <ReplacementAuthor>SClarke</ReplacementAuthor>
+  <ReplacementModId>SClarke.GroundTargeter1.6temp</ReplacementModId>
+  <ReplacementName>Ground Targeter 1.6 [temp]</ReplacementName>
+  <ReplacementSteamId>3525070588</ReplacementSteamId>
+  <SteamId>2356822769</SteamId>
+  <Versions>1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

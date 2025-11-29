@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>TigerClawz13</Author>
+  <ModId>
+  </ModId>
+  <ModName>Pebbles</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.Pebbles</ReplacementModId>
+  <ReplacementName>Pebbles (Continued)</ReplacementName>
+  <ReplacementSteamId>2380357251</ReplacementSteamId>
+  <SteamId>1528022071</SteamId>
+  <Versions>0.19</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Gárulf</Author>
+  <ModId>wit.namesgalore</ModId>
+  <ModName>NamesGalore</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.namesgalore</ReplacementModId>
+  <ReplacementName>NamesGalore (Continued)</ReplacementName>
+  <ReplacementSteamId>3263018536</ReplacementSteamId>
+  <SteamId>2017130910</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

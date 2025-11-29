@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>travhimself</Author>
+  <ModId>travhimself.quivermorebows</ModId>
+  <ModName>Quiver: More Bows</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.quivermorebows</ReplacementModId>
+  <ReplacementName>Quiver: More Bows (Continued)</ReplacementName>
+  <ReplacementSteamId>3171138973</ReplacementSteamId>
+  <SteamId>2303801187</SteamId>
+  <Versions>1.2</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Lyn the Cookie</Author>
+  <ModId>LadyCookie.VTEExpansion</ModId>
+  <ModName>[LYN] Add-On for Vanilla Traits Expanded</ModName>
+  <ReplacementAuthor>Settlerking</ReplacementAuthor>
+  <ReplacementModId>LadyCookie.VTEExpansion</ReplacementModId>
+  <ReplacementName>[LYN] Add-On for Vanilla Traits Expanded (Unoffical Update)</ReplacementName>
+  <ReplacementSteamId>3455795312</ReplacementSteamId>
+  <SteamId>2634423596</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

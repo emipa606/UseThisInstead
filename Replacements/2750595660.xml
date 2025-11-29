@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Hhiq</Author>
+  <ModId>Hhiq.Vine</ModId>
+  <ModName>Vine Boom Sound Effect On Bad Events</ModName>
+  <ReplacementAuthor>me earl</ReplacementAuthor>
+  <ReplacementModId>meearl.Vine</ReplacementModId>
+  <ReplacementName>Vine Boom On Bad Events (1.6, No Bass-Boost)</ReplacementName>
+  <ReplacementSteamId>3448565265</ReplacementSteamId>
+  <SteamId>2750595660</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

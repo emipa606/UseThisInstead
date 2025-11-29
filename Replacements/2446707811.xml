@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Reel</Author>
+  <ModId>vine.shrooms_copy</ModId>
+  <ModName>[1.3] Vineshrooms - Vinesauce</ModName>
+  <ReplacementAuthor>Willaby_Neko</ReplacementAuthor>
+  <ReplacementModId>vine.shrooms</ReplacementModId>
+  <ReplacementName>Vineshrooms - Vinesauce (Continued)</ReplacementName>
+  <ReplacementSteamId>3475363584</ReplacementSteamId>
+  <SteamId>2446707811</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

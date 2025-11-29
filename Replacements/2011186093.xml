@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Abraxas</Author>
+  <ModId>Abraxas.MSERevived.ProstheticCombat</ModId>
+  <ModName>MSE - Prosthetic Combat - Revived</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.mseprostheticcombat</ReplacementModId>
+  <ReplacementName>MSE - Prosthetic Combat (Continued)</ReplacementName>
+  <ReplacementSteamId>2862488812</ReplacementSteamId>
+  <SteamId>2011186093</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

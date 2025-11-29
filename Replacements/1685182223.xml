@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Luizi</Author>
+  <ModId>Luizi.VWR</ModId>
+  <ModName>Vanilla Weapons Retextured</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.vwretexture</ReplacementModId>
+  <ReplacementName>Vanilla Weapons Retextured (Continued)</ReplacementName>
+  <ReplacementSteamId>2817875267</ReplacementSteamId>
+  <SteamId>1685182223</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

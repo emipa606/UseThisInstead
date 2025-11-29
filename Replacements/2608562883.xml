@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Grandyy</Author>
+  <ModId>Tiny.Comms.Console</ModId>
+  <ModName>Tiny Comms Console</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.tinycommsconsole</ReplacementModId>
+  <ReplacementName>Tiny Comms Console (Continued)</ReplacementName>
+  <ReplacementSteamId>3370170104</ReplacementSteamId>
+  <SteamId>2608562883</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

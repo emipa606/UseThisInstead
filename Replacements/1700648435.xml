@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>XeoNovaDan</Author>
+  <ModId>
+  </ModId>
+  <ModName>Codename: Project R.I.M. (April Fool's 2019)</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.codenameprojectrim</ReplacementModId>
+  <ReplacementName>Codename: Project R.I.M. (Continued)</ReplacementName>
+  <ReplacementSteamId>3208906859</ReplacementSteamId>
+  <SteamId>1700648435</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Louize</Author>
+  <ModId>louize.RuntimeGC</ModId>
+  <ModName>RuntimeGC [1.5] fork [Archived for now]</ModName>
+  <ReplacementAuthor>user19990313, louize, RunningBugs</ReplacementAuthor>
+  <ReplacementModId>louize.RuntimeGC.fork</ReplacementModId>
+  <ReplacementName>RuntimeGC [1.6] fork2</ReplacementName>
+  <ReplacementSteamId>3528496623</ReplacementSteamId>
+  <SteamId>3284019732</SteamId>
+  <Versions>1.5</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

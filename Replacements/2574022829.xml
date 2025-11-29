@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>BICKLEY</Author>
+  <ModId>DerekBickley.WorthlessJunk</ModId>
+  <ModName>Worthless Junk</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.worthlessjunk</ReplacementModId>
+  <ReplacementName>Worthless Junk (Continued)</ReplacementName>
+  <ReplacementSteamId>3021192391</ReplacementSteamId>
+  <SteamId>2574022829</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>

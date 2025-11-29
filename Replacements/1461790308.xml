@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Syrchalis</Author>
+  <ModId>syrchalis.harvestyieldpatch</ModId>
+  <ModName>[SYR] Harvest Yield</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.SYRHarvestYield</ReplacementModId>
+  <ReplacementName>[SYR] Harvest Yield (Continued)</ReplacementName>
+  <ReplacementSteamId>3253521389</ReplacementSteamId>
+  <SteamId>1461790308</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

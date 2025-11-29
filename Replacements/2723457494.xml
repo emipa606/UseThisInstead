@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Irecreeper</Author>
+  <ModId>Chairheir.OdditiesDeployables</ModId>
+  <ModName>Oddities: Deployables Module</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.odditiesdeployables</ReplacementModId>
+  <ReplacementName>Oddities: Deployables Module (Continued)</ReplacementName>
+  <ReplacementSteamId>3267984165</ReplacementSteamId>
+  <SteamId>2723457494</SteamId>
+  <Versions>1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

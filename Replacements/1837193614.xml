@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>FlashPoint55</Author>
+  <ModId>FLASHPOINT55.ThrumboLeatherTreeModWeapons</ModId>
+  <ModName>Thrumbo Leather Tree Mod + Weapons</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.ThrumboLeatherTreeWeapons</ReplacementModId>
+  <ReplacementName>Thrumbo Leather Tree + Weapons (Continued)</ReplacementName>
+  <ReplacementSteamId>2939886599</ReplacementSteamId>
+  <SteamId>1837193614</SteamId>
+  <Versions>1.0,1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

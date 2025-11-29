@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>rooki1</Author>
+  <ModId>
+  </ModId>
+  <ModName>Infinity Rim: Ariadna</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.InfinityRimAriadna</ReplacementModId>
+  <ReplacementName>Infinity Rim: Ariadna (Continued)</ReplacementName>
+  <ReplacementSteamId>2141841837</ReplacementSteamId>
+  <SteamId>775703802</SteamId>
+  <Versions>0.16</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

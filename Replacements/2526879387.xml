@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>nercury</Author>
+  <ModId>nercury.RoofOverlayOptions</ModId>
+  <ModName>Roof Overlay Options</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.RoofOverlayOptions</ReplacementModId>
+  <ReplacementName>Roof Overlay Options (Continued)</ReplacementName>
+  <ReplacementSteamId>3115593856</ReplacementSteamId>
+  <SteamId>2526879387</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

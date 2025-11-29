@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>民火</Author>
+  <ModId>tammybee.predatorhuntalert</ModId>
+  <ModName>Predator Hunt Alert[1.0-1.4]</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.PredatorHuntAlert</ReplacementModId>
+  <ReplacementName>Predator Hunt Alert (Continued)</ReplacementName>
+  <ReplacementSteamId>3274792989</ReplacementSteamId>
+  <SteamId>1537786185</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

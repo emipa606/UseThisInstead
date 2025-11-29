@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Rikiki</Author>
+  <ModId>Rikiki.MiningCo.AlertSpeaker</ModId>
+  <ModName>MiningCo. Alert speaker</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.MiningCoAlertSpeaker</ReplacementModId>
+  <ReplacementName>MiningCo. Alert speaker (Continued)</ReplacementName>
+  <ReplacementSteamId>3276121703</ReplacementSteamId>
+  <SteamId>848309750</SteamId>
+  <Versions>1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

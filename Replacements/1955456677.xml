@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>ZwergPinscher</Author>
+  <ModId>
+  </ModId>
+  <ModName>Zwergy's Spacer Weaponry</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.zwergy</ReplacementModId>
+  <ReplacementName>Zwergy's Spacer Weaponry (Continued)</ReplacementName>
+  <ReplacementSteamId>2862487985</ReplacementSteamId>
+  <SteamId>1955456677</SteamId>
+  <Versions>1.0</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

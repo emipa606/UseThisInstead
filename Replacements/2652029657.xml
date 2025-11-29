@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Gargamiel</Author>
+  <ModId>Gargamiel.PokeWorld</ModId>
+  <ModName>PokéWorld</ModName>
+  <ReplacementAuthor>eth0net</ReplacementAuthor>
+  <ReplacementModId>eth0net.PokeWorld</ReplacementModId>
+  <ReplacementName>PokéWorld Updated [ALPHA]</ReplacementName>
+  <ReplacementSteamId>3269986597</ReplacementSteamId>
+  <SteamId>2652029657</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>

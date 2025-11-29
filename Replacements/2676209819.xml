@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>A Random Cogboy</Author>
+  <ModId>randomcogboi.LaserMod</ModId>
+  <ModName>Vanilla Friendly Laser Guns</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.vflg</ReplacementModId>
+  <ReplacementName>Vanilla Friendly Laser Guns (Continued)</ReplacementName>
+  <ReplacementSteamId>3166734484</ReplacementSteamId>
+  <SteamId>2676209819</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

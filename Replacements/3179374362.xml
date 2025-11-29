@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Not Lancer</Author>
+  <ModId>NotLancer.GeneRemover</ModId>
+  <ModName>[1.4] Gene Remover</ModName>
+  <ReplacementAuthor>Nalzurin</ReplacementAuthor>
+  <ReplacementModId>nalzurin.generemovercontinued</ReplacementModId>
+  <ReplacementName>Gene Remover Continued</ReplacementName>
+  <ReplacementSteamId>3280784251</ReplacementSteamId>
+  <SteamId>3179374362</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

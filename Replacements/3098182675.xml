@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Unreal D</Author>
+  <ModId>Unreal.RIMSPRPipeNetworkAddons</ModId>
+  <ModName>RIMSPR: Pipe network addons</ModName>
+  <ReplacementAuthor>Crimson</ReplacementAuthor>
+  <ReplacementModId>15.RIMSPRPipeNetworkAddons</ReplacementModId>
+  <ReplacementName>[CF]RIMSPR: Pipe network addons Contuined</ReplacementName>
+  <ReplacementSteamId>3342578516</ReplacementSteamId>
+  <SteamId>3098182675</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>

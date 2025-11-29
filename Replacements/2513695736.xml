@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>YAYO</Author>
+  <ModId>com.yayo.combat3</ModId>
+  <ModName>Yayo's Combat 3 [Abandoned]</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.YayosCombat3</ReplacementModId>
+  <ReplacementName>Yayo's Combat 3 (Continued)</ReplacementName>
+  <ReplacementSteamId>2854006492</ReplacementSteamId>
+  <SteamId>2513695736</SteamId>
+  <Versions>1.1,1.2,1.3</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

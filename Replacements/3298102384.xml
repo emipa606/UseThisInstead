@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>GeodesicDragon</Author>
+  <ModId>geodesicdragon.cleanerthrumbos</ModId>
+  <ModName>Cleaner Thrumbos 1.5+</ModName>
+  <ReplacementAuthor>iLluZionZz</ReplacementAuthor>
+  <ReplacementModId>iLluZionZz.cleanerthrumbos</ReplacementModId>
+  <ReplacementName>[1.6] Cleaner Thrumbos 1.4+</ReplacementName>
+  <ReplacementSteamId>2932159750</ReplacementSteamId>
+  <SteamId>3298102384</SteamId>
+  <Versions>1.5,1.6</Versions>
+  <ReplacementVersions>1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

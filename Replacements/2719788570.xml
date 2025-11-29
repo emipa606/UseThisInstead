@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>AkihaHñas</Author>
+  <ModId>ADE.AdvancedTurretsA.copy.Mod</ModId>
+  <ModName>ADE Advanced Turrets +</ModName>
+  <ReplacementAuthor>MononobeMana</ReplacementAuthor>
+  <ReplacementModId>ADE.AdvancedTurretsA.copy.Mod.Continued</ReplacementModId>
+  <ReplacementName>ADE Advanced Turrets + (Continued)</ReplacementName>
+  <ReplacementSteamId>3376981974</ReplacementSteamId>
+  <SteamId>2719788570</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

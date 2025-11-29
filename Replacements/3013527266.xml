@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>jefferyharrell</Author>
+  <ModId>CaptainArbitrary.ManyJobs</ModId>
+  <ModName>Many Jobs</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.manyjobs</ReplacementModId>
+  <ReplacementName>Many Jobs (Continued)</ReplacementName>
+  <ReplacementSteamId>3266719724</ReplacementSteamId>
+  <SteamId>3013527266</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

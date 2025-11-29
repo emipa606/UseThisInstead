@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198121066935</Author>
+  <ModId>kaitorisenkou.Nyanpuppu</ModId>
+  <ModName>Nyanpuppu Mod</ModName>
+  <ReplacementAuthor>kaitorisenkou</ReplacementAuthor>
+  <ReplacementModId>kaitorisenkou.Nyanpuppu.for16</ReplacementModId>
+  <ReplacementName>[1.6]Nyanpuppu Mod</ReplacementName>
+  <ReplacementSteamId>3570644581</ReplacementSteamId>
+  <SteamId>3021768017</SteamId>
+  <Versions>1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

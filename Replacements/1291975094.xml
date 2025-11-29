@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Tremeloe</Author>
+  <ModId>
+  </ModId>
+  <ModName>[b18] Natural Wells (LateGame Solution)</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.NaturalWells</ReplacementModId>
+  <ReplacementName>Natural Wells (Continued)</ReplacementName>
+  <ReplacementSteamId>2380408657</ReplacementSteamId>
+  <SteamId>1291975094</SteamId>
+  <Versions>0.18</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

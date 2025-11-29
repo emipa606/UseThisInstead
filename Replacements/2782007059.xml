@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Wolf478</Author>
+  <ModId>Wolf478.Retexture.IdeologyDryads</ModId>
+  <ModName>Wolfs Dryad Retexture</ModName>
+  <ReplacementAuthor>Alexander Zagirov</ReplacementAuthor>
+  <ReplacementModId>zav.WolfsDryadRetexture</ReplacementModId>
+  <ReplacementName>[ZAV] Wolfs Dryad Retexture (Continued)</ReplacementName>
+  <ReplacementSteamId>3374765574</ReplacementSteamId>
+  <SteamId>2782007059</SteamId>
+  <Versions>1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

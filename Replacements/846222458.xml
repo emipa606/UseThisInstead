@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561197962445032</Author>
+  <ModId>Orion.MoreMechanoids</ModId>
+  <ModName>More Mechanoids</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.moremechanoids</ReplacementModId>
+  <ReplacementName>More Mechanoids (Continued)</ReplacementName>
+  <ReplacementSteamId>3557972474</ReplacementSteamId>
+  <SteamId>846222458</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

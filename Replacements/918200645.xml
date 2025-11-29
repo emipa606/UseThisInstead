@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Jecrell and Xen</Author>
+  <ModId>projectjedi.lightsabers</ModId>
+  <ModName>Star Wars - Fully Functional Lightsabers [Deprecated]</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.StarWarsFullyFunctionalLightsabers</ReplacementModId>
+  <ReplacementName>Star Wars - Fully Functional Lightsabers (Continued)</ReplacementName>
+  <ReplacementSteamId>3539404137</ReplacementSteamId>
+  <SteamId>918200645</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Jecrell</Author>
+  <ModId>
+  </ModId>
+  <ModName>RimWriter - Books, Scrolls, Tablets, and Libraries [Deprecated]</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.RimWriter</ReplacementModId>
+  <ReplacementName>RimWriter - Books, Scrolls, Tablets, and Libraries (Continued)</ReplacementName>
+  <ReplacementSteamId>2251045831</ReplacementSteamId>
+  <SteamId>1521844535</SteamId>
+  <Versions>
+  </Versions>
+  <ReplacementVersions>1.0,1.1,1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

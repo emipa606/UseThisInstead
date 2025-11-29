@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Emily</Author>
+  <ModId>Ehi.GoldenShower</ModId>
+  <ModName>Fat Larry's Golden Shower</ModName>
+  <ReplacementAuthor>Seanbeag</ReplacementAuthor>
+  <ReplacementModId>Seanbeag.GoldenShower</ReplacementModId>
+  <ReplacementName>Fat Larry's Golden Shower Continued</ReplacementName>
+  <ReplacementSteamId>3489288239</ReplacementSteamId>
+  <SteamId>2421849374</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>heye</Author>
+  <ModId>heye.wealthdisplay</ModId>
+  <ModName>Wealth Display</ModName>
+  <ReplacementAuthor>Tiduin</ReplacementAuthor>
+  <ReplacementModId>Tiduin.WealthDisplayContinued</ReplacementModId>
+  <ReplacementName>Wealth Display (Continued)</ReplacementName>
+  <ReplacementSteamId>3298960397</ReplacementSteamId>
+  <SteamId>2376329775</SteamId>
+  <Versions>1.2,1.3</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

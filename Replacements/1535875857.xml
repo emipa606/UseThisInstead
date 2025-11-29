@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>TerraggosaurusRex</Author>
+  <ModId>Terragg.ExtendedStorage.Extended</ModId>
+  <ModName>Extended Storage Extended</ModName>
+  <ReplacementAuthor>Mlie</ReplacementAuthor>
+  <ReplacementModId>Mlie.ExtendedStorageExtended</ReplacementModId>
+  <ReplacementName>Extended Storage Extended (Continued)</ReplacementName>
+  <ReplacementSteamId>2566121411</ReplacementSteamId>
+  <SteamId>1535875857</SteamId>
+  <Versions>1.1</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.5</ReplacementVersions>
+</ModReplacement>

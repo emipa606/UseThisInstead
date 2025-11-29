@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>76561198097808300</Author>
+  <ModId>Pal5k.SnowCrawler</ModId>
+  <ModName>Snow Crawler</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.snowcrawler</ReplacementModId>
+  <ReplacementName>Snow Crawler (Continued)</ReplacementName>
+  <ReplacementSteamId>3558174046</ReplacementSteamId>
+  <SteamId>3014617494</SteamId>
+  <Versions>1.4,1.5</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

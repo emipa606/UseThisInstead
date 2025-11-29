@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Zenzen25</Author>
+  <ModId>continued.AutoLightSwitch</ModId>
+  <ModName>Auto Light Switch - continued</ModName>
+  <ReplacementAuthor>Merthykins</ReplacementAuthor>
+  <ReplacementModId>Merthsoft.AutoLightSwitch</ReplacementModId>
+  <ReplacementName>Auto Light Switch</ReplacementName>
+  <ReplacementSteamId>1335708049</ReplacementSteamId>
+  <SteamId>3360191451</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.1,1.2,1.3,1.4,1.6</ReplacementVersions>
+</ModReplacement>

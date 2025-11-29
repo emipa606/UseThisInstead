@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Hcup</Author>
+  <ModId>Nowano.InfinityFactionRelation</ModId>
+  <ModName>Infinity Faction Relationship</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.infinityfactionrelation</ReplacementModId>
+  <ReplacementName>Infinity Faction Relationship (Continued)</ReplacementName>
+  <ReplacementSteamId>3306814027</ReplacementSteamId>
+  <SteamId>2438616747</SteamId>
+  <Versions>1.2</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Hansenbansen</Author>
+  <ModId>Hansenbansen243.TribalInstruments</ModId>
+  <ModName>Tribal Instruments</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.tribalinstruments</ReplacementModId>
+  <ReplacementName>TribalInstruments (Royalty)</ReplacementName>
+  <ReplacementSteamId>2596778006</ReplacementSteamId>
+  <SteamId>1122870388</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

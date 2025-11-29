@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Fluffysminion</Author>
+  <ModId>Fluffysminion.ItW.CaveworldFloraUnleashed</ModId>
+  <ModName>Biomes! Caveworld Flora Unleashed</ModName>
+  <ReplacementAuthor>cyanobot</ReplacementAuthor>
+  <ReplacementModId>Fluffysminion.ItW.CaveworldFloraUnleashed</ReplacementModId>
+  <ReplacementName>Caveworld Flora Unleashed</ReplacementName>
+  <ReplacementSteamId>3409043551</ReplacementSteamId>
+  <SteamId>2432710051</SteamId>
+  <Versions>1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.2,1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

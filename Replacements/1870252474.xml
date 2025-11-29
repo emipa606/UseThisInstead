@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>zhrocks11</Author>
+  <ModId>zhrocks11.ETR.wastelandbranch</ModId>
+  <ModName>Escape the Rimworld - Wastelander Branch</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.ETRWastelander</ReplacementModId>
+  <ReplacementName>Escape the Rimworld - Wastelander Branch (Continued)</ReplacementName>
+  <ReplacementSteamId>3044212998</ReplacementSteamId>
+  <SteamId>1870252474</SteamId>
+  <Versions>1.0,1.1</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

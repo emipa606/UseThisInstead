@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Git</Author>
+  <ModId>Babo.PlasmaWeaponry.PlasmaWeaponry</ModId>
+  <ModName>Plasma Weaponry</ModName>
+  <ReplacementAuthor>Zaljerem</ReplacementAuthor>
+  <ReplacementModId>zal.PlasmaWeaponry</ReplacementModId>
+  <ReplacementName>Plasma Weaponry (Continued)</ReplacementName>
+  <ReplacementSteamId>2665902140</ReplacementSteamId>
+  <SteamId>1500625118</SteamId>
+  <Versions>1.0,1.1,1.2</Versions>
+  <ReplacementVersions>1.3,1.4,1.5,1.6</ReplacementVersions>
+</ModReplacement>

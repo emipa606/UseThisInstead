@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>汪尧和</Author>
+  <ModId>WYH.MovableHelixienGeyser</ModId>
+  <ModName>Movable Helixien Geyser</ModName>
+  <ReplacementAuthor>Enterprise</ReplacementAuthor>
+  <ReplacementModId>Enter.MovableGasGeyser</ReplacementModId>
+  <ReplacementName>Moveable Gas Geyser(Continued for VHGE)</ReplacementName>
+  <ReplacementSteamId>3267652145</ReplacementSteamId>
+  <SteamId>2593005597</SteamId>
+  <Versions>1.3</Versions>
+  <ReplacementVersions>1.4,1.5</ReplacementVersions>
+</ModReplacement>

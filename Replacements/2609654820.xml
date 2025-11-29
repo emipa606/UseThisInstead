@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Mlie</Author>
+  <ModId>Mlie.ZeroTechStory</ModId>
+  <ModName>ZeroTech-Story (Continued)</ModName>
+  <ReplacementAuthor>LingLuo</ReplacementAuthor>
+  <ReplacementModId>LingLuo.ZeroTechStory</ReplacementModId>
+  <ReplacementName>ZeroTech-History(WIP)</ReplacementName>
+  <ReplacementSteamId>2208724556</ReplacementSteamId>
+  <SteamId>2609654820</SteamId>
+  <Versions>1.1,1.2,1.3,1.4,1.5,1.6</Versions>
+  <ReplacementVersions>1.6</ReplacementVersions>
+</ModReplacement>

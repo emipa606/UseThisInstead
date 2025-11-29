@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModReplacement>
+  <Author>Hatti</Author>
+  <ModId>hatti.cleaningarea</ModId>
+  <ModName>CleaningArea</ModName>
+  <ReplacementAuthor>Side1iner</ReplacementAuthor>
+  <ReplacementModId>s1.cleaningareatemp</ReplacementModId>
+  <ReplacementName>CleaningAreaTemp</ReplacementName>
+  <ReplacementSteamId>3229108269</ReplacementSteamId>
+  <SteamId>870089952</SteamId>
+  <Versions>1.0,1.1,1.2,1.3,1.4</Versions>
+  <ReplacementVersions>1.5,1.6</ReplacementVersions>
+</ModReplacement>
