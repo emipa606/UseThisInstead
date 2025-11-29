@@ -32,9 +32,7 @@ The mod also uses info about mods that have been requested on my Discord server 
 
 This mod should work well together with my [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3218690663]Show Mod Updates[/url] to make it easier to keep track of you favorite mods during those major RimWorld updates!
 
-This mod will be updated regularly to include new releases. I hope this will be of use and if you have info about a mod-continuation not showing up in the mod or a faulty replacement suggestion, please report it in the comments or on the linked Discord-server.
-
-[b]Note: for those using non-steam download like rimpy with steamcmd, apparently that solution does not reliably remove files when updating. So if you have a problem with old replacement showing up, try removing the mod fully between each update.[/b]
+The replacement-rules is updated regularly to include new releases and the mod will download the latest version of the rules as soon as they get published. I hope this will be of use and if you have info about a mod-continuation not showing up in the mod or a faulty replacement suggestion, please report it in the comments or on the linked Discord-server.
 
 Mod-options
 [list]
@@ -73,5 +71,5 @@ Since modding is just a hobby for me I expect no donations to keep modding. If y
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3396308787][img]https://img.shields.io/github/v/release/emipa606/UseThisInstead?label=latest%20version&amp;style=plastic&amp;labelColor=0070cd&amp;color=white[/img][/url] | tags:  continued mods,  replacement suggestions</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.149</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.150</modVersion>
 </ModMetaData>
