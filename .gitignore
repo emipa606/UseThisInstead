@@ -235,3 +235,7 @@ $RECYCLE.BIN/
 # Rimworld specific
 _PublisherPlus.xml
 lastrun.log
+
+/Replacements
+/replacements.json
+!replacements.json.gz
