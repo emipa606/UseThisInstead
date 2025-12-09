@@ -1,14 +1,15 @@
-using HarmonyLib;
-using MiniJSON;
-using Steamworks;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Reflection;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
+using HarmonyLib;
+using MiniJSON;
+using Steamworks;
 using UnityEngine;
 using UnityEngine.Networking;
 using Verse;
@@ -19,11 +20,16 @@ namespace UseThisInstead;
 public static class UseThisInstead
 {
     private static Dictionary<ulong, ModReplacement> modReplacements = [];
-    private static string replacementsPath = Path.Combine(
+
+    private static readonly string replacementsPath = Path.Combine(
         UseThisInsteadMod.Instance.Content.RootDir,
         "replacements.json");
-    private static Uri replacementsUrl = new("https://data.litet.net/replacements.json.gz");
-    private static Uri alternateUrl = new("https://raw.githubusercontent.com/Mlie/UseThisInstead/main/replacements.json.gz");
+
+    private static readonly Uri replacementsUrl = new("https://data.litet.net/replacements.json.gz");
+
+    private static readonly Uri alternateUrl =
+        new("https://raw.githubusercontent.com/Mlie/UseThisInstead/main/replacements.json.gz");
+
     private static bool scanning;
     public static bool ActivityMonitor;
     public static bool AnythingChanged;
@@ -31,8 +37,7 @@ public static class UseThisInstead
     public static bool Replacing;
     public static Vector2 ScrollPosition;
     public static List<string> StatusMessages;
-    public static bool? UsingLatestVersion;
-    private static FieldInfo modsFieldInfo = AccessTools.Field(typeof(ModLister), "mods");
+    private static readonly FieldInfo modsFieldInfo = AccessTools.Field(typeof(ModLister), "mods");
 
     static UseThisInstead()
     {
@@ -41,6 +46,8 @@ public static class UseThisInstead
         new Harmony("Mlie.UseThisInstead").PatchAll(Assembly.GetExecutingAssembly());
         ThreadPool.QueueUserWorkItem(_ => checkLatestVersionAsync());
     }
+
+    public static bool IsVersionCheckComplete { get; private set; }
 
     private static void addToStatusMessage(string message)
     {
@@ -52,10 +59,10 @@ public static class UseThisInstead
     {
         if (!modReplacements.Any())
         {
-            loadAllReplacementFiles();
+            loadAllReplacements();
         }
 
-        if(!modReplacements.Any())
+        if (!modReplacements.Any())
         {
             scanning = false;
             return;
@@ -88,7 +95,7 @@ public static class UseThisInstead
                 continue;
             }
 
-            while (!replacement.ReplacementSupportsVersion())
+            while (true)
             {
                 if (!modReplacements.TryGetValue(replacement.GetNewPublishedFileId(), out var newReplacement))
                 {
@@ -130,35 +137,39 @@ public static class UseThisInstead
         try
         {
             var lastVersion = UseThisInsteadMod.Instance.LastVersion;
-            if(!File.Exists(replacementsPath))
+            if (!File.Exists(replacementsPath))
             {
                 lastVersion = null;
             }
-            foreach(var url in new[] { replacementsUrl, alternateUrl })
+
+            foreach (var url in new[] { replacementsUrl, alternateUrl })
             {
                 var request = UnityWebRequest.Get(url);
 
-                if(!string.IsNullOrEmpty(lastVersion))
+                if (!string.IsNullOrEmpty(lastVersion))
                 {
                     request.SetRequestHeader("If-None-Match", lastVersion);
                 }
 
                 request.SendWebRequest();
-                while(!request.isDone)
+                while (!request.isDone)
                 {
                     Thread.Sleep(100);
                 }
-                if(request.responseCode == 304)
+
+                if (request.responseCode == 304)
                 {
                     logMessage($"Replacement database is up to date, checksum: {lastVersion}.");
                     break;
-                } else if(request.result == UnityWebRequest.Result.Success)
+                }
+
+                if (request.result == UnityWebRequest.Result.Success)
                 {
-                    string newEtag = request.GetResponseHeader("ETag");
-                    string json = DecompressGzip(request.downloadHandler.data);
-                    SaveCached(replacementsPath, json);
+                    var newEtag = request.GetResponseHeader("ETag");
+                    var json = decompressGzip(request.downloadHandler.data);
+                    saveCached(replacementsPath, json);
                     logMessage($"Updated replacement database from checksum {lastVersion} to {newEtag}");
-                    if(url == alternateUrl)
+                    if (url == alternateUrl)
                     {
                         UseThisInsteadMod.Instance.LastAlternateVersion = newEtag;
                     }
@@ -166,19 +177,22 @@ public static class UseThisInstead
                     {
                         UseThisInsteadMod.Instance.LastVersion = newEtag;
                     }
+
                     break;
-                } else
+                }
+
+                logMessage($"Failed to update replacement database from {url}: {request.error}");
+                lastVersion = UseThisInsteadMod.Instance.LastAlternateVersion;
+                if (!File.Exists(replacementsPath))
                 {
-                    logMessage($"Failed to update replacement database from {url}: {request.error}");
-                    lastVersion = UseThisInsteadMod.Instance.LastAlternateVersion;
-                    if (!File.Exists(replacementsPath))
-                    {
-                        lastVersion = null;
-                    }
+                    lastVersion = null;
                 }
             }
 
-            void SaveCached(string file, string content) { File.WriteAllText(file, content); }
+            static void saveCached(string file, string content)
+            {
+                File.WriteAllText(file, content);
+            }
         }
         catch (Exception e)
         {
@@ -191,11 +205,11 @@ public static class UseThisInstead
         }
     }
 
-    private static string DecompressGzip(byte[] compressed)
+    private static string decompressGzip(byte[] compressed)
     {
         using var ms = new MemoryStream(compressed);
         using var gz = new GZipStream(ms, CompressionMode.Decompress);
-        using var sr = new StreamReader(gz, System.Text.Encoding.UTF8);
+        using var sr = new StreamReader(gz, Encoding.UTF8);
         return sr.ReadToEnd();
     }
 
@@ -206,7 +220,7 @@ public static class UseThisInstead
     }
 
 
-    private static void loadAllReplacementFiles()
+    private static void loadAllReplacements()
     {
         modReplacements = [];
 
@@ -227,42 +241,57 @@ public static class UseThisInstead
                 return;
             }
 
-            if (Json.Deserialize(json) is not Dictionary<string, object> root || !root.ContainsKey("rules"))
+            if (Json.Deserialize(json) is not Dictionary<string, object> root ||
+                !root.TryGetValue("rules", out var value))
             {
                 logMessage("Failed to parse replacements.json: rules missing", warning: true);
                 return;
             }
 
-            var rules = root["rules"] as List<object>;
-            foreach (var rObj in rules)
+            if (value is List<object> rules)
             {
-                if (rObj is not Dictionary<string, object> rDict) 
-                    continue;
-
-                var mod = new ModReplacement
+                foreach (var rObj in rules)
                 {
-                    oldWorkshopId = rDict.GetValueOrDefault("oldWorkshopId") as string,
-                    oldName = rDict.GetValueOrDefault("oldName") as string,
-                    oldAuthor = rDict.GetValueOrDefault("oldAuthor") as string,
-                    oldPackageId = rDict.GetValueOrDefault("oldPackageId") as string,
+                    if (rObj is not Dictionary<string, object> rDict)
+                    {
+                        logMessage($"Failed to parse replacement rule, invalid format: {rObj}", warning: true);
+                        continue;
+                    }
 
-                    newWorkshopId = rDict.GetValueOrDefault("newWorkshopId") as string,
-                    newName = rDict.GetValueOrDefault("newName") as string,
-                    newAuthor = rDict.GetValueOrDefault("newAuthor") as string,
-                    newPackageId = rDict.GetValueOrDefault("newPackageId") as string,
+                    var mod = new ModReplacement
+                    {
+                        oldWorkshopId = rDict.GetValueOrDefault("oldWorkshopId") as string,
+                        oldName = rDict.GetValueOrDefault("oldName") as string,
+                        oldAuthor = rDict.GetValueOrDefault("oldAuthor") as string,
+                        oldPackageId = rDict.GetValueOrDefault("oldPackageId") as string,
 
-                    oldVersions = (rDict.GetValueOrDefault("oldVersions") as List<object>)?.Select(v => v.ToString()).ToArray() ?? [],
-                    newVersions = (rDict.GetValueOrDefault("newVersions") as List<object>)?.Select(v => v.ToString()).ToArray() ?? []
-                };
+                        newWorkshopId = rDict.GetValueOrDefault("newWorkshopId") as string,
+                        newName = rDict.GetValueOrDefault("newName") as string,
+                        newAuthor = rDict.GetValueOrDefault("newAuthor") as string,
+                        newPackageId = rDict.GetValueOrDefault("newPackageId") as string,
 
-                if (!string.IsNullOrEmpty(mod.oldWorkshopId))
-                {
-                    modReplacements[mod.GetOldPublishedFileId()] = mod;
+                        oldVersions = (rDict.GetValueOrDefault("oldVersions") as List<object>)
+                            ?.Select(v => v.ToString())
+                            .ToArray() ?? [],
+                        newVersions = (rDict.GetValueOrDefault("newVersions") as List<object>)
+                            ?.Select(v => v.ToString())
+                            .ToArray() ?? []
+                    };
+
+                    if (!string.IsNullOrEmpty(mod.oldWorkshopId))
+                    {
+                        modReplacements[mod.GetOldPublishedFileId()] = mod;
+                    }
+                    else
+                    {
+                        logMessage($"Failed to parse replacement rule, oldWorkshopId is empty:\n{mod}",
+                            warning: true);
+                    }
                 }
             }
 
-            logMessage($"Loaded {modReplacements.Count} possible replacements (generated {root.GetValueOrDefault("version")})");
-
+            logMessage(
+                $"Loaded {modReplacements.Count} possible replacements (generated {root.GetValueOrDefault("version")})");
         }
         catch (Exception exception)
         {
@@ -398,12 +427,11 @@ public static class UseThisInstead
         }
 
         scanning = true;
-        new Thread(
-            () =>
-            {
-                Thread.CurrentThread.IsBackground = true;
-                checkForReplacements();
-            }).Start();
+        new Thread(() =>
+        {
+            Thread.CurrentThread.IsBackground = true;
+            checkForReplacements();
+        }).Start();
     }
 
     public static void ReplaceMods(List<ModReplacement> replacements)
@@ -421,7 +449,7 @@ public static class UseThisInstead
             counter++;
             addToStatusMessage("UTI.replacing".Translate(modReplacement.oldName, counter, replacements.Count));
             var justReplace = !modReplacement.ModMetaData.Active ||
-                modReplacement.newWorkshopId == modReplacement.oldWorkshopId;
+                              modReplacement.newWorkshopId == modReplacement.oldWorkshopId;
             if (!justReplace)
             {
                 ModsConfig.SetActive(modReplacement.oldPackageId, false);
@@ -442,8 +470,8 @@ public static class UseThisInstead
             Thread.Sleep(10);
 
             var installedMods = ModLister.AllInstalledMods.ToList();
-            var subscribedMod = installedMods.FirstOrDefault(
-                data => data.GetPublishedFileId() == modReplacement.GetReplacementPublishedFileId());
+            var subscribedMod = installedMods.FirstOrDefault(data =>
+                data.GetPublishedFileId() == modReplacement.GetReplacementPublishedFileId());
 
             if (subscribedMod == null)
             {
@@ -473,7 +501,6 @@ public static class UseThisInstead
                         if (subscribeToMod(new PublishedFileId_t(modId), dependency.displayName))
                         {
                             requirementIds.Add(dependency.packageId);
-                            continue;
                         }
 
                         continue;
@@ -506,6 +533,4 @@ public static class UseThisInstead
 
         Replacing = false;
     }
-
-    public static bool IsVersionCheckComplete { get; private set; }
 }

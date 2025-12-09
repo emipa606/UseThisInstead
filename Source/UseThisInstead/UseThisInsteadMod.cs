@@ -1,4 +1,3 @@
-using System.IO;
 using Mlie;
 using UnityEngine;
 using Verse;
@@ -16,31 +15,6 @@ internal class UseThisInsteadMod : Mod
 
     public static string CurrentVersion;
 
-    public string LastVersion
-    {
-        get { 
-            return Settings.LastVersion; 
-        }
-        set
-        {
-            Settings.LastVersion = value;
-            WriteSettingsOnly();
-        }
-    }
-
-    public string LastAlternateVersion
-    {
-        get
-        {
-            return Settings.LastAlternateVersion;
-        }
-        set
-        {
-            Settings.LastAlternateVersion = value;
-            WriteSettingsOnly();
-        }
-    }
-
     /// <summary>
     ///     Constructor
     /// </summary>
@@ -50,6 +24,26 @@ internal class UseThisInsteadMod : Mod
         Instance = this;
         Settings = GetSettings<UseThisInsteadSettings>();
         CurrentVersion = VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
+    }
+
+    public string LastVersion
+    {
+        get => Settings.LastVersion;
+        set
+        {
+            Settings.LastVersion = value;
+            WriteSettingsOnly();
+        }
+    }
+
+    public string LastAlternateVersion
+    {
+        get => Settings.LastAlternateVersion;
+        set
+        {
+            Settings.LastAlternateVersion = value;
+            WriteSettingsOnly();
+        }
     }
 
     /// <summary>

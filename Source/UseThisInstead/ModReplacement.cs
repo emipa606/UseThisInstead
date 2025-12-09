@@ -1,8 +1,7 @@
+using System;
+using System.Linq;
 using RimWorld;
 using Steamworks;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Verse;
 
 namespace UseThisInstead;
@@ -22,22 +21,36 @@ public class ModReplacement
     public string oldWorkshopId;
     public string[] oldVersions;
 
-    public ulong GetNewPublishedFileId() { return Convert.ToUInt64(newWorkshopId); }
+    public ModMetaData ModMetaData { get; set; }
 
-    public ulong GetOldPublishedFileId() { return Convert.ToUInt64(oldWorkshopId); }
+    public ulong GetNewPublishedFileId()
+    {
+        return Convert.ToUInt64(newWorkshopId);
+    }
 
-    public PublishedFileId_t GetReplacementPublishedFileId() { return new PublishedFileId_t(GetNewPublishedFileId()); }
+    public ulong GetOldPublishedFileId()
+    {
+        return Convert.ToUInt64(oldWorkshopId);
+    }
+
+    public PublishedFileId_t GetReplacementPublishedFileId()
+    {
+        return new PublishedFileId_t(GetNewPublishedFileId());
+    }
 
     public bool ReplacementSupportsVersion()
     {
-        if (newVersions == null)
-        {
-            return false;
-        }
-
-        return newVersions.Any(versionString => VersionControl.CurrentVersionStringWithoutBuild == versionString);
+        return newVersions != null &&
+               newVersions.Any(versionString => VersionControl.CurrentVersionStringWithoutBuild == versionString);
     }
 
+    public override string ToString()
+    {
+        var returnString =
+            $"oldName: {oldName}, oldAuthor: {oldAuthor}, oldPackageId: {oldPackageId}, oldWorkshopId: {oldWorkshopId}, oldVersions: {string.Join(",", oldVersions)}, " +
+            $"newName: {newName}, newAuthor: {newAuthor}, newPackageId: {newPackageId}, newWorkshopId: {newWorkshopId}, newVersions: {string.Join(",", newVersions)}";
+        return returnString;
+    }
 
     public Uri SteamUri(bool old = false)
     {
@@ -48,6 +61,4 @@ public class ModReplacement
 
         return !string.IsNullOrEmpty(newWorkshopId) ? new Uri(SteamPrefix, newWorkshopId) : null;
     }
-
-    public ModMetaData ModMetaData { get; set; }
 }

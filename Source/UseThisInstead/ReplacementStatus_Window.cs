@@ -16,7 +16,7 @@ public class ReplacementStatus_Window : Window
 
     public override void Close(bool doCloseSound = true)
     {
-        if(UseThisInstead.Replacing)
+        if (UseThisInstead.Replacing)
         {
             Find.WindowStack
                 .Add(
@@ -36,7 +36,7 @@ public class ReplacementStatus_Window : Window
 
     public override void DoWindowContents(Rect inRect)
     {
-        if(UseThisInstead.StatusMessages == null || !UseThisInstead.StatusMessages.Any())
+        if (UseThisInstead.StatusMessages == null || !UseThisInstead.StatusMessages.Any())
         {
             return;
         }
@@ -58,23 +58,26 @@ public class ReplacementStatus_Window : Window
         Widgets.BeginScrollView(outRect, ref UseThisInstead.ScrollPosition, viewRect);
         var innerListing = new Listing_Standard();
         innerListing.Begin(viewRect);
-        if(UseThisInstead.Replacing)
+        if (UseThisInstead.Replacing)
         {
             innerListing.Label(UseThisInstead.ActivityMonitor ? ". . ." : " . . ");
-        } else
+        }
+        else
         {
             var imageRect = innerListing.GetRect(50f);
             var lastStatus = statusMessages.Last();
-            if(lastStatus == "UTI.failedToSubscribe".Translate() || lastStatus == "UTI.failedToUnsubscribe".Translate())
+            if (lastStatus == "UTI.failedToSubscribe".Translate() ||
+                lastStatus == "UTI.failedToUnsubscribe".Translate())
             {
                 Widgets.DrawTextureFitted(imageRect, Widgets.CheckboxOffTex, 1f);
-            } else
+            }
+            else
             {
                 Widgets.DrawTextureFitted(imageRect, Widgets.CheckboxOnTex, 1f);
             }
 
             innerListing.GapLine();
-            if(innerListing.ButtonText("Close".Translate(), widthPct: 0.5f))
+            if (innerListing.ButtonText("Close".Translate(), widthPct: 0.5f))
             {
                 Close();
             }
@@ -82,7 +85,7 @@ public class ReplacementStatus_Window : Window
 
         innerListing.Gap();
 
-        foreach(var statusMessage in statusMessages)
+        foreach (var statusMessage in statusMessages)
         {
             innerListing.Label(statusMessage);
         }
