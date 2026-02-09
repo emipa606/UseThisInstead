@@ -444,8 +444,10 @@ public static class UseThisInstead
         Replacing = true;
         StatusMessages = [];
         var counter = 0;
-        foreach (var modReplacement in replacements)
+        // ReSharper disable once ForCanBeConvertedToForeach
+        for (var index = 0; index < replacements.Count; index++)
         {
+            var modReplacement = replacements[index];
             counter++;
             addToStatusMessage("UTI.replacing".Translate(modReplacement.oldName, counter, replacements.Count));
             var justReplace = !modReplacement.ModMetaData.Active ||

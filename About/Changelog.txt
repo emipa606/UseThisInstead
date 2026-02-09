@@ -1,5 +1,8 @@
 # Changelog for UseThisInstead
 
+1.6.152 - Fixed iterator error
+
+
 1.6.151 - Fixed newly added replacements not showing up
 
 

@@ -85,8 +85,10 @@ public class ReplacementStatus_Window : Window
 
         innerListing.Gap();
 
-        foreach (var statusMessage in statusMessages)
+        // ReSharper disable once ForCanBeConvertedToForeach
+        for (var index = 0; index < statusMessages.Count; index++)
         {
+            var statusMessage = statusMessages[index];
             innerListing.Label(statusMessage);
         }
 
