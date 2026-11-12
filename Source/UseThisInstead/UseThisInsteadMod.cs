@@ -13,7 +13,7 @@ internal class UseThisInsteadMod : Mod
     /// </summary>
     public static UseThisInsteadMod Instance;
 
-    public static string CurrentVersion;
+    private static string CurrentVersion;
 
     /// <summary>
     ///     Constructor
@@ -64,11 +64,11 @@ internal class UseThisInsteadMod : Mod
     ///     The settings-window
     ///     For more info: https://rimworldwiki.com/wiki/Modding_Tutorials/ModSettings
     /// </summary>
-    /// <param name="rect"></param>
-    public override void DoSettingsWindowContents(Rect rect)
+    /// <param name="inRect"></param>
+    public override void DoSettingsWindowContents(Rect inRect)
     {
         var listingStandard = new Listing_Standard();
-        listingStandard.Begin(rect);
+        listingStandard.Begin(inRect);
         listingStandard.Gap();
 
         if (listingStandard.ButtonText("UTI.replacements".Translate(UseThisInstead.FoundModReplacements.Count),

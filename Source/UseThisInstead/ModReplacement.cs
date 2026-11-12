@@ -13,13 +13,13 @@ public class ModReplacement
     public string newAuthor;
     public string newName;
     public string newPackageId;
-    public string newWorkshopId;
     public string[] newVersions;
+    public string newWorkshopId;
     public string oldAuthor;
     public string oldName;
     public string oldPackageId;
-    public string oldWorkshopId;
     public string[] oldVersions;
+    public string oldWorkshopId;
 
     public ModMetaData ModMetaData { get; set; }
 

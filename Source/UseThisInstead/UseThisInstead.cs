@@ -235,7 +235,7 @@ public static class UseThisInstead
         {
             var json = File.ReadAllText(replacementsPath);
 
-            if (string.IsNullOrWhiteSpace(json) || !json.TrimStart().StartsWith("{"))
+            if (string.IsNullOrWhiteSpace(json) || !json.TrimStart().StartsWith('{'))
             {
                 logMessage("replacements.json does not start with '{' — malformed JSON?", warning: true);
                 return;
@@ -491,7 +491,8 @@ public static class UseThisInstead
                 {
                     if (modRequirement is ModDependency dependency)
                     {
-                        var match = Regex.Match(dependency.steamWorkshopUrl, @"\d+$");
+                        var match = Regex.Match(dependency.steamWorkshopUrl, @"\d+$", RegexOptions.None,
+                            TimeSpan.FromSeconds(1));
                         if (!match.Success)
                         {
                             addToStatusMessage(
@@ -522,12 +523,10 @@ public static class UseThisInstead
             }
 
             addToStatusMessage("UTI.activatingMods".Translate());
-            foreach (var requirementId in requirementIds)
+            foreach (var requirementId in requirementIds.Where(requirementId =>
+                         ModLister.GetActiveModWithIdentifier(requirementId, true) == null))
             {
-                if (ModLister.GetActiveModWithIdentifier(requirementId, true) == null)
-                {
-                    ModsConfig.SetActive(requirementId, true);
-                }
+                ModsConfig.SetActive(requirementId, true);
             }
 
             ModsConfig.SetActive(modReplacement.newPackageId, true);

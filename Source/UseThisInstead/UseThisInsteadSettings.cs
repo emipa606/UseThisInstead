@@ -9,11 +9,11 @@ internal class UseThisInsteadSettings : ModSettings
 {
     public bool AllMods;
     public bool AlwaysShow;
+    public string LastAlternateVersion;
+    public string LastVersion;
     public bool OnlyRelevant;
     public bool PreferOverlay;
     public bool VeboseLogging;
-    public string LastVersion;
-    public string LastAlternateVersion;
 
     /// <summary>
     ///     Saving and loading the values

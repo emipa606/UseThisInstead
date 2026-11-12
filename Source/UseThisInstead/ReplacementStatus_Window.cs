@@ -65,7 +65,7 @@ public class ReplacementStatus_Window : Window
         else
         {
             var imageRect = innerListing.GetRect(50f);
-            var lastStatus = statusMessages.Last();
+            var lastStatus = statusMessages[^1];
             if (lastStatus == "UTI.failedToSubscribe".Translate() ||
                 lastStatus == "UTI.failedToUnsubscribe".Translate())
             {
